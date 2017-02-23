@@ -7,19 +7,19 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Robert Puccinelli"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "en-US"
+title                    : "Robert Puccinelli"
+title_separator          : "|"
+name                     : "Robert R. Puccinelli"
+description              : "Solving yesterday's problems tomorrow"
+url                      : https://robertpuccinelli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : robertpuccinelli/robertpuccinelli.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -35,8 +35,8 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  moderation             : false
+  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -68,18 +68,19 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+     - "https://www.linkedin.com/in/robert-puccinelli"
 
 # Analytics
 analytics:
   provider               : "google-universal"
   google:
-    tracking_id          : 
+    tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Robert Puccinelli"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Robert R. Puccinelli"
+  avatar           : "/assets/images/Puccinelli_Headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "bio here"
   location         : "Bay Area, CA"
   email            : robert.puccinelli@outlook.com
@@ -176,7 +177,6 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/San_Francisco # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-future: true
 
 # Plugins
 gems:
@@ -241,7 +241,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
-      share: true
+      share: false #true
       related: true
