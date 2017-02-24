@@ -1,5 +1,5 @@
 ---
-title: Thoughts
+title: Stray Thoughts
 layout: home
 permalink: /thoughts/
 

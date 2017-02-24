@@ -1,7 +1,7 @@
 ---
-title: "Research"
+title: "Personal Interests"
 layout: single
-permalink: /research/
+permalink: /personal-interests/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
