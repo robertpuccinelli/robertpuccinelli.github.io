@@ -1,7 +1,7 @@
 ---
 title: About
 layout: single
-permalink: /about/
+permalink: /curriculum-vitae/
 
 header:
   overlay_color: "#000"
