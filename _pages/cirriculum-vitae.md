@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   cta_label: "Download CV"
-  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  cta_url: "http://robertpuccinellli.com/assets/pdfs/Puccinelli_CV_20170225.pdf"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro:
