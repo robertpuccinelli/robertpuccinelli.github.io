@@ -2,6 +2,9 @@
 title: "Home"
 layout: splash
 permalink: /
+classes:
+  - landing
+  - dark-theme
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
