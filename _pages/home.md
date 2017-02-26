@@ -2,14 +2,10 @@
 title: "Home"
 layout: splash
 permalink: /
-classes:
-  - landing
-  - dark-theme
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/HomeBanner_Salinas2.png
+  caption: "Salinas Valley on a Winter Morning, 2009"
+excerpt: ""
 intro:
   - excerpt: 'A journey of a thousand miles begins with a single step. '
 feature_row:
