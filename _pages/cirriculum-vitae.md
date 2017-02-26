@@ -4,12 +4,11 @@ layout: single
 permalink: /curriculum-vitae/
 
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/CVBanner_DeathValley.jpg
+  caption: "Zabriskie Point Sunrise, Death Valley 2017"  
+  excerpt: ""
   cta_label: "Download CV"
   cta_url: "/assets/pdfs/Puccinelli_CV_20170225.pdf"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 ---

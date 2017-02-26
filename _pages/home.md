@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 header:
   overlay_image: /assets/images/HomeBanner_Salinas2.jpg
-  caption: "Salinas Valley on a Winter Morning, 2009"
+  caption: "A Winter Sunrise Over Salinas Valley, 2009"
 excerpt: ""
 intro:
   - excerpt: 'A journey of a thousand miles begins with a single step. '
