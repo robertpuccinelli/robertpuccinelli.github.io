@@ -5,7 +5,7 @@ permalink: /about/
 
 header:
   overlay_image: /assets/images/AboutBanner_YosemiteValley.jpg
-  caption: "Yosemite Valley in the Shadow of Half Dome, 2016"
+  caption: "Half Dome Looming Above Yosemite Valley, 2012"
 excerpt: ""
 intro:
   - excerpt:
