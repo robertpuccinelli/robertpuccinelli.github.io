@@ -6,7 +6,7 @@ permalink: /about/
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
-  overlay_image: /assets/images/AboutBanner_YosemiteValley.png
+  overlay_image: /assets/images/AboutBanner_YosemiteValley.jpg
   caption: "Yosemite Valley in the Shadow of Half Dome, 2016"
 excerpt: ""
 intro:
