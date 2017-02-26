@@ -32,4 +32,4 @@ My career in research began somewhat unexpectedly during my undergraduate years 
 ### _Personal Projects_
 
 
-### _Growing up in California_
+### _Exploring California_
