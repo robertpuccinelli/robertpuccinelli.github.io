@@ -30,7 +30,13 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% if f.url %}
+              <a href="{{ f_url }}">
+                <h2 class="archive__item-title">{{ f.title }}</h2>
+              </a>
+            {% else %}
+              <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% endif %}
           {% endif %}
 
           {% if f.excerpt %}
@@ -38,7 +44,7 @@
               {{ f.excerpt | markdownify }}
             </div>
           {% endif %}
-          
+
         </div>
       </div>
     </div>

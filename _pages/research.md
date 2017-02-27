@@ -5,7 +5,7 @@ permalink: /research/
 
 header:
   overlay_image: /assets/images/ResearchBanner_AnoNuevo.jpg
-  caption: "Last Sunset of 2016, Año Nuevo State Park"
+  caption: "Año Nuevo State Park, Last Sunset of 2016"
 excerpt: ""
 
 intro:
