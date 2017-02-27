@@ -1,5 +1,5 @@
 ---
-title: The Jeep Page
+title: The Jeep
 layout: single
 permalink: /jeep/
 

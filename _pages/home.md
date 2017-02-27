@@ -7,27 +7,24 @@ header:
   caption: "A Winter Sunrise Over Salinas Valley, 2009"
 excerpt: ""
 intro:
-  - excerpt: 'A journey of a thousand miles begins with a single step. '
+  - excerpt:
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
+  - image_path: assets/images/instruments/microarrayer_unfinished.jpg
+    title: "The Instrumentation"
+    excerpt: "Building scientific instrumentation is something that I've come to enjoy working on. Learn more about it here."
+    url: "/instrumentation/"
+  - image_path: /assets/images/outdoors/ca_pointlobos.jpg
+    title: "The Outdoors"
+    excerpt: "Spending time outside is something I've always done. Here's an opportunity to share some of it with you."
+    url: "/outdoors/"
   - image_path: /assets/images/jeep/JeepMaintenance.jpg
-    title: "The Jeep Page"
+    title: "The Jeep"
     excerpt: "Given the amount of time and money that has gone into maintaining the '01 TJ, it deserved its own page."
     url: "/jeep/"
-    btn_label: "Read More"
 ---
 
 
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" %}
 
 {% include feature_row %}
