@@ -9,7 +9,7 @@ intro:
   - excerpt:
 feature_row:
   - image_path: assets/images/instruments/microarrayer_unfinished.jpg
-    title: "Instruments"
+    title: "Hardware"
     url: "/instrumentation/"
     center: true
   - image_path: /assets/images/outdoors/ca_pointlobos.jpg
