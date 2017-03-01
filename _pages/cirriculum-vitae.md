@@ -12,3 +12,13 @@ header:
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 ---
+
+<div id="expand-box">
+<div id="expand-box-header">
+  <span style="float: left;">Top left header</span>
+  <span style="float: right;">Top right header</span>
+</div>
+<div id="expand_box_sub_header"></div>
+</div>
+<br>
+Continuing

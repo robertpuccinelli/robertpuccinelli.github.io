@@ -13,6 +13,7 @@ intro:
 feature_row:
 - image_path: /assets/images/YoungRobert.jpg
   excerpt: "Young Robert, Age 10"
+  url: "/assets/images/YoungRobert.jpg"
 ---
 
 
