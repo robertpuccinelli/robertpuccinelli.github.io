@@ -10,8 +10,19 @@ header:
   cta_label: "Download CV"
   cta_url: "/assets/pdfs/Puccinelli_CV_20170225.pdf"
 intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt:
 ---
+{% include feature_row id="intro" %}
+
+# Robert R. Puccinelli
+{: style="text-align: center;"}
+
+## EDUCATION
+
+
+## RESEARCH EXPERIENCE:
+
+
 
 <div id="expand-box">
 <div id="expand-box-header">
