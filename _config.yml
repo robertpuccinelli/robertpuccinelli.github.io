@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Robert Puccinelli"
 title_separator          : "-"
 name                     : "Robert R. Puccinelli"
-description              : "Solving yesterday's problems tomorrow"
+description              : "Learn a bit more about Robert Puccinelli, his research and personal projects."
 url                      : http://robertpuccinelli.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : robertpuccinelli/robertpuccinelli.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -49,7 +49,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : "s07hoQkOq7GBG3TKu2b_jOIbY-g9_-ppJSFA0qexPoA"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -69,17 +69,18 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
      - "https://www.linkedin.com/in/robert-puccinelli"
+     - "https://robertpuccinelli.github.com"
 
 # Analytics
 analytics:
   provider               : "google-universal"
   google:
-    tracking_id          :
+    tracking_id          : "UA-92403118-1"
 
 
 # Site Author
 author:
-  name             : "Robert R. Puccinelli"
+  name             : "Robert R Puccinelli"
   avatar           : "/assets/images/Puccinelli_Headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Raised in Salinas, CA, Robert would find an affinity for the natural world and mankind's ability to engineer systems by exploiting the laws of physics. He can be found building instrumentation in the Fordyce Lab at Stanford."
   location         : "Bay Area, CA"
