@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Robert Puccinelli"
 title_separator          : "-"
-name                     : "Robert R. Puccinelli"
+name                     : "Robert Puccinelli"
 description              : "Learn a bit more about Robert Puccinelli, his research and personal projects."
 url                      : http://robertpuccinelli.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
