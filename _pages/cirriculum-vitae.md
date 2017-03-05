@@ -16,7 +16,7 @@ intro:
 
 # Robert R. Puccinelli
 {: style="text-align: center;"}
-<sup>Refer to downloadable version for contact information and experience details</sup>
+<sup>Refer to downloadable version above for contact information and experience details</sup>
 {: style="text-align: center;"}
 
 ## EDUCATION:
