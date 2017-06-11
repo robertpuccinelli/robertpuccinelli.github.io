@@ -9,15 +9,15 @@ excerpt: ""
 intro:
   - excerpt:
 feature_row:
-  - image_path: assets/images/instruments/microarrayer_unfinished.jpg
+  - image_path: assets/images/instruments/microarrayer_unfinished2.jpg
     title: "Instrumentation"
     excerpt: "Building scientific instrumentation is something that I've come to enjoy working on. Learn more about it here."
     url: "/instrumentation/"
-  - image_path: /assets/images/outdoors/ca_pointlobos.jpg
+  - image_path: /assets/images/outdoors/ca_pointlobos2.jpg
     title: "Outdoors"
     excerpt: "Spending time outside is something I've always done. Here's an opportunity to share some of it with you."
     url: "/outdoors/"
-  - image_path: /assets/images/jeep/JeepMaintenance.jpg
+  - image_path: /assets/images/jeep/JeepMaintenance2.jpg
     title: "The Jeep"
     excerpt: "Given the amount of time and money that has gone into maintaining the '01 TJ, it deserved its own page."
     url: "/jeep/"
