@@ -6,7 +6,7 @@ main:
     url: /curriculum-vitae/
   - title: "Research"
     url: /research/
-  - title: "Personal Interests"
-    url: /personal-interests/
+  #- title: "Personal Interests"
+  #  url: /personal-interests/
   - title: "Stray Thoughts"
     url: /thoughts/
