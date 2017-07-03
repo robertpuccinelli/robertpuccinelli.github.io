@@ -1,9 +1,19 @@
 ---
 layout: single
-title:  "Welcome to Jekyll!"
-date:   2017-02-21 18:22:21 -0800
-categories: jekyll update
+title:  "Build Your Own: Gel Illuminator and Imaging Chamber"
+excerpt: "A DIY alternative to commercial gel imaging solutions to reduce exposure to hazardous materials and reduce upfront equipment costs."
+categories: build
+comments: true
 ---
+
+![solidchamber]({{ site.url }}{{ site.baseurl }}/assets/images/posts/170702_GelBox_Solid.png)
+
+**PURPOSE:** Provide a DIY alternative to expensive commercial gel imaging solutions. Benefits include exposing operators to fewer hazardous materials, reducing equipment cost and possibly improving image quality depending on the system being compared. It was initially designed for the Fordyce lab at Stanford in Dec 2014 and was further modified in July 2017 to improve the design of the door.
+{: .notice--info}
+
+
+![xraychamber]({{ site.url }}{{ site.baseurl }}/assets/images//posts/170702_GelBox_Xray.png)
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

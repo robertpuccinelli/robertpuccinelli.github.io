@@ -225,7 +225,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
@@ -244,8 +243,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
-      share: false #true
+      comments: true
+      share: false
       related: true
 
   # _pages
