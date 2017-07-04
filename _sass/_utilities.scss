@@ -186,6 +186,14 @@ body:hover .visually-hidden button {
     color: #000;
   }
 
+  .fa-envelope-square{
+    color: #fc0;
+  }
+
+  .fa-map-marker{
+    color: #d22;
+  }
+
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
@@ -211,7 +219,7 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    color: #727;
   }
 
   .fa-google-plus,
@@ -503,4 +511,3 @@ a.reversefootnote {
     height: 100%;
   }
 }
-

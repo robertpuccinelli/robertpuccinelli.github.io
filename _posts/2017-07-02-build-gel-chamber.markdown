@@ -24,21 +24,17 @@ gels:
     url: "/assets/images/posts/170702_SampleGel2.jpg"
 ---
 
-**PURPOSE:** Provide a DIY alternative to expensive commercial gel imaging solutions. Benefits include exposing operators to fewer hazardous materials, reducing equipment cost and possibly improving image quality depending on the system being compared. It was initially designed for the Fordyce lab at Stanford in Dec 2014 and was further modified in July 2017 to improve the design of the door.
+**PURPOSE:** Provide a DIY alternative to expensive commercial gel imaging solutions. Benefits include exposing operators to fewer hazardous materials, reducing equipment cost and possibly improving image quality. It was initially designed for the Fordyce lab at Stanford in Dec 2014 and was further modified in July 2017 to improve the design of the door.
 {: .notice--info}
 
-## Table of Contents
+{% include toc icon="reorder" title="Table of Contents" %}
 
-1. [Introduction](#Introduction)
-2. [Gel Chamber](#GelChamber)
-3. [Gel Imaging](#GelImage)
-4. [Parts List and Files](#PartsList)
 
-## <a name="Introduction"></a>Introduction
+## Introduction
 
 Traditional DNA gel staining and imaging often includes staining the DNA with ethidium bromide followed by imaging the gel with a UV light source. This is worrisome for a few people who frequently handle these materials due to the known mutagenic activity of the materials and these people are often looking to minimize their exposure when possible. As a result, some labs have transitioned over to using less hazardous stains, such as the Sybr series, and light sources, such as blue LED transilluminators. Here, I provide schematics and a list of parts for constructing a gel imaging station. Feel free to modify the design files to fit your own needs and preferences.
 
-## <a name="GelChamber"></a>Gel Chamber
+## Gel Chamber
 
 {% include feature_row id="box" %}
 
@@ -68,7 +64,7 @@ Acrylic panels were machined by Kyle Brutschy at [SF Machine Works](http://www.s
 | Door  | Outer |   4      |  0.1360"  | 0.25" | 8-32   |
 |       | Through |   1      |  0.1770" | Thru |       |
 
-## <a name="GelImaging"></a>Gel Imaging
+## Gel Imaging
 
 To image the gel, a high pass filter is necessary to block out the blue light. Clare Chemical provides orange filtered glasses and a panel to lay over your gel to view results. This is good for quick viewing, but not necessarily sufficient for imaging. The camera was ultimately outfitted with 58mm Tiffen filters that attach to the lens like most polarized filters so that the gel can be placed onto the transilluminator and imaged quickly with good quality.
 
@@ -81,7 +77,7 @@ Benefits for using a DSLR include:
 
 {% include feature_row id="gels" %}
 
-## <a name="PartsList"></a>Parts List and Files
+## Parts List and Files
 
 Besides the machined acrylic panels and the [Clare Chemical DR89 Transilluminator](http://www.clarechemical.com/transilluminator.htm) , all of the parts were either acquired from [McMaster-Carr](https://www.mcmaster.com/) or Amazon. For acrylic panels, check with your local machinist or plastics store such as [TAP Plastics](https://www.tapplastics.com/about/locations). For blue LED transilluminators, feel free to use any that can fit within a 13" x 13" space and meet your budget needs.
 
@@ -117,5 +113,3 @@ I don't remember if the door knob fit well on this because it originally came wi
 Filter 1 and Filter 2 will stack onto each other and mount to the camera lens. The order for stacking isn't important.
 
 Blue LED Transilluminator ~$1000
-
-## Feel free to leave comments below!
