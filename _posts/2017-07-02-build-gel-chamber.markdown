@@ -36,13 +36,13 @@ gels:
 
 ## <a name="Introduction"></a>Introduction
 
-Traditional DNA gel staining and imaging often includes staining the DNA with ethidium bromide followed by imaging the gel with a UV light source. This is worrisome for a few people who frequently handle these materials due to the known mutagenic activity of the materials and these people are often looking to minimize their exposure when possible. As a result, some labs have transitioned over to using less hazardous stains, such as the Sybr series, and light sources, such as blue LED transilluminators. Here, I provide schematics and a list of parts for constructing an gel imaging station. Feel free to modify the design files to fit your own needs and preferences.
+Traditional DNA gel staining and imaging often includes staining the DNA with ethidium bromide followed by imaging the gel with a UV light source. This is worrisome for a few people who frequently handle these materials due to the known mutagenic activity of the materials and these people are often looking to minimize their exposure when possible. As a result, some labs have transitioned over to using less hazardous stains, such as the Sybr series, and light sources, such as blue LED transilluminators. Here, I provide schematics and a list of parts for constructing a gel imaging station. Feel free to modify the design files to fit your own needs and preferences.
 
 ## <a name="GelChamber"></a>Gel Chamber
 
 {% include feature_row id="box" %}
 
-The imaging chamber itself is assembled of 0.5" acrylic panels held together internally by brackets and is designed to mount a low end Canon DSLR above a Clare Chemical DR89 blue LED transilluminator. The Canon DSLR was chosen due to its ability to be externally viewed and triggered by either either a workbench computer or the operator's laptop. The transilluminator does not necessarily need to be from Clare Chemical, but the system was initially chosen due to its large 25 x 22 cm viewing surface and decent quality. The port on the right panel was designed to be compatible with the power cord for this transilluminator. You can modify this as needed.
+The imaging chamber itself is assembled with 0.5" acrylic panels held together internally by brackets and is designed to mount a low end Canon DSLR above a Clare Chemical DR89 blue LED transilluminator. The Canon DSLR was chosen due to its ability to be externally viewed and triggered by either either a workbench computer or the operator's laptop. The transilluminator does not necessarily need to be from Clare Chemical, but the system was initially chosen due to its large 25 x 22 cm viewing surface and decent quality. The port on the right panel was designed to be compatible with the power cord for this transilluminator. You can modify this as needed.
 
 The acrylic box has W x L x H dimensions of 14" x 14" x 15.5" without the camera attached. The width and length was chosen to be compatible with the previously identified transilluminator and the height was chosen to provide a large enough field-of-view for the camera. AutoCAD drawings can be downloaded in the [Parts List and Files](#PartsList) section below. STL files may be uploaded at a later date or upon request.
 
@@ -100,7 +100,7 @@ Besides the machined acrylic panels and the [Clare Chemical DR89 Transilluminato
 | Cabinet Door Knob | 11645A11 | 1 | ABS Plastic Pull Knob Black Finish, 1-5/16" Knob Diameter, 1" Projection |
 
 I don't remember if the door knob fit well on this because it originally came with a 1" wood screw, but it could be usable. It might be worth looking for an alternative knob or screw. Also, things not listed here include:
-* Couple of short 1/4-20 screws to mount the camera to the bracket and the bracket to the top panel.
+* A few short 1/4-20 screws to mount the camera to the bracket and the bracket to the top panel.
 * 8-32 with 0.25" or shorter depth for corner brackets and door hinges.
 * 6-32 with 0.25" or shorter depth for edge braces.
 * Black electrical tape to block light from the gap between the panels. The panels we received were slightly smaller than 0.5" (around 0.47").
