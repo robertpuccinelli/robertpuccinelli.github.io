@@ -39,7 +39,7 @@ software:
     excerpt: "Galil programming reference."
     url: "/assets/images/posts/170704_DMC18x2.jpg"
   - image_path: /assets/images/posts/170704_Gemini.jpg
-    excerpt: "Gemeni servo controller programming reference."
+    excerpt: "Gemini servo reference."
     url: "/assets/images/posts/170704_Gemini.jpg"
 ---
 
