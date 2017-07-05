@@ -2,9 +2,8 @@
 layout: single
 title:  "Build Your Own: Gel Illumination and Imaging Chamber"
 excerpt: "A DIY alternative to commercial gel imaging solutions to reduce exposure to hazardous materials and reduce upfront equipment costs."
-categories:
-  - build
-  - imaging
+category: build
+tags: [build, imaging, gel]
 comments: true
 
 box:
