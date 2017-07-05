@@ -82,7 +82,7 @@ Besides the machined acrylic panels and the [Clare Chemical DR89 Transilluminato
 
 ### Chamber CAD Files
 
-[Download AutoCAD drawings here!](/assets/images/posts/170702_GelChamber-Packaged.zip)
+[Download AutoCAD drawings here!](/assets/CAD/170702_GelChamber-Packaged.zip)
 
 ### McMaster-Carr Parts
 

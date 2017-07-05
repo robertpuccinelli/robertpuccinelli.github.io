@@ -4,6 +4,6 @@ layout: single
 permalink: /outdoors/
 
 header:
-  overlay_image: /assets/images/outdoors/OutdoorsBanner_PointLobos.jpg
+  overlay_image: /assets/images/banners/OutdoorsBanner_PointLobos.jpg
   caption: "Point Lobos State Park, 2016"
 ---

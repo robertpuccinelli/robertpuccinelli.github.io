@@ -3,7 +3,7 @@ title: "Home"
 layout: splash
 permalink: /
 header:
-  overlay_image: /assets/images/HomeBanner_Salinas2.jpg
+  overlay_image: /assets/images/banners/HomeBanner_Salinas2.jpg
   caption: "A Winter Sunrise Over Salinas Valley, 2009"
 excerpt: ""
 intro:

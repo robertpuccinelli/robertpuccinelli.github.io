@@ -4,7 +4,7 @@ layout: single
 permalink: /about/
 
 header:
-  overlay_image: /assets/images/AboutBanner_YosemiteValley.jpg
+  overlay_image: /assets/images/banners/AboutBanner_YosemiteValley.jpg
   caption: "Half Dome Looming Above Yosemite Valley, 2012"
 excerpt: ""
 intro:

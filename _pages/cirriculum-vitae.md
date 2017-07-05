@@ -4,7 +4,7 @@ layout: single
 permalink: /curriculum-vitae/
 
 header:
-  overlay_image: /assets/images/CVBanner_DeathValley.jpg
+  overlay_image: /assets/images/banners/CVBanner_DeathValley.jpg
   caption: "Zabriskie Point Sunrise, Death Valley 2017"  
   excerpt: ""
   cta_label: "Download CV"

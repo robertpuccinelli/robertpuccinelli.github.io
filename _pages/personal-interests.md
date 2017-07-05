@@ -3,7 +3,7 @@ title: "Personal Interests"
 layout: single
 permalink: /personal-interests/
 header:
-  overlay_image: /assets/images/InterestsBanner_LassenNP2.jpg
+  overlay_image: /assets/images/banners/InterestsBanner_LassenNP2.jpg
   caption: "Lassen Volcanic National Park, 2016"
 intro:
   - excerpt:

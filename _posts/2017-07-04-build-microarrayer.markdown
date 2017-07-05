@@ -15,15 +15,13 @@ arrayer:
     excerpt: "View 2."
   - image_path: /assets/images/posts/170704_Arrayer3.jpg
     url: "/assets/images/posts/170704_Arrayer3.jpg"
-    excerpt: "Before slide platter and Z-arm."
+    excerpt: "Before slide platter and pin arms."
   - image_path: /assets/images/posts/170704_ArrayerPins.jpg
     url: "/assets/images/posts/170704_ArrayerPins.jpg"
     excerpt: "Silicon microarray pins formerly employed by the DeRisi lab."
   - image_path: /assets/images/posts/170704_ServoControllers.jpg
     url: "/assets/images/posts/170704_ServoControllers.jpg"
     excerpt: "Axes are powered and controlled by servo controllers."
-pins:
-
 
 software:
   - image_path: /assets/images/posts/170704_Win98.jpg
@@ -41,6 +39,29 @@ software:
   - image_path: /assets/images/posts/170704_Gemini.jpg
     excerpt: "Gemini servo reference."
     url: "/assets/images/posts/170704_Gemini.jpg"
+
+CAD:
+  - image_path: /assets/images/posts/170704_Arrayer_BlockBody_Solid.png
+    excerpt: Pin block body - solid.
+    url: "/assets/images/posts/170704_Arrayer_BlockBody_Solid.png"
+  - image_path: /assets/images/posts/170704_Arrayer_BlockBody_Xray.png
+    excerpt: Pin block body - X-ray.
+    url: "/assets/images/posts/170704_Arrayer_BlockBody_Xray.png"
+  - image_path: /assets/images/posts/170704_Arrayer_BlockHead.png
+    excerpt: Head for block body.
+    url: "/assets/images/posts/170704_Arrayer_BlockHead.png"
+  - image_path: /assets/images/posts/170704_Arrayer_PrintingArm.png
+    excerpt: Printing arm.
+    url: "/assets/images/posts/170704_Arrayer_PrintingArm.png"
+  - image_path: /assets/images/posts/170704_Arrayer_CalibratorArm.png
+    excerpt: Calibrator arm.
+    url: "/assets/images/posts/170704_Arrayer_CalibratorArm.png"
+  - image_path: /assets/images/posts/170704_Arrayer_CalibratorMount.png
+    excerpt: Calibrator mount.
+    url: "/assets/images/posts/170704_Arrayer_CalibratorMount.png"
+  - image_path: /assets/images/posts/170704_Arrayer_DelrinBlock.png
+    excerpt: Delrin block.
+    url: "/assets/images/posts/170704_Arrayer_DelrinBlock.png"
 ---
 
 **PURPOSE:** Provide a DIY alternative to expensive commercial microarray solutions. Benefits of this system include high-throughput spotting and microarray customizability. It was initially built and documented by Joe DeRisi and team back in the late 90's. One of these machines was assembled for the Fordyce lab at Stanford in 2016 and is documented here for others.
@@ -67,47 +88,65 @@ The microarrayer has some serious advantages and disadvantages that need to be c
 
 For assembling the machine, there are no resources better than the [M-Guide](#MGuide), which was produced and revised by DeRisi's team. Nearly every detail is covered - such as how to wire all of the axes or build the dust cover to protect the slides during a print. In the early 2000s, the whole build (including parts and tools) cost about $43,000, which was a fraction of the price of other options at the time. Since then, the price for the materials or commercial options have fallen. Maybe it was just luck, but I was able to find a nearly complete DeRisi style microarrayer selling for $4,000 at the time of writing this post.
 
-I won't go into detail about how to assemble it because it has already been written so well. However, I do want to note that some custom parts that I designed for the calibration arm or printing arm and printing block can be found in the [Parts List and Files](#PartsList) section below. Not listed there is information on how to make the slide platter. It may be best to contact Joe for that information, but it includes some specialized boring techniques that most machine shops don't have from what I understand.
+I won't go into detail about how to assemble it because it has already been written so well. However, I do want to note that some custom parts that I designed for the calibration arm or printing arm and printing block can be found in the [Parts List and Files](#CAD) section below. Not listed there is information on how to make the slide platter. It may be best to contact Joe for that information, but it includes some specialized boring techniques that most machine shops don't have from what I understand.
 
 ## Microarrayer Software
 
 {% include feature_row id="software" %}
 
-Unless you happen to have a PC happily running Windows 98, it might be best to not dwell here. Although the DeRisi group did produce software to control the microarrayer, it has aged and it might be best to rewrite a program for yourself. The ArrayMaker software and operating manual was pulled from an archived version of Joe's website and can be found in the [Parts List and Files](#PartsList) section below. This software isn't the latest version (2.78), but it could still prove to be a useful resource regardless. Possibly, the most important thing to note here is that most of the instructions programmed will either be for the Galil DMC-18x2 motion control card or the Gemini servo controllers. Images of their reference guide are posted above.
+Unless you happen to have a PC happily running Windows 98, it might be best to not dwell here. Although the DeRisi group did produce software to control the microarrayer, it has aged and it might be best to rewrite a program for yourself. The ArrayMaker software and operating manual was pulled from an archived version of Joe's website and can be found in the [Parts List and Files](#software) section below. This software isn't the latest version (2.78), but it could still prove to be a useful resource regardless. Possibly, the most important thing to note here is that most of the instructions programmed will either be for the Galil DMC-18x2 motion control card or the Gemini servo controllers. Images of their reference guide are posted above.
 
 ## Parts List and Files
 
-Besides the machined acrylic panels and the [Clare Chemical DR89 Transilluminator](http://www.clarechemical.com/transilluminator.htm) , all of the parts were either acquired from [McMaster-Carr](https://www.mcmaster.com/) or Amazon. For acrylic panels, check with your local machinist or plastics store such as [TAP Plastics](https://www.tapplastics.com/about/locations). For blue LED transilluminators, feel free to use any that can fit within a 13" x 13" space and meet your budget needs.
 
-### Chamber CAD Files
 
-[Download AutoCAD drawings here!](/assets/images/posts/170702_GelChamber-Packaged.zip)
+### Guides
 
-### McMaster-Carr Parts
+[DeRisi M-Guide](/assets/pdfs/DeRisi_MGuide.pdf) <a name="MGuide"></a>  
+[DeRisi Printing Guide](/assets/pdfs/DeRisi_ArrayerPrinting.pdf)  
+[Puccinelli Printing Guide](/assets/pdfs/Puccinelli_ArrayerPrinting.pdf)
+<a name="software"></a>
+### Software
 
-| Name | Part Number | Quantity | Description |
-|------|-------------|----------|-------------|
-| Camera Brace | 15275A66 | 1 | Bracket Galvanized Steel, 1-7/8" & 3-1/2" Length of Sides |
-| Corner Bracket | 1088A31 | 4 | nside Corner-Reinforcing Bracket, 2" Length of Sides |
-| Edge Braces | 1556A41 | 8 | Bracket Galvanized Steel, 1" Length of Sides |
-| Adjustable Friction Hinge | 1791A44 | 2 | Adjustable-Friction Hinge, 200 lb. Capacity, 1-11/16" High Leaf, 1-7/16" Width, Black |
-| Cabinet Door Knob | 11645A11 | 1 | ABS Plastic Pull Knob Black Finish, 1-5/16" Knob Diameter, 1" Projection |
+As mentioned previously, the control software produced by the DeRisi group is out-of-date and is listed here for reference only or if you happen to have a functioning Windows 98 computer.
 
-I don't remember if the door knob fit well on this because it originally came with a 1" wood screw, but it could be usable. It might be worth looking for an alternative knob or screw. Also, things not listed here include:
-* A few short 1/4-20 screws to mount the camera to the bracket and the bracket to the top panel.
-* 8-32 with 0.25" or shorter depth for corner brackets and door hinges.
-* 6-32 with 0.25" or shorter depth for edge braces.
-* Black electrical tape to block light from the gap between the panels. The panels we received were slightly smaller than 0.5" (around 0.47").
+[ArrayMaker v2.60](/assets/software/DeRisi_ArrayMaker_v260.zip)
+<a name="CAD"></a>
+### Arrayer CAD Files
 
-### Amazon Parts
+Provided here are a series of custom parts that I designed to set up the arrayer at Stanford. These are virtually identical to the parts that were used by the DeRisi lab.
 
-| Part | Approx $ | Description |
-|------|----------|-------------|
-| Camera | $550   | Canon EOS Rebel T3i Digital SLR Camera with EF-S 18-55mm f/3.5-5.6 IS Lens (discontinued by manufacturer) |
-| Filter 1 | $18 | Tiffen 58mm 12 Filter (Yellow) |
-| Filter 2 | $31 | Tiffen 58mm 21 Filter (Orange) |
-| Camera Wall Adapter | $19 | Kapaxen ACK-E8 AC Power Adapter Supply Kit For Canon EOS Rebel T5i / T4i / T3i / T2i / 700D / ... |
+[Download AutoCAD and SolidWorks drawings here!](/assets/CAD/170704_ArrayerParts.zip)
 
-Filter 1 and Filter 2 will stack onto each other and mount to the camera lens. The order for stacking isn't important.
+{% include feature_row id="CAD" %}
 
-Blue LED Transilluminator ~$1000
+### Arrayer CAD Notes
+
+Some things to note that might not be obvious from the design files:
+
+**Pin Block Body**
+* Will need some 1.5mm dowels press fit in the top and lower inner lip to support the colimiter plates that align the silicon pins.
+* Will need (4) 2.5mm diameter x 5mm length magnets press fit into the bottom to mount the magnetic plate that holds the lower colimiter plate.
+* Will need top (4) holes tapped for M2 to mount the head.
+* Will need back (2) holes tapped for M6 to mount to printing arm.
+
+**Pin Block Head**
+* Will need a soft and compressible foam cushion that fills the void between the pins and the head. This cushion protects the pins from vibrations and acts as a spring to ensure contact with the glass slide while printing.
+
+**Colimiter Plates**
+* Will be fairly expensive to machine due to the size of the features and the tight tolerances. These were initially designed to work with the [Parallel Synthesis Technologies](http://www.parallel-synthesis.com/smt-info.htm) SMT pins, but may be compatible with others.
+
+**Printing Arm**
+* Attaches the pin block body to the z-axis.
+
+**Calibrator Arm**
+* Attaches the calibrating pin and mechanical switch to the z-axis.
+* Will need to be tapped for M2 to attach the calibrator mount.
+
+**Calibrator Mount**
+* Attaches the mechanical switch to the calibrator arm.
+* Will need to be tapped for M2 to attach the mechanical switch.
+
+**Delrin Block**
+* Couples the slide platter to the x-axis.
+* Will need to be tapped for M6 for the holes that don't attach to the x-axis.
