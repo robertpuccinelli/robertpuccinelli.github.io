@@ -36,8 +36,22 @@ intro:
 
 <div id="expand-box">
 <div id="expand-box-header">
+  <span style="float: left;"><b>Research Associate</b></span>
+  <span style="float: right;">Jul. 2017 - <i>present</i></span>
+  <font size = "4">
+  <br>
+  Bioengineering Team
+  <br>
+  Rafael Gomez-Sjoberg, PhD; <i>Chan-Zuckerberg Biohub</i><br><br>
+  </font>
+</div>
+<div id="expand_box_sub_header"></div>
+</div>
+
+<div id="expand-box">
+<div id="expand-box-header">
   <span style="float: left;"><b>Life Sciences Research Professional</b></span>
-  <span style="float: right;">Sep. 2014 - <i>present</i></span>
+  <span style="float: right;">Sep. 2014 - May 2017</span>
   <font size = "4">
   <br>
   High-Throughput Analysis of DNA-Protein Biophysical Interactions

@@ -13,6 +13,9 @@ box:
   - image_path: /assets/images/posts/170702_GelBox_Xray.png
     excerpt: "X-ray view."
     url: "/assets/images/posts/170702_GelBox_Xray.png"
+  - image_path: /assets/images/posts/170702_GelChamber.jpg
+    excerpt: "Original design."
+    url: "/assets/images/posts/170702_GelChamber.jpg"
 
 gels:
   - image_path: /assets/images/posts/170702_SampleGel1.jpg

@@ -186,14 +186,6 @@ body:hover .visually-hidden button {
     color: #000;
   }
 
-  .fa-envelope-square{
-    color: #fc0;
-  }
-
-  .fa-map-marker{
-    color: #d22;
-  }
-
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
@@ -219,7 +211,7 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: #727;
+    color: $github-color;
   }
 
   .fa-google-plus,
@@ -238,7 +230,7 @@ body:hover .visually-hidden button {
 
   .fa-linkedin,
   .fa-linkedin-square {
-    color: $linkedin-color;
+    color: #000;
   }
 
   .fa-pinterest,

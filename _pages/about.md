@@ -42,7 +42,7 @@ My college town had one bike shop that was exorbitantly priced and often sold me
 
 ### [_Exploring the Outdoors_](http://robertpuccinelli.com/outdoors/)
 
-My childhood was riddled with outdoor adventures, which I credit to my parents, and has become ingrained in who I am. It started with family trips, continued into Cub Scouts, and then into Boy Scouts of America (attained the highest rank of Eagle Scout at age 14), and now I venture out on my own. Up to this point, my adventures have been within the limits of California, but I hope to go beyond one day and share these experiences on this site. All of the images posted on this website were either taken by me or others who have joined me on a given adventure.
+My childhood was riddled with outdoor adventures, which I credit to my parents, and has become ingrained in who I am. It started with family trips, continued into Cub Scouts, and then into Boy Scouts of America (attained the highest rank of Eagle Scout at age 14), and now I venture out on my own. Up until June 2017, my adventures had been within the limits of California, but I hope to spend more time away from California and share these experiences on this site. All of the images posted on this website were either taken by me or others who have joined me on a given adventure.
 {: style="text-align: justify;"}
 
 {% include feature_row type="center" %}
