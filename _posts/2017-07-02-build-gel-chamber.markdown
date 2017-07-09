@@ -89,13 +89,13 @@ Besides the machined acrylic panels and the [Clare Chemical DR89 Transilluminato
 
 ### McMaster-Carr Parts
 
-| Name | Part Number | Quantity | Description |
-|------|-------------|----------|-------------|
-| Camera Brace | 15275A66 | 1 | Bracket Galvanized Steel, 1-7/8" & 3-1/2" Length of Sides |
-| Corner Bracket | 1088A31 | 4 | nside Corner-Reinforcing Bracket, 2" Length of Sides |
-| Edge Braces | 1556A41 | 8 | Bracket Galvanized Steel, 1" Length of Sides |
-| Adjustable Friction Hinge | 1791A44 | 2 | Adjustable-Friction Hinge, 200 lb. Capacity, 1-11/16" High Leaf, 1-7/16" Width, Black |
-| Cabinet Door Knob | 11645A11 | 1 | ABS Plastic Pull Knob Black Finish, 1-5/16" Knob Diameter, 1" Projection |
+| Name | Part Number | Quantity | Description | Link |
+|------|-------------|----------|-------------|------|
+| Camera Brace | 15275A66 | 1 | Bracket Galvanized Steel, 1-7/8" & 3-1/2" Length of Sides | [View on McMaster](https://www.mcmaster.com/#15275a66/=18ezdou) |
+| Corner Bracket | 1088A31 | 4 | nside Corner-Reinforcing Bracket, 2" Length of Sides | [View on McMaster](https://www.mcmaster.com/#1088a31/=18eze30) |
+| Edge Braces | 1556A41 | 8 | Bracket Galvanized Steel, 1" Length of Sides | [View on McMaster](https://www.mcmaster.com/#1556a41/=18ezee2) |
+| Adjustable Friction Hinge | 1791A44 | 2 | Adjustable-Friction Hinge, 200 lb. Capacity, 1-11/16" High Leaf, 1-7/16" Width, Black | [View on McMaster](https://www.mcmaster.com/#1791a44/=18ezemo) |
+| Cabinet Door Knob | 11645A11 | 1 | ABS Plastic Pull Knob Black Finish, 1-5/16" Knob Diameter, 1" Projection | [View on McMaster](https://www.mcmaster.com/#11645a11/=18ezex7) |
 
 I don't remember if the door knob fit well on this because it originally came with a 1" wood screw, but it could be usable. It might be worth looking for an alternative knob or screw. Also, things not listed here include:
 * A few short 1/4-20 screws to mount the camera to the bracket and the bracket to the top panel.
@@ -105,13 +105,14 @@ I don't remember if the door knob fit well on this because it originally came wi
 
 ### Amazon Parts
 
-| Part | Approx $ | Description |
-|------|----------|-------------|
-| Camera | $550   | Canon EOS Rebel T3i Digital SLR Camera with EF-S 18-55mm f/3.5-5.6 IS Lens (discontinued by manufacturer) |
-| Filter 1 | $18 | Tiffen 58mm 12 Filter (Yellow) |
-| Filter 2 | $31 | Tiffen 58mm 21 Filter (Orange) |
-| Camera Wall Adapter | $19 | Kapaxen ACK-E8 AC Power Adapter Supply Kit For Canon EOS Rebel T5i / T4i / T3i / T2i / 700D / ... |
+| Part | Approx $ | Description | Link |
+|------|----------|-------------|------|
+| Camera | $403   | Canon EOS Rebel T3i Digital SLR Camera with EF-S 18-55mm f/3.5-5.6 IS Lens (discontinued by manufacturer) | [View on Amazon](http://amzn.to/2tVST2y) |
+| Filter 1 | $18 | Tiffen 58mm 12 Filter (Yellow) | [View on Amazon](http://amzn.to/2tYXbpE) |
+| Filter 2 | $31 | Tiffen 58mm 21 Filter (Orange) | [View on Amazon](http://amzn.to/2tVStJw) |
+| AC Adapter (replaces camera battery) | $19 | Kapaxen ACK-E8 AC Power Adapter Supply Kit For Canon EOS Rebel T5i / T4i / T3i / T2i / 700D / ... | [View on Amazon](http://amzn.to/2sCgx0m) |
+| Alternative Transilluminator (Not Tested) | $869 | Huanyu Instrument DUT-48 Blue Light Transilluminator wavelength 470nm | [View on Amazon](http://amzn.to/2tZ4Wfn) |
 
 Filter 1 and Filter 2 will stack onto each other and mount to the camera lens. The order for stacking isn't important.
 
-Blue LED Transilluminator ~$1000
+The Amazon links above were provided by the Amazon Services LLC Associates Program, which is an affiliate advertising program that gives this website an opportunity to earn some money while connecting you to products that have been or can be used for completing the project you are viewing. Any money earned will be used for covering costs associated with registering this website or the costs of the projects posted here.
