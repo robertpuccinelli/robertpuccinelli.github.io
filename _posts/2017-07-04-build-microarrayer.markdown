@@ -75,7 +75,7 @@ CAD:
 {% include toc icon="reorder" title="Table of Contents" %}
 
 
-{% include figure image_path="/assets/images/posts/170704_CapturedDNA.PNG" url="/assets/images/posts/170704_CapturedDNA.PNG" caption="Small protein spots captures various fluorescent DNA sequences from solubilized microarray." %}
+{% include figure image_path="/assets/images/posts/170704_CapturedDNA.PNG" caption="Small protein spots captures various fluorescent DNA sequences from solubilized microarray." %}
 
 
 ## Introduction
