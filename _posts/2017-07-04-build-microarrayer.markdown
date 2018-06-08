@@ -6,6 +6,11 @@ category: build
 tags: [build, 3-axis, microarray]
 comments: true
 
+introduction:
+  - image_path: /assets/images/posts/170704_CapturedDNA.PNG
+    url: "/assets/images/posts/170704_CapturedDNA.PNG"
+    excerpt: Small protein spots captures various DNA sequences from solubilized microarray.
+
 arrayer:
   - image_path: /assets/images/posts/170704_Arrayer1.jpg
     url: "/assets/images/posts/170704_Arrayer1.jpg"
@@ -70,17 +75,32 @@ CAD:
 {% include toc icon="reorder" title="Table of Contents" %}
 
 
+{% include figure image_path="/assets/images/posts/170704_CapturedDNA.PNG" url="/assets/images/posts/170704_CapturedDNA.PNG" caption="Small protein spots captures various fluorescent DNA sequences from solubilized microarray." %}
+
+
 ## Introduction
 
 As per Wikipedia:
 
 > A microarray is a multiplex lab-on-a-chip. It is a 2D array on a solid substrate (usually a glass slide or silicon thin-film cell) that assays large amounts of biological material using high-throughput screening miniaturized, multiplexed and parallel processing and detection methods.
 
-In essence, if you want to do a high-throughput study with proteins, DNA, or other molecules, there's a possibility that a microarray could fit your needs. It should also be noted that microarrays have been slowly phased out over the years due to advances in other technologies, but they still have niche roles in science and medicine.
+In essence, if you want to do a high-throughput study with proteins, DNA, or other molecules, there's a possibility that a microarray could fit your needs. In my opinion, the most significant advantage of using microarrays is being able to correlate a spatial signal to a known agent. It should also be noted that microarrays have been slowly phased out over the years due to advances in other technologies, but they still hold niche roles in science and medicine.
 
-The history of microarrays was before my time, so I don't know the exact details of the era. From what I understand though, microarrays and microarrayers were solely a commercial product that were sold at somewhat exorbitant prices with limited customizability in the 90's. Joe DeRisi worked with a few others in Pat Brown's lab at Stanford to make an open-source system that could be replicated by other labs at a fraction of the price. They created a manual for assembly and developed software to operate the machine, which several groups used for their own systems. For some time, I was able to operate Joe's microarrayer at UCSF before it was relocated (or disassembled?) and had the opportunity to construct one of the machines for the Fordyce lab at Stanford. Since most of the assembly material has been written previously, I'll either post the original material, fill in some missing information or provide files that I created to supplement the existing material.
+The microarray golden era was somewhat before my time, so I don't know many details of how it rose and fell. From what I understand though, microarrays and microarrayers were solely a commercial product that were sold at somewhat exorbitant prices with limited customizability in the 90's. Joe DeRisi worked with a few others in Pat Brown's lab at Stanford to make an open-source system that could be replicated by other labs at a fraction of the price. They created a manual for assembly and developed software to operate the machine, which several groups used for their own systems. Given that many microarrays were nucleic acid based (ie the ViroChip), the use of these systems declined as alternative technologies such as sequencing and digital PCR became more prominent. For some time, I was fortunate enough to be able to operate Joe's microarrayer at UCSF before it was disassembled and had the opportunity to construct one of the machines for the Fordyce lab at Stanford. Since most of the assembly material has been written previously, I'll either be posting the original material, filling in some missing information or providing files that I created to supplement the existing material.
 
-The microarrayer has some serious advantages and disadvantages that need to be considered before assembling. The greatest disadvantage by far is the sheer size of the machine. It sits on a large vibration-dampening table that's about 6 feet wide and 4 feet long. In addition to that, it will need to sit in a humidity controlled environment in order to produce decent arrays. Traditionally, this environment was either a dedicated microarrayer room or a series of tarps hung from the ceiling. To control humidity, 3 or 4 large humidifiers were run throughout the print to maintain ~65% relative humidity. The benefits on the other hand include the ability to handle any full-skirt 384 plates, ability to handle any pins for spotting arrays, ability to print 30,000 spots on 261 slides in 20 hours, and flexibility in programming the arrays. In terms of throughput and customizability, it's unlikely that any commercial system would be able to compete at the price point of this machine. In terms of required spacing between spots, the limiting factor will be how large the pins spot the glass slide. Once the axes have been warmed up, the linear encoders prove to be very accurate.
+The microarrayer presented here has quite a few advantages and disadvantages that need to be considered before assembling. The greatest disadvantage by far is the sheer size of the machine. It sits on a large vibration-dampening table that's about 6 feet wide and 4 feet long. In addition to that, it will need to be operated in a humidified environment in order to produce respectable arrays. (This latter constraint is eased by using droplet dispensers.) Traditionally, this environment was either a dedicated microarrayer room or a series of tarps hung from the ceiling. To control humidity, 3 or 4 large humidifiers were run throughout the print to maintain ~65% relative humidity. On the other hand, benefits include the ability to handle any full-skirt 384 plates, ability to handle any pins for spotting arrays, ability to print 30,000 spots on 261 slides in 20 hours, and flexibility in programming the arrays. In terms of throughput and customizability, it's hard to beat. In terms of required spacing between spots, the limiting factor will be how large the pins spot the glass slide. Once the axes have been warmed up, the linear encoders prove to be very accurate.
+
+### Short Demo Video
+
+The following video shows the print head printing spots onto 2x3 inch glass slides. In this example, the arrayer:
+
+1. Cleans the pins and returns to the source plate for the next set of samples.
+2. Draws samples from (4) adjacent wells on a 384 well plate.
+3. Prints (4) replicates of the samples on two regions of the glass slide.
+4. Advances to the next slide until all slides are arrayed.
+5. Returns to the cleaning station.
+
+<iframe width="210" height="150" src="https://www.youtube.com/embed/TOcTtWNRr2k" frameborder="0" allowfullscreen></iframe>
 
 ## Microarrayer Assembly
 
