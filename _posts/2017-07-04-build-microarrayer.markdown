@@ -3,7 +3,7 @@ layout: single
 title:  "Build Your Own: Microarray Printer"
 excerpt: "A DIY alternative to commercial microarray solutions to reduce equipment costs and enhance throughput. Based on the DeRisi style microarrayer."
 category: build
-tags: [build, 3-axis, microarray]
+tags: [build, electronics]
 comments: true
 
 introduction:
@@ -69,13 +69,13 @@ CAD:
     url: "/assets/images/posts/170704_Arrayer_DelrinBlock.png"
 ---
 
+{% include figure image_path="/assets/images/posts/170704_CapturedDNA.png" caption="Small protein spots capture various fluorescent DNA sequences from a solubilized microarray." %} {: .align-center .width-75}
+
 **PURPOSE:** Provide a DIY alternative to expensive commercial microarray solutions. Benefits of this system include high-throughput spotting and microarray customizability. It was initially built and documented by Joe DeRisi and team back in the late 90's. One of these machines was assembled for the Fordyce lab at Stanford in 2016 and is documented here for others.
 {: .notice--info}
 
 {% include toc icon="reorder" title="Table of Contents" %}
 
-
-{% include figure image_path="/assets/images/posts/170704_CapturedDNA.png" caption="Small protein spots capture various fluorescent DNA sequences from solubilized microarray." %}
 
 
 ## Introduction

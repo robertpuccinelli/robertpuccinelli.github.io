@@ -3,7 +3,7 @@ layout: single
 title:  "A Modern Antibiotic Resistance Reporting System"
 excerpt: "An overview of the specifications for a yet-to-be-created antibiotic resistance reporting system."
 category: antibiotic
-tags: [build, antibiotic resistance project, overview]
+tags: [antibiotic resistance project, commentary]
 comments: true
 ---
 
@@ -11,13 +11,13 @@ comments: true
 
 This project was conceived at the end of 2016 as I was considering solutions for meeting the various antibiotic challenges that were accepting applications at the time. Unfortunately, I was underprepared and didn't submit an application while I could. Since then, the idea has continued to incubate in my mind for several months before being transcribed into a steno pad, followed by an electronic notebook, now followed by my website. I believe this modern approach would revolutionize how we characterize antibiotic resistances and ultimately other medical complications. As a result, the trajectory of global antibiotic resistance would be stalled or even reverted by more efficient and informed treatments.
 
-**If I truly believe this is a revolutionary idea - *Why post it openly on this website?***
+**If I believe this is a great idea - why post it openly on this website?**
 
-I agree that it probably is quite naive for me to do this, but I don't have the resources that I need to execute this idea in a timely manner and I believe this idea should be realized. By posting it in the open, it will only be a matter of time before someone stumbles across it or the data scientists at Google discover what their web crawler has uncovered. I wasn't able to join the well funded challenges several months ago, so I have started my own. Can I produce this system before another company? It is true that I would really like to be the one who sees this idea come to fruition, but I believe that the benefit that the world would receive from this system would out do any benefit that I would receive. Why should I hold back tangible technological advancements for my own personal gain?
+I agree that it probably is quite naive for me to do this, but I currently don't have the resources that I need to execute this idea in a timely manner and I believe this idea should be realized. I wasn't able to join the well funded challenges several months ago, so I have started my own. Can I produce this system before another organization? It is true that I would really like to be the one who sees this idea come to fruition, but I believe that the benefit that the world would receive from this system would out do any benefit that I would receive. Why should I hold back tangible technological advancements for my own personal gain?
 
-The clock has started ticking and it is only a matter of time before either I or some unknown character produces this system.
+The clock has long been ticking and it is only a matter of time before either I or some unknown character produces this system.
 
-Let's get going - Game on.
+Let's get going.
 
 ## Objective:
 
