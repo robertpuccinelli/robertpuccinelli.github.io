@@ -107,6 +107,51 @@ intro:
 </div>
 </div>
 
+## PUBLICATIONS
+
+<div id="expand-box">
+<div id="expand-box-header">
+  <span style="float: left;"><a href="/assets/pdfs/publications/Puccinelli_Publication_DiversificationofDNABindingSpecificitiesEnableRegulatorsToExpandCellularFunctions.pdf"><b>Diversification of DNA binding specificities enabled SREBP transcription regulators to expand the repertoire of cellular functions that they govern in fungi.</b></a></span>
+  <font size = "4">
+  Del Olmo Toledo V, <u>Puccinelli R</u>, Fordyce PM, Pérez JC.<br>
+  PLoS Genet. 2018 Dec 31; 14(12):e1007884.
+  </font>
+</div>
+</div>
+<br>
+
+<div id="expand-box">
+<div id="expand-box-header">
+  <span style="float: left;"><a href="/assets/pdfs/publications/Puccinelli_Publication_Single-cellTranscriptomicsof20MouseOrgans.pdf"><b>Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris.</b></a></span>
+  <font size = "4">
+  Tabula Muris Consortium; Overall coordination; <u>Logistical coordination</u>; Organ collection and processing; Library preparation and sequencing; Computational data analysis; Cell type annotation; Writing group; Supplemental text writing group; Principal investigators.<br>
+  Nature. 2018 Oct; 562(7727):367-372.
+  </font>
+</div>
+</div>
+<br>
+
+<div id="expand-box">
+<div id="expand-box-header">
+  <span style="float: left;"><a href="/assets/pdfs/publications/Puccinelli_Publication_OpenSourceProgrammablePneumaticSetupforAutomatedMicrofluidicDevices.pdf"><b>An Open-Source, Programmable Pneumatic Setup for Operation and Automated Control of Single- and Multi-Layer Microfluidic Devices.</b></a></span>
+  <font size = "4">
+  Brower K, <u>Puccinelli R</u>, Markin CJ, Shimko TC, Longwell SA, Cruz B, Gomez-Sjoberg R, Fordyce PM. <br>
+  HardwareX. 2018 Apr; 3:117-134.
+  </font>
+</div>
+</div>
+<br>
+
+<div id="expand-box">
+<div id="expand-box-header">
+  <span style="float: left;"><a href="/assets/pdfs/publications/Puccinelli_Publication_OptimizedSequenceLibraryDesignforEfficientInVitroInteractionMapping.pdf"><b>Optimized Sequence Library Design for Efficient In Vitro Interaction Mapping.</b></a></span>
+  <font size = "4">
+  Orenstein Y, <u>Puccinelli R</u>, Kim R, Fordyce P, Berger B. <br>
+  Cell Syst. 2017 Sep 27; 5(3):230-236.e5.
+  </font>
+</div>
+</div>
+
 ## PRESENTATIONS/POSTERS:
 
 <div id="expand-box">

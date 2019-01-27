@@ -105,21 +105,21 @@ This section encompasses everything that is required to build the system to give
 
 We'll work our way from left to right in the figure above. The star of the show is the Nexus 7, 2013 edition. It is not the most advanced tablet in the market, but the screen has virtually a perfect form factor that matches a double DIN head unit and it has some of the most extensive kernel options available. We'll be running Timur's Kernel v4.0 to integrate the tablet into the Jeep as permanent hardware.
 
-To assert the tablet as the host of the system, all connections must be routed through and on-the-go (OTG) adapter. From here, a special Y cable connects to the powered USB hub to provide the tablet with a high amp supply and to route data. This USB hub is powered by a 12V line that is only active when the ignition is on. This allows the tablet and peripherals to enter a deep sleep / off state when there is no auxiliary power - saving your vehicle's battery when off.
+To assert the tablet as the host of the system, all connections must be routed through the on-the-go (OTG) adapter. From here, a special Y cable connects to the powered USB hub to provide the tablet with a high amp supply and to route data. This USB hub is powered by a 12V line that is only active when the ignition is on. This allows the tablet and peripherals to enter a deep sleep / off state when there is no auxiliary power - saving your vehicle's battery when off.
 
 From here, the peripherals are completely user dependent and there is quite a bit of flexibility in options. Not everyone will be interested in having Android Auto / Apple CarPlay, OBDII diagnostics, or a microphone in their vehicle. I did this mainly because I could.
 
 The OBDII unit sits in your vehicle's OBDII port and can transmit data directly to the Nexus 7 via bluetooth. The OBDII port is still powered when the vehicle is off, so a minor modification will be made to the bluetooth unit to only power it when auxiliary power is available.
 
-The radio receiver connects to the USB hub and is controlled by an app on the tablet. It is quite capable of receiving all FM channels and more, but is unable to receive AM. The frequency of AM is too low for this unit, but other units (such as a HAM upconverter) should make AM accessible if desired. This receiver connects to a F to SMA adapter, which will allow you to plug the antenna into the unit. I was completely unable to find a Motorola to SMA adapter, so we'll have to modify the adapter a bit.
+The radio receiver connects to the USB hub and is controlled by an app on the tablet. It is quite capable of receiving all FM channels and more; however, it is unable to receive AM broadcasts. The transmission frequency for most AM stations is too low for this unit to detect, but other units (such as a HAM upconverter) should make AM accessible if desired. This receiver employed here connects to a F to SMA adapter, which will allow you to plug the antenna into the unit. I was unable to find a Motorola to SMA adapter, so we'll have to modify the adapter a bit to make things work.
 
-A few video cards are usable with Android 6.0.1, but I went for what I thought was the simplest. A subset of USB video cards (UVC) should not require any drivers on any system (including Windows 2000). A lot of cheap cards say they are UVC but still require drivers. Try to avoid those ones to make your life easier. The video card is connected to the USB hub and also has its power switched by an automotive 12V relay. Whenever the reverse gear is engaged, the reverse wire is brought to 12V. When this happens, the relay will activate the UVC, which will then begin transmitting video data directly to the Nexus 7. Furthermore, the backup camera also taps the 12V line that power the reverse lights, so the camera will be powered simultaneously.
+A few video cards are usable with Android 6.0.1, but I went for what I thought was the simplest. A subset of USB video cards (UVC) should not require any drivers on any system (including Windows 2000). A lot of cheap cards say they are UVC but still require drivers, which defeats the purpose. Try to avoid those ones to make your life easier. The video card is connected to the USB hub and also has its power switched by an automotive 12V relay. Whenever the reverse gear is engaged, the reverse wire is brought to 12V. When this happens, the relay will power the UVC, which will then begin transmitting video data directly to the Nexus 7. Furthermore, the backup camera also taps the 12V line that power the reverse lights, so the camera will be powered simultaneously.
 
-The microphone isn't anything special. In this case, it's just a USB mic with an integrated driver. A microphone that plugs into the 3.5mm jack on the tablet might work as well.
+The microphone isn't anything special. In this case, it's just a USB mic with an integrated driver. A microphone that plugs into the 3.5mm jack on the tablet might work as well. Alternatively, there are bluetooth microphones that might be a better choice.
 
 The phone dongle is a bit of an experiment. This unit should allow for Android Auto or Apple CarPlay to be retrofitted onto older head units, but no one has done it with a Nexus 7 as far as I'm aware of. This dongle should allow the phone to be directly controlled by tablet. I previously installed QuickCharge 3 USB ports in my Jeep for rapid charging of mobile devices. I currently plan to connect the data pins from one of the ports directly to the phone dongle so that the phone can charge quickly while also supporting connectivity.
 
-Last but not least is the digital to analog converter (DAC). This takes digital audio signals from the Nexus 7 and converts them into analog waveforms that are sent to the vehicle's speakers. Some DACs have been problematic in builds with microphones for unclear reasons. I think some DACs have a microphone input port that change the DAC from being an output device to being an input/output device. The 6.0.1 Android OS might only support one input at a time, so the standalone microphone input might be disabled as long as the DAC is connected. To connect the DAC to the speakers, RCA lines will be installed for the left and right audio channels. The Nexus 7 only has left and right outputs - an amplifier or some other system will be required for additional channels like front and back.
+Last but not least is the digital to analog converter (DAC). This takes digital audio signals from the Nexus 7 and converts them into an analog signal that is sent to the vehicle's speakers. Some DACs have been problematic in builds with microphones for unclear reasons. I think some DACs have a microphone input port that change the DAC from being an output device to being an input/output device. The 6.0.1 Android OS might only support one input at a time, so the standalone microphone input might be disabled as long as the I/O DAC is connected. To connect the DAC to the speakers, RCA lines will be installed for the left and right audio channels. The Nexus 7 only has left and right outputs - an amplifier or some other system will be required for additional channels like front and back.
 
 ### Hardware Components
 The Amazon Affiliate links below help fund future Build Your Own projects at no cost to you. If you do not wish to support this work, the model number is provided for your reference.
@@ -149,6 +149,35 @@ If you already have a vehicle with a double din bezel and aren't interested in h
 
 ### Software modules
 
-To be continued ...
+Although there is a high degree of flexibility in hardware, it is greatly outmatched by that of the software. I'll list a few applications that I believe are essential for my use case and will leave all other remaining preferences to the reader. None of the following modules are required to implement an Android head unit and it may be worth your time to explore other options.
+
+**Automotive Kernel**
+First and foremost, I chose to build the head unit off of [Android 6.0.1 with Timur's v4.0 kernel](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/). This setup allows the Nexus 7 to charge while also acting as the OTG host for the USB peripherals. It also includes some nice features for an automotive setting such as automatic deep sleep when the ignition is off or automatically launching a backup camera when the reverse gear is engaged. Timur provides instructions on how to install everything, but I will go into a bit more detail in the build guide below because some things were not readily apparent to me. Potential problems and workarounds with this method are listed in the [Pitfalls and Solutions](https://www.reddit.com/r/timurskernel/comments/5elxa7/pitfalls_and_solutions/) thread.
+
+**Blackout Screen**
+It may be a bit silly to list this function as a second priority, but it is somewhat important to me. Before my previous head unit was stolen, there were many times when I did not need it powered or preferred to keep the cab dark. The tablet is currently set to never sleep when the ignition is on, primarily because the power button is not accessible behind the bezel. Since it never sleeps, the cad is always illuminated. I implemented a gesture control to launch the [BlackScreen](https://play.google.com/store/apps/details?id=net.jomyut.blackscreen) app when a specific spot on my tablet is double tapped.
+
+**Clean Interface**
+It's important to me that I have a clean home screen with no bloatware. If I'm driving, I don't accidentally want to tap the (in my opinion) useless Google Search bar. I also want to maximize the real estate of the screen, so no dock. As you might observe from this website, I prefer minimalistic designs. I found that the [Evie Launcher](https://play.google.com/store/apps/details?id=is.shortcut) was perfect for my use case and would highly recommend it. I was able to clear the home screen completely and only have a large clock and essential app shortcuts. Most of the settings in the launcher were disabled by choice.
+
+**Vehicle Dashboard**
+I'm not completely settled on the dashboard yet, but I'm currently evaluating [AutoMate](https://play.google.com/store/apps/details?id=is.shortcut). It's nice because it has separate features on different pages, but transitioning between pages often takes me multiple attempts. Alternatives include [Car dashdroid](https://play.google.com/store/apps/details?id=com.nezdroid.cardashdroid) or [Car Launcher](https://play.google.com/store/apps/details?id=com.autolauncher.motorcar.free). The benefits of a system like this is that it can cleanly organize navigation, phone call, media operations, and OBDII readouts. I'll have a stronger opinion when I get to installing the tablet.
+
+**Other Modules**<br>
+Radio Tuner: [SDR Touch](https://play.google.com/store/apps/details?id=marto.androsdr2)<br>
+OBDII Readout: [Torque Lite](https://play.google.com/store/apps/details?id=org.prowl.torquefree)<br>
+Gesture Control and Remove Navigation Bar: [Navigation Gestures](https://play.google.com/store/apps/details?id=com.xda.nobar)<br>
+Pop Up Navigation Bar: [Custom Navigation Bar](https://play.google.com/store/apps/details?id=com.navigation.bar.customize.soft.keys)<br>
+Backup Camera : VCam2 (Shipped with Timur's Kernel) [Alternative](https://forum.xda-developers.com/devdb/project/dl/?id=26261)<br>
+Media Controls on Navigation Bar: [cliffeed mod](https://www.reddit.com/r/timurskernel/comments/4hdc56/mediavolume_buttons_for_navbar_marshmallow/)<br>
+Phone Dongle App: [Carlinkit Autokit.apk](http://www.carlinkit.com/autokit.apk)
+
+The following files are listed in the event that the [files from Timur's Reddit thread](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/) are lost. I would advise you to not download these if the official versions are still available:<br>
+[TWRP 3.0.2-0 Debian](https://app.box.com/s/pnc461hr9023na6qx3ln1kad31b8owdc)<br>
+[Timur Kernel N7 2013 v4.0 Final Flo Debian](https://app.box.com/s/mfwx5jfm83q8pzv1yvft344p6kc76yp0)<br>
+[SuperSU v2.76](https://app.box.com/s/72vhwf94bd7n8jhxp262v6nuom1tlxvy)<br>
+Also required is the factory MOB30X Android image.
 
 ## Build Guide
+
+To be continued...
