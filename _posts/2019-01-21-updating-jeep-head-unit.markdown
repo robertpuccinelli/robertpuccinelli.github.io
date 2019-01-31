@@ -97,7 +97,7 @@ For those who are fortunate enough to still have their stereos, I hear that beau
 
 ## Parts List and Files
 
-This section encompasses everything that is required to build the system to give you an overview of what is involved. After listing the components, each section will examine why certain components were chosen in greater detail. Although software files are listed below, they are largely for my own reference of what was used in the event that I have to rebuild the system. **I strongly encourage others to download files from the original provider** and not from this page. There may be more recent versions available and you can't be certain that these files haven't been tampered with. The links to the original provider are listed.
+This section encompasses everything that is required to build the system to give you an overview of what is involved. After listing the components, each section will examine why certain components were chosen in greater detail. Although software files are listed below, they are largely for my own reference of what was used in the event that I have to rebuild the system. **I strongly encourage others to download files from the original provider** and not from this page. There may be more recent versions available and you can't be certain that these files haven't been tampered with. The links to the original provider are listed. Hardware is listed first because the software is largely dependent on the employed hardware.
 
 ### Hardware Description and Rationale
 
@@ -151,19 +151,19 @@ If you already have a vehicle with a double din bezel and aren't interested in h
 
 Although there is a high degree of flexibility in hardware, it is greatly outmatched by that of the software. I'll list a few applications that I believe are essential for my use case and will leave all other remaining preferences to the reader. None of the following modules are required to implement an Android head unit and it may be worth your time to explore other options.
 
-**Automotive Kernel**
+_**Automotive Kernel**_<br>
 First and foremost, I chose to build the head unit off of [Android 6.0.1 with Timur's v4.0 kernel](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/). This setup allows the Nexus 7 to charge while also acting as the OTG host for the USB peripherals. It also includes some nice features for an automotive setting such as automatic deep sleep when the ignition is off or automatically launching a backup camera when the reverse gear is engaged. Timur provides instructions on how to install everything, but I will go into a bit more detail in the build guide below because some things were not readily apparent to me. Potential problems and workarounds with this method are listed in the [Pitfalls and Solutions](https://www.reddit.com/r/timurskernel/comments/5elxa7/pitfalls_and_solutions/) thread.
 
-**Blackout Screen**
-It may be a bit silly to list this function as a second priority, but it is somewhat important to me. Before my previous head unit was stolen, there were many times when I did not need it powered or preferred to keep the cab dark. The tablet is currently set to never sleep when the ignition is on, primarily because the power button is not accessible behind the bezel. Since it never sleeps, the cad is always illuminated. I implemented a gesture control to launch the [BlackScreen](https://play.google.com/store/apps/details?id=net.jomyut.blackscreen) app when a specific spot on my tablet is double tapped.
+_**Blackout Screen**_<br>
+It may be a bit silly to list this function as a second priority, but it is somewhat important to me. Before my previous head unit was stolen, there were many times when I did not need it powered or preferred to keep the cab dark. The tablet is currently set to never sleep when the ignition is on, primarily because the power button is not accessible behind the bezel. Since it never sleeps, the interior is always illuminated. I implemented a gesture control to launch the [BlackScreen](https://play.google.com/store/apps/details?id=net.jomyut.blackscreen) app when a specific spot on my tablet is double tapped.
 
-**Clean Interface**
+_**Clean Interface**_<br>
 It's important to me that I have a clean home screen with no bloatware. If I'm driving, I don't accidentally want to tap the (in my opinion) useless Google Search bar. I also want to maximize the real estate of the screen, so no dock. As you might observe from this website, I prefer minimalistic designs. I found that the [Evie Launcher](https://play.google.com/store/apps/details?id=is.shortcut) was perfect for my use case and would highly recommend it. I was able to clear the home screen completely and only have a large clock and essential app shortcuts. Most of the settings in the launcher were disabled by choice.
 
-**Vehicle Dashboard**
+_**Vehicle Dashboard**_<br>
 I'm not completely settled on the dashboard yet, but I'm currently evaluating [AutoMate](https://play.google.com/store/apps/details?id=is.shortcut). It's nice because it has separate features on different pages, but transitioning between pages often takes me multiple attempts. Alternatives include [Car dashdroid](https://play.google.com/store/apps/details?id=com.nezdroid.cardashdroid) or [Car Launcher](https://play.google.com/store/apps/details?id=com.autolauncher.motorcar.free). The benefits of a system like this is that it can cleanly organize navigation, phone call, media operations, and OBDII readouts. I'll have a stronger opinion when I get to installing the tablet.
 
-**Other Modules**<br>
+_**Other Modules**_<br>
 Radio Tuner: [SDR Touch](https://play.google.com/store/apps/details?id=marto.androsdr2)<br>
 OBDII Readout: [Torque Lite](https://play.google.com/store/apps/details?id=org.prowl.torquefree)<br>
 Gesture Control and Remove Navigation Bar: [Navigation Gestures](https://play.google.com/store/apps/details?id=com.xda.nobar)<br>
@@ -180,4 +180,108 @@ Also required is the factory MOB30X Android image.
 
 ## Build Guide
 
-To be continued...
+The build guide is quite extensive - we'll cover the software aspect first before the hardware. The primary software guide can be found on [Reddit](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/), the following is largely a reprint of what is there in addition to a few other details. Timur's original commentary is _italicized_ and additional commentary I included is written in normal font. The TJ natively supports a 1.5 DIN (who does that?) and may require some trimming of the dash to place the Nexus 7. Since the Nexus is so thin, it might not be required but be prepared.
+
+### Installation of Android Tools
+
+Before your system can push software from your computer to the Nexus, some development tools have to be installed on your computer. ADB allows debugging of Android over USB and fastboot allows you to unlock the bootloader and push custom software onto the unit. Either Google search how to install those tools or run the following on OSX:
+>brew cask install adb
+
+Timur's instructions:<br>
+_Now enable the "USB debugging" feature on your Android device. In order to do so, open Settings and then open "Developer options"._
+
+_If you cannot find "Developer options" in the list, go to "About tablet" and click the "Build number" five times in a row, until you see a toast message, telling you that: You are now a Developer. Now leave "About tablet" and you should be able to see and open "Developer options"._
+
+_Under "Developer options" you should now be able to enable "USB debugging". While you are in "Developer options", you may also want to enable "Stay awake". This feature is useful, if you want to use the FI-mode feature._
+
+_With your tablet connected to the PC, you should now be able to open a command shell on your PC and run the following commands. This is for testing connectivity only:_
+
+>adb shell date
+
+_This should display the current time and date of your Android device on your PC. If this doesn't work, try the following:_
+
+>adb devices
+
+_This should show the "List of attached Android devices" in the command shell on your PC. If this does not show at least one Android device (with a serial number and a name), you should try unplugging and reconnecting the USB cable. You may need to confirm ADB connectivity in a dialog box on your Android device. If you are not able to establish ADB-over-USB connectivity, google for "adb windows" and/or "adb windows usb drivers". And possibly install/update the required USB drivers. Continue only, if the adb tool is working properly._
+
+### Unlocking the Bootloader
+
+Timur's instructions:<br>
+_If your tablet's bootloader is not yet unlocked, you need to unlock it now. This can be done in two quick steps by running the following commands in the command shell on your PC:_
+
+>adb reboot bootloader
+
+_And then, when the tablet shows the bootloader screen, run:_
+
+>fastboot oem unlock
+
+_NOTE: Unlocking the bootloader will fully wipe your device. You need to confirm the unlocking procedure on the device screen. As long as you don't lock your bootloader again, you only need to do this once._
+
+### Kernel installation
+
+Download the following files:
+* Android factory image
+* TWRP images
+* SuperSU ZIP
+* Timur's kernel ZIP
+
+The factory image, TWRP recovery tool and Timur's kernel will be dependent on the platform you have. The 2013 Nexus with WiFi will use the Flo variants of the files and the LTE version will use the Debian variants of the files. The following will be written specifically for the flo installation.
+
+Unzip Timur's kernel. Inside the ZIP are two folders of interest - "timur-kernel-n7-2013-v4.0-final.zip" and "timur-pem-update-v4-b107-2017-01-06.zip". Both of those will be uploaded to the Nexus 7 in their ZIP format. These files will be installed onto the Nexus first before the SuperSU zip is installed.
+
+Returning to Timur's instructions:<br>
+_Here I describe how you can upgrade your tablet to Android 6.0.1 MOB30X, install Timur's Kernel v4.0 as well as root, without losing any apps or settings - and do so in under 20 minutes. To do this, your tablet bootloader needs to be unlocked once. If you already have a rooted Android 6.0.1 MOB30X with TWRP installed on your tablet, the kernel installation can be done in just a few minutes. In this case, reboot into TWRP and continue with step 4._
+
+1. _Unzip the target Android 6 MOB30X factory image on your PC. In order to prevent the factory image installation from wiping the data partition of your tablet (if you want to keep your installed apps, personal settings and custom data), you need to edit your flash-all script (.sh or .bat, depending on what OS you are using on your PC). To keep your apps and data, remove the "-w" parameter from the last line. However, if want to delete everything on the tablet (wipe) and fully start from scratch, do not modify the flash-all script (keep the "-w" parameter in). Before you continue, this is your last chance to create a full device backup of your tablet. For instance, you can create a full device backup in TWRP recovery._
+
+2. _To install the factory image, connect the tablet to a PC via USB and run the (modified) flash-all script. The installation process will take a couple of minutes. This is IMPORTANT: You need to watch the tablet screen closely, because you need to prevent the tablet from booting into Android automatically at the end of the installation process. As soon as you see the tablet screen turn off, you need to quickly press power + vol-down and keep both buttons pressed for about 15-20 seconds. This will abort the boot process and instead, the tablet will return to the bootloader menu. You need to keep pressing the two buttons until you actually see the bootloader menu. This is when you can release the buttons. The point of all this is, to install TWRP and SuperSU BEFORE the newly installed Android system boots up for the first time._
+
+3. _With the tablet in bootloader (you may need to disconnect/reconnect the PC-USB connection), you can now install TWRP recovery. You always need to do this, because flash-all will overwrite a previous instance of TWRP. To continue, enter in a command line window on your PC: "fastboot flash recovery twrp-3.0.2-0-flo.img" (if you have the LTE model, use the img-file of the deb variant). When done (only a second later), you should be able to launch the newly installed TWRP from bootloader menu. Use the volume keys to select "recovery" and then hit the power button to launch TWRP._
+
+4. _With TWRP recovery running, the tablet should now appear as a USB drive on your PC. This lets you copy the three zip archives required for the next step over: timur-services, timur-usbhost and SuperSU. Make sure these three files are available on the tablet's internal sdcard. Then install the three zip files (timur-services + timur-usbhost before SuperSU!), using the TWRP on-screen UI. Note that whenever you update the kernel (usbhost), you will also need to re-install SuperSU afterwards. - OK, done. You can now restart system and boot into Android OS._
+
+RRP:<br>
+The installation of the ZIPs was a bit unfamiliar to me when I started, so I'll explain it in a bit more detail. In your terminal, change directories until you're where your ZIP files are located. These ZIP files are outlined in the first two paragraphs of this section.
+
+To transfer the files, run the following command for each ZIP:
+> adb push {insert-filename-here}.zip /sdcard/TWRP
+
+Now, all of the files should be located on the tablet in the /sdcard/TWRP/ directory. On the tablet, select the Install Package button and navigate to the directory. Starting with the two ZIPs from Timur's kernel, select the file and install one at a time. These ZIPs failed the checksum of the installation when I tried, so unchecking that option before installing seems to work. After Timur's ZIPs, repeat with SuperSU.
+
+Afterwards, in order to allow the Nexus to boot automatically when powered (say the battery dies after sitting in an idle vehicle for a few months), run the following command:
+> fastboot oem off-mode-charge 0
+
+This can be done at anytime as long as the Nexus is in Recovery Mode.
+
+### Post installation
+
+Now that the core OS is in place, a few small features can be implemented for seamless use of the device.
+
+Timur's instructions:<br>
+- _On first boot after installation: Do not immediately open PowerEventMgr. Instead, let the system rest in Launcher for a minute. You should see a SuperSU permission dialog show up for PowerEventMgr (PEM). Grant root access to PowerEventMgr. You can now open PowerEventMgr and, for instance, enable FI-mode and fast charging._
+
+- _VCam2 app will be installed (or updated) when you launch PowerEventMgr and click the "Launch VCam [Exec]" button. If you intend to use VCam2, you should click this button once, every time you have installed or upgraded the kernel (usbhost installer) via recovery system. Launching VCam2 for the first time will bring up a SuperSU permission dialog. It is necessary to grant VCam2 root permissions._
+
+- _It is also possible to install VCam2 manually, by opening VCam2.apk from the /sdcard/ folder (say, using a file manager app). Once VCam2 has been installed (or updated), the file /sdcard/VCam2.apk can be deleted._
+
+- _It is suggested you disable SuperSU toast messages for PowerEventMgr and VCam2. To do so, open SuperSU app, select PowerEventMgr and change the Notifications setting from "Global defaults" to "Disabled". Hit the check mark to store the modified settings. Now do the same for vcam2. And hit the check mark again to store the modified settings._
+
+- _You need to disable Android OTA updates. If you allow an Android OTA to update your system, the kernel, the custom recovery and SuperSU will be removed. Do this: Long press the notification (i-icon) and block, then disable it in app settings. More:_
+  [https://www.reddit.com/r/timurskernel/comments/4appwx/anyone_know_how_to_remove_the_android_update_is](https://www.reddit.com/r/timurskernel/comments/4appwx/anyone_know_how_to_remove_the_android_update_is)
+
+- _In order to use PowerEventMgr (PEM) Wakeup-screen, the Android lock-screen must be disabled (see: Security)._
+
+- _You probably want to enable: Settings / Developer options / Stay awake (Screen will never sleep while charging)._
+
+- _You can view the kernel identification string under: Settings / About. It should now say "USBhost..."._
+
+- _You can view the version info and build number at the bottom of the PEM activity._
+
+- _If your system works well, re-boot into TWRP recovery mode and create a new full backup to a USB flash drive (connected via OTG cable)._
+
+- _Keep all of your installer files, including the correct variants of TWRP and SuperSU, in a save place._
+
+RRP:
+Now that everything is set, go ahead and install your desired Android apps and customize your system as desired. My preferred applications are outlined in the "Software Modules" section before the build guide begins.
+
+### Hardware installation
