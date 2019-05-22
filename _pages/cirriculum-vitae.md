@@ -37,7 +37,7 @@ intro:
 <div id="expand-box">
 <div id="expand-box-header">
   <span style="float: left;"><b>Research Associate</b></span>
-  <span style="float: right;">Jul. 2017 - <i>present</i></span>
+  <span style="float: right;">Jun. 2017 - <i>present</i></span>
   <font size = "4">
   <br>
   Bioengineering Team
@@ -91,7 +91,21 @@ intro:
 </div>
 
 ## TEACHING EXPERIENCE:
-
+<div id="expand-box">
+<div id="expand-box-header">
+  <span style="float: left;"><b>Fab in Lab, UCSF</b></span>
+  <span style="float: right;">Spring 2019</span>
+  <font size = "4">
+  <br>
+  Instructors: Joseph DeRisi and Wallace Marshall
+  <br>
+  Teaching Staff: Rafael Gomez-Sjoberg, Eric Lam, Paul Lebel, Kevin Yamuchi, Joanna Cabrera, <u>Robert Puccinelli</u>
+  <br>
+  BP 219
+  </font>
+</div>
+</div>
+<br>
 <div id="expand-box">
 <div id="expand-box-header">
   <span style="float: left;"><b>Microfluidic Device Design Laboratory, Stanford</b></span>
@@ -253,13 +267,13 @@ of Derived Cardiomyocytes
 <br>
 <br>
 <br>
-<br>
 ## INTERESTS:
 
 * Biological-Microelectrocmechanical Systems
 * Biomedical Microfluidics
 * Biosensor Engineering and Development
-* Field-Effect Transistors
+* In-field Data Transmission
+* Embedded Systems
 * Instrumentation Programming and Control
 * Mechatronics
 * Optical Instrumentation
