@@ -43,7 +43,7 @@ printerupgrades:
 
 ## Introduction
 
-Everyone at SCI-Arc has a Prusa. They are easy to use and they usually don't have bad prints. That being said, I bet Huan that we could get prints that are just as good as a Prusa with a printer that costs significantly less. After living with the printer for a year we are both incredibly happy with our decision and want to share our experience to help you understand that **there are other quality printers out there**. I am personally making this recommendation even after working with more expensive 3D printers on a daily basis (including Ultimakers, FormLabs, and Stratasys systems). Huan and I both satisfied with the **Ender 3 Pro** as an entry level printer and wouldn't hesitate to get it again if we had a choice.
+Everyone at SCI-Arc has a Prusa. They are easy to use and they usually don't have bad prints. That being said, I bet Huan that we could get prints that are just as good as a Prusa with a printer that costs significantly less. After living with the printer for a year we are both incredibly happy with our decision and want to share our experience to help you understand that **there are other quality printers out there**. I am personally making this recommendation even after working with more expensive 3D printers on a daily basis (including Ultimakers, FormLabs, and Stratasys systems). Huan and I are both satisfied with the **Ender 3 Pro** as an entry level printer and wouldn't hesitate to get it again if we had a choice.
 
 {% include figure image_path="/assets/images/posts/190903_StockEnder3Pro.jpg" caption="The Ender 3 Pro" %} {: .align-center .text-center .width-75 }
 <small>
@@ -73,7 +73,9 @@ However, a known issue with the Ender 3 printers is that some of them have a bow
 
 {% include figure image_path="/assets/images/posts/190903_UnevenBed.jpg" caption="Build plate was warped when received from the factory. Solved with glass." %} {: .align-center .text-center .width-75 }
 
-The Ender 3 Pro came with a pair of snips to trim support, but it can be difficult to remove support that is deeper in the part. To remove those supports, we purchased **angled pliers**. It is generally a good practice to keep the nozzle clean so that plastic doesn't stick to it and drag around your print, we purchased a set of brass brushes. Also, we wanted to try some special filaments like wood. These filaments can be tricky because they can clog a nozzle. Rather than risk tossing out a good but clogged nozzle, we purchased a **nozzle cleaning kit**. 0.4mm piano wire is usually good enough to do the job. We haven't had a clog yet, so this was probably not necessary.
+The Ender 3 Pro came with a pair of snips to trim support, but it can be difficult to remove support that is deeper in the part. To remove those supports, we purchased **angled pliers**.
+
+It is generally a good practice to keep the nozzle clean so that plastic doesn't stick to it and drag around your print, we purchased a set of brass brushes. Also, we wanted to try some special filaments like wood. These filaments can be tricky because they can clog a nozzle. Rather than risk tossing out a good but clogged nozzle, we purchased a **nozzle cleaning kit**. 0.4mm piano wire is usually good enough to do the job. We haven't had a clog yet, so this was probably not necessary.
 
 Once the printer was set up and we learned what settings are best for our printer, Huan and I ended up with some really clean and smooth prints! The key to good prints are to have a good frame, use good plastics and use appropriate slicer settings.
 
