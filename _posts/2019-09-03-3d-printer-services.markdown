@@ -8,7 +8,7 @@ comments: true
 
 printphotoshoot:
   - image_path: /assets/images/posts/190903_PrintPhotoshoot1.jpg
-    excerpt: "3D Printed Model, View 1"
+    excerpt: "3D Printed Model, ~150mmx150mm"
     url: "/assets/images/posts/190903_PrintPhotoshoot1.jpg"
   - image_path: /assets/images/posts/190903_PrintPhotoshoot2.jpg
     excerpt: "3D Printed Model, View 2"
