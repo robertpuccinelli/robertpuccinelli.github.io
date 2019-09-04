@@ -23,3 +23,10 @@ Briefly, I found the following resources to be useful for embedded hardware deve
 **[GDB Cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)** Tidy collection of GDB commands.
 
 **[GDB Tutorial for C](https://www.techbeamers.com/how-to-use-gdb-top-debugging-tips/)** Compiler optimizations for debugging and more.
+
+### Firmware
+**[Modern USB Gadgets on Linux, Part 1]**(https://www.collabora.com/news-and-blog/blog/2019/02/18/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-(part-1)/) Make and integrate USB gadgets.
+
+**[Modern USB Gadgets on Linux, Part 2]**(https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-part-2/) Make and integrate USB gadgets.
+
+**[Testing V4L2 Drivers]**(https://www.collabora.com/news-and-blog/blog/2019/05/23/testing-video4linux2-drivers-like-a-boss/) 
