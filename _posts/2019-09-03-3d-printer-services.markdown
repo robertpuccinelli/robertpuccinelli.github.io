@@ -117,7 +117,7 @@ The **BLTouch** has been amazing because it means that we no longer need to spen
 
 ## Services
 
-If you're interested in a service, please send an email to the address underneath my picture on the side. My phone number is also listed on the flier posted around SCI-Arc. If you're interested in an upgrade that isn't listed here, please reach out!
+If you're interested in a service, please send an email to the address underneath my picture on the side or to robert (at) puccilabs.com . My phone number is also listed on the flier posted around SCI-Arc. If you're interested in an upgrade that isn't listed here, please reach out!
 
 ### Beginner
   * Assemble printer - $75
