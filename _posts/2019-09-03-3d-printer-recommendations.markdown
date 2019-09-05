@@ -40,6 +40,9 @@ printerupgrades:
 
 {% include toc icon="reorder" title="Table of Contents" %}
 
+## Example Prints
+
+{% include feature_row id="printphotoshoot" %}
 
 ## Introduction
 
@@ -77,9 +80,7 @@ The Ender 3 Pro came with a pair of snips to trim support, but it can be difficu
 
 It is generally a good practice to keep the nozzle clean so that plastic doesn't stick to it and drag around your print, we purchased a set of brass brushes. Also, we wanted to try some special filaments like wood. These filaments can be tricky because they can clog a nozzle. Rather than risk tossing out a good but clogged nozzle, we purchased a **nozzle cleaning kit**. 0.4mm piano wire is usually good enough to do the job. We haven't had a clog yet, so this was probably not necessary.
 
-Once the printer was set up and we learned what settings are best for our printer, Huan and I ended up with some really clean and smooth prints! The key to good prints are to have a good frame, use good plastics and use appropriate slicer settings.
-
-{% include feature_row id="printphotoshoot" %}
+Once the printer was set up and we learned what settings and plastics work well with our printer, Huan and I ended up with some really clean and smooth prints! The key to good prints are to have a good frame, use good plastics and use appropriate slicer settings.
 
 ### Helping you get started
 
@@ -93,9 +94,10 @@ Services that may be of interest to you include:
   * Walk you through how to generate G-code and what settings work well for the Ender 3
   * Teach how to correctly level a bed and setup a print
   * Teach how to fix problems you might run into when printing
-  * Discuss different types of filaments
+  * Discuss different types of filaments and how to find the right profile for your material
   * Discuss simple upgrades that you can make to your system now
-* **Upgrading your firmware** to give you safety features such as thermal runaway protection and allow you to add upgrades
+* **Upgrading your firmware and tuning the system** to give you safety features such as thermal runaway protection and allow you to add upgrades on your own. Tuning
+* **Install silent mainboard** to quiet down the motors and upgrade the firmware.
 
 If you are interested, visit the <a href="#services">Services</a> section down below.
 
@@ -121,10 +123,11 @@ The **BLTouch** has been amazing because it means that we no longer need to spen
 
 If you're interested in a service, please send an email to the address underneath my picture on the side or to robert (at) puccilabs.com . My phone number is also listed on the flier posted around SCI-Arc. If you're interested in an upgrade that isn't listed here, please reach out!
 
-### Beginner
+### Getting Started
   * Assemble printer - $75
-  * 3D Printing Bootcamp - $50
-  * Upgrade firmware - $30
+  * 3D Printing Bootcamp - $30
+  * Upgrade firmware and tune system - $30
+  * Install silent mainboard (upgrades firmware) - $65
 
 ### Printer Upgrades
 <small> FIRMWARE UPGRADE REQUIRED </small>
