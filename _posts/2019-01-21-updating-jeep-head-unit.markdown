@@ -185,7 +185,7 @@ The build guide is quite extensive - we'll cover the software aspect first befor
 ### Installation of Android Tools
 
 Before your system can push software from your computer to the Nexus, some development tools have to be installed on your computer. ADB allows debugging of Android over USB and fastboot allows you to unlock the bootloader and push custom software onto the unit. Either Google search how to install those tools or run the following on OSX:
->brew cask install adb
+>brew cask install android-platform-tools
 
 Timur's instructions:<br>
 _Now enable the "USB debugging" feature on your Android device. In order to do so, open Settings and then open "Developer options"._
@@ -227,7 +227,7 @@ Download the following files:
 
 The factory image, TWRP recovery tool and Timur's kernel will be dependent on the platform you have. The 2013 Nexus with WiFi will use the Flo variants of the files and the LTE version will use the Debian variants of the files. The following will be written specifically for the flo installation.
 
-Unzip Timur's kernel. Inside the ZIP are two folders of interest - "timur-kernel-n7-2013-v4.0-final.zip" and "timur-pem-update-v4-b107-2017-01-06.zip". Both of those will be uploaded to the Nexus 7 in their ZIP format. These files will be installed onto the Nexus first before the SuperSU zip is installed.
+Unzip Timur's kernel. Inside the ZIP are two folders of interest - "timur-kernel-n7-2013-v4.0-final.zip" and "timur-pem-update-v4-b107-2017-01-06.zip". Unzip the kernel directory to access the USB host and services ZIPs. Both of those and the pem-update will be uploaded to the Nexus 7 in their ZIP format. These files will be installed onto the Nexus first before the SuperSU zip is installed.
 
 Returning to Timur's instructions:<br>
 _Here I describe how you can upgrade your tablet to Android 6.0.1 MOB30X, install Timur's Kernel v4.0 as well as root, without losing any apps or settings - and do so in under 20 minutes. To do this, your tablet bootloader needs to be unlocked once. If you already have a rooted Android 6.0.1 MOB30X with TWRP installed on your tablet, the kernel installation can be done in just a few minutes. In this case, reboot into TWRP and continue with step 4._
@@ -244,14 +244,14 @@ RRP:<br>
 The installation of the ZIPs was a bit unfamiliar to me when I started, so I'll explain it in a bit more detail. In your terminal, change directories until you're where your ZIP files are located. These ZIP files are outlined in the first two paragraphs of this section.
 
 To transfer the files, run the following command for each ZIP:
-> adb push {insert-filename-here}.zip /sdcard/TWRP
+> adb push {insert-filename-here}.zip /sdcard/
 
-Now, all of the files should be located on the tablet in the /sdcard/TWRP/ directory. On the tablet, select the Install Package button and navigate to the directory. Starting with the two ZIPs from Timur's kernel, select the file and install one at a time. These ZIPs failed the checksum of the installation when I tried, so unchecking that option before installing seems to work. After Timur's ZIPs, repeat with SuperSU.
+Now, all of the files should be located on the tablet in the /sdcard/ directory. On the tablet, select the Install Package button and navigate to the directory. Starting with the two ZIPs from Timur's kernel, select the file and install one at a time. These ZIPs failed the checksum of the installation when I tried, so unchecking that option before installing seems to work. After Timur's ZIPs, repeat with SuperSU.
 
 Afterwards, in order to allow the Nexus to boot automatically when powered (say the battery dies after sitting in an idle vehicle for a few months), run the following command:
 > fastboot oem off-mode-charge 0
 
-This can be done at anytime as long as the Nexus is in Recovery Mode.
+This can be done at anytime as long as the Nexus is in the fastboot menu.
 
 ### Post installation
 

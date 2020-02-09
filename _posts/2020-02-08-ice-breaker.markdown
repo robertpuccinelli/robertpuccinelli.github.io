@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Toastmasters: Ice Breaker (0)"
+title:  "Toastmasters: (0) Ice Breaker"
 excerpt: "First formal speech."
 category: toastmasters
 tags: [speech]
@@ -8,7 +8,7 @@ comments: true
 
 ---
 ## Overview
-One's first speech at Toastmasters is a sub-5 minute ice breaker that is used to introduce yourself to the club. The speech presented here describes what happens to my mind when it is struck with social anxiety and how it impacts my interaction with others. The speech is formatted to indicate short and long pauses, which I decided to apply after reading a few chapters of "Speak Like Churchill, Stand Like Lincoln".
+One's first speech at Toastmasters is a ~5 minute ice breaker that is used to introduce yourself to the club. The speech presented here describes what happens to my mind when it is struck with social anxiety and how it impacts my interaction with others. The speech is formatted to indicate short and long pauses, which I decided to apply after reading a few chapters of "Speak Like Churchill, Stand Like Lincoln".
 
 ## Speech
 ```
@@ -75,12 +75,14 @@ and I appreciate the opportunity to improve myself.
 - "Best Speech" vote: Under time / not qualified
 
 ## Feedback
+### Speech Evaluator
 * Authenticity appreciated
 * Speech ended abruptly when audience was looking forward to hearing more
 * Work on adding more content
 * Never leave the lectern empty without handing it off to the next speaker
 * Talk to the evaluator ahead of time so they know what to focus on evaluating
 
+### Written Notes
 > "Dear Robert, I was deeply touched by your speech. Thanks for sharing your stories with us. Public speech and communication are difficult, but we're all here to help you and progress ourselves."
 
 > "Robert -Everyone related to your speech. -Great job taking your time in the beginning. -I noticed you have a consistent rhythm w/ pauses. Maybe vary it a little."

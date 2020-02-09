@@ -18,9 +18,9 @@ feature_row:
     excerpt: "Spending time outside is something I've always done. Here's an opportunity to share some of it with you."
     url: "/outdoors/"
   - image_path: /assets/images/jeep/JeepMaintenance2.jpg
-    title: "Off-Roading"
-    excerpt: "Given the amount of time and money that has gone into maintaining the '01 TJ, it deserved its own page."
-    url: "/jeep/"
+    title: "Post Categories"
+    excerpt: "Stray thoughts and postings organized by category rather than recency."
+    url: "/categories/"
 ---
 
 

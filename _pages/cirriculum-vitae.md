@@ -8,7 +8,7 @@ header:
   caption: "Zabriskie Point Sunrise, Death Valley 2017"  
   excerpt: ""
   cta_label: "Download CV"
-  cta_url: "/assets/pdfs/Puccinelli_CV_20170225.pdf"
+  cta_url: "/assets/pdfs/Puccinelli_CV_20191027.pdf"
 intro:
   - excerpt:
 ---
@@ -36,13 +36,13 @@ intro:
 
 <div id="expand-box">
 <div id="expand-box-header">
-  <span style="float: left;"><b>Research Associate</b></span>
+  <span style="float: left;"><b>Research Associate II</b></span>
   <span style="float: right;">Jun. 2017 - <i>present</i></span>
   <font size = "4">
   <br>
-  Bioengineering Team
+  Bioengineering Team - Hardware Development
   <br>
-  Rafael Gomez-Sjoberg, PhD; <i>Chan-Zuckerberg Biohub</i><br><br>
+  Rafael Gómez-Sjöberg, PhD; <i>Chan Zuckerberg Biohub</i><br><br>
   </font>
 </div>
 <div id="expand_box_sub_header"></div>

@@ -2,7 +2,7 @@
 layout: single
 title:  "SCI-Arc 3D Printer Recommendations and Services"
 excerpt: "A set of 3D printer recommendations and upgrades for quality prints."
-category: build
+category: services
 tags: [build, printing]
 comments: true
 
