@@ -105,6 +105,6 @@ and I appreciate the opportunity to improve myself.
 ## Recordings
 Speech:
 
-[![Ice Breaker](https://img.youtube.com/vi/tIX7VP2uLeI/3.jpg)](https://youtu.be/tIX7VP2uLeI?t=325){:target="_blank"}{:width="1000"}
+[![Ice Breaker](https://img.youtube.com/vi/video_id/3.jpg)](){:target="_blank"}
 
 Evaluation:
