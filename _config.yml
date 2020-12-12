@@ -5,6 +5,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -82,7 +83,7 @@ analytics:
 author:
   name             : "Robert R Puccinelli"
   avatar           : "/assets/images/Puccinelli_Headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Raised in Salinas, CA, Robert would find an affinity for the natural world and mankind's ability to engineer systems by exploiting the laws of physics. He can be found building instrumentation at Chan-Zuckerberg Biohub."
+  bio              : "A native Californian who has been lucky to have great mentors in biology, physics, and engineering. He can be found living the life of a UCB-UCSF grad student."
   location         : "Bay Area, CA"
   email            : robert@robertpuccinelli.com
   uri              :
@@ -108,6 +109,28 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+# Site Footer
+footer:
+  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+      # url:
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+      # url:
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+      # url: ""
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/robertpuccinelli"
+#    - label: "Bitbucket"
+#      icon: "fab fa-fw fa-bitbucket"
+      # url:
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 # Reading Files
@@ -180,21 +203,25 @@ paginate: 10 # amount of posts to show
 paginate_path: /thoughts/page:num/
 timezone: America/San_Francisco # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+theme: minimal-mistakes-jekyll
 # Plugins
 gems:
+  - github-pages
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - github-pages
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
+
 
 
 # Archives

@@ -1,10 +1,16 @@
 ---
 title: CV
-layout: archive
+layout: single
 permalink: /curriculum-vitae/
 
-toc: true
-toc_sticky: true
+classes:
+  - wide
+  - text-justify
+
+sidebar:
+  title: "Robert R. Puccinelli"
+  nav: cv_sidebar
+
 author_profile: false
 
 header:
@@ -16,12 +22,12 @@ header:
 
 ---
 
-# Robert R. Puccinelli 
+## Robert R. Puccinelli 
 {: style="text-align: center;"}
 <sup>Refer to downloadable version above for contact information and experience details</sup>
 {: style="text-align: center;"}
 
-### EDUCATION:
+### EDUCATION
 ---
 <div style="float: right;">2020 - <i>present</i></div>
 Ph.D. Bioengineering  
@@ -34,7 +40,7 @@ B.S. Biological Sciences
 
 <br>
 
-### RESEARCH EXPERIENCE:
+### RESEARCH EXPERIENCE
 ---
 
 <div style="float: left;"><b>Research Associate II</b></div> 
@@ -59,7 +65,7 @@ Kara McCloskey, PhD; <i>University of California, Merced</i>
 
 <br>
 
-### TEACHING EXPERIENCE:
+### TEACHING EXPERIENCE
 ---
 
 <div style="float: left;"><b>Fab in Lab, UCSF</b></div> 
@@ -76,7 +82,7 @@ Teaching Staff: Kara Brower, Diego Oyarzun, Adam White, <u>Robert Puccinelli</u>
 
 <br>
 
-### PUBLICATIONS:
+### PUBLICATIONS
 ---
 **[Universal PCR and antibody testing demonstrate little to no transmission of SARS-CoV-2 in a rural community](/assets/pdfs/publications/Puccinelli_Publication_UniversalPCRAndAntibodyTestingDemonstrateLittleToNoTransmissionOfSARS-CoV-2InARuralCommunity.pdf)**  
 Appa A, <u>CLIAHUB Consortium</u>, et al.  
@@ -116,7 +122,7 @@ Cell Systems. 2017 Sep 27; 5(3):230-236.e5. DOI: 10.1016/j.cels.2017.07.006
 
 <br>
 
-### PREPRINTS:
+### PREPRINTS
 ---
 **[Performance characteristics of a rapid SARS-CoV-2 antigen detection assay at a public plaza testing site in San Francisco](/assets/pdfs/publications/Puccinelli_Preprint_PerformanceCharacteristicsOfARapidSARS-CoV-2AntigenDetectionAssayAtAPublicPlazaTestingSiteInSanFrancisco.pdf)**  
 Pilarowski G, <u>The CLIAHUB Consortium</u>, et al.  
@@ -132,7 +138,7 @@ medRxiv. 2020 May 30. DOI: 10.1101/2020.05.29.20116426
 
 <br>
 
-### POSTER PRESENTATIONS:
+### POSTER PRESENTATIONS
 ---
 
 **Influence of Flanking Sequences in Transcription Factor - DNA Binding**  
@@ -158,7 +164,7 @@ Sixth Annual Summer Research Symposium, UC Merced 2012
 
 <br>
 
-### AWARDS/HONORS:
+### AWARDS/HONORS
 ---
 <div style="float: right;">2014</div>
 Graduation with Honors, <i>University of California, Merced</i>  
@@ -171,7 +177,7 @@ Eagle Scout, <i>Boy Scouts of America</i>
 
 <br>
 
-### INTERESTS:
+### INTERESTS
 ---
 
 * Pathogen Detection and Identification
