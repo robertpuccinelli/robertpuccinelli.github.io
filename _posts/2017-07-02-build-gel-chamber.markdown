@@ -27,7 +27,6 @@ gels:
 ---
 
 **PURPOSE:**  
-<br>
 Provide a DIY alternative to expensive commercial gel imaging solutions. Benefits include exposing operators to fewer hazardous materials, reducing equipment cost and possibly improving image quality. It was initially designed for the Fordyce lab at Stanford in Dec 2014 and was further modified in July 2017 to improve the design of the door.
 {: .notice--info}
 
