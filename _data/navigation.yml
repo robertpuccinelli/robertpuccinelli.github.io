@@ -11,20 +11,20 @@ main:
   - title: "Thoughts"
     url: /thoughts/
 
-cv_sidebar:
-    - title: "EDUCATION"
-      url: /curriculum-vitae/#education
-    - title: "RESEARCH EXPERIENCE"
-      url: /curriculum-vitae/#research-experience
-    - title: "TEACHING EXPERIENCE"
-      url: /curriculum-vitae/#teaching-experience
-    - title: "PUBLICATIONS"
-      url: /curriculum-vitae/#publications
-    - title: "PREPRINTS"
-      url: /curriculum-vitae/#preprints
-    - title: "POSTER PRESENTATIONS"
-      url: /curriculum-vitae/#poster-presentations
-    - title: "AWARDS/HONORS"
-      url: /curriculum-vitae/#awardshonors
-    - title: "INTERESTS"
-      url: /curriculum-vitae/#interests
+#cv_sidebar:
+#    - title: "EDUCATION"
+#      url: /curriculum-vitae/#education
+#    - title: "RESEARCH EXPERIENCE"
+#      url: /curriculum-vitae/#research-experience
+#    - title: "TEACHING EXPERIENCE"
+#      url: /curriculum-vitae/#teaching-experience
+#    - title: "PUBLICATIONS"
+#      url: /curriculum-vitae/#publications
+#    - title: "PREPRINTS"
+#      url: /curriculum-vitae/#preprints
+#    - title: "POSTER PRESENTATIONS"
+#      url: /curriculum-vitae/#poster-presentations
+#    - title: "AWARDS/HONORS"
+#      url: /curriculum-vitae/#awardshonors
+#    - title: "INTERESTS"
+#      url: /curriculum-vitae/#interests
