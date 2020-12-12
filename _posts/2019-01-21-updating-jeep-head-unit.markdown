@@ -6,6 +6,9 @@ category: build
 tags: [build, jeep, electronics]
 comments: true
 
+toc: true
+toc_sticky: true
+
 introduction:
   - image_path: /assets/images/posts/170704_CapturedDNA.PNG
     url: "/assets/images/posts/170704_CapturedDNA.PNG"
@@ -56,17 +59,16 @@ CAD:
     excerpt: Delrin block.
     url: "/assets/images/posts/170704_Arrayer_DelrinBlock.png"
 ---
-{% capture notice-text %}
-**PURPOSE:** Provide a DIY alternative to expensive commercial head units. The following in-depth guide is designed to allow anyone to rebuild their system in the event of a break-in or upgrade their system at their own discretion. I would like to thank my insurance company, AAA, for supporting this rebuild by allowing me to cash settle to repair/replace my system after it was damaged by theft. Overall benefits of this system include:
-1. breaking the system down into individual modules that are less expensive to replace in the event of theft,
-2. modernizing technologically outdated systems,
-3. allowing virtually unparalleled customizability of an infotainment system.
-{% endcapture %}
-<div class="notice--info">
-  {{ notice-text | markdownify }}
-</div>
 
-{% include toc icon="reorder" title="Table of Contents" %}
+**PURPOSE:**  
+<br>
+Provide a DIY alternative to expensive commercial head units. The following in-depth guide is designed to allow anyone to rebuild their system in the event of a break-in or upgrade their system at their own discretion. I would like to thank my insurance company, AAA, for supporting this rebuild by allowing me to cash settle to repair/replace my system after it was damaged by theft. Overall benefits of this system include:  
+<br>
+  **A.** breaking the system down into individual modules that are less expensive to replace in the event of theft,  
+  **B.** modernizing technologically outdated systems,  
+  **C.** allowing virtually unparalleled customizability of an infotainment system.  
+{: .notice--info}
+
 
 ## Introduction
 

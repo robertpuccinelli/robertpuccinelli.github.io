@@ -7,28 +7,28 @@ tags: [build, imaging]
 comments: true
 
 toc: true
+toc_sticky: true
 
 box:
-  - image_path: /assets/images/posts/170702_GelBox_Solid.png
-    excerpt: "External view."
-    url: "/assets/images/posts/170702_GelBox_Solid.png"
   - image_path: /assets/images/posts/170702_GelBox_Xray.png
-    excerpt: "X-ray view."
+    title: "Gel box X-ray view."
     url: "/assets/images/posts/170702_GelBox_Xray.png"
   - image_path: /assets/images/posts/170702_GelChamber.jpg
-    excerpt: "Original design."
+    title: "Gel box prototype."
     url: "/assets/images/posts/170702_GelChamber.jpg"
 
 gels:
   - image_path: /assets/images/posts/170702_SampleGel1.jpg
-    excerpt: "Zoomed gel view. (Compressed image)"
+    title: "Zoomed gel view. (Compressed image)"
     url: "/assets/images/posts/170702_SampleGel1.jpg"
   - image_path: /assets/images/posts/170702_SampleGel2.jpg
-    excerpt: "Large field-of-view. (Compressed Image)"
+    title: "Large field-of-view. (Compressed Image)"
     url: "/assets/images/posts/170702_SampleGel2.jpg"
 ---
 
-**PURPOSE:** Provide a DIY alternative to expensive commercial gel imaging solutions. Benefits include exposing operators to fewer hazardous materials, reducing equipment cost and possibly improving image quality. It was initially designed for the Fordyce lab at Stanford in Dec 2014 and was further modified in July 2017 to improve the design of the door.
+**PURPOSE:**  
+<br>
+Provide a DIY alternative to expensive commercial gel imaging solutions. Benefits include exposing operators to fewer hazardous materials, reducing equipment cost and possibly improving image quality. It was initially designed for the Fordyce lab at Stanford in Dec 2014 and was further modified in July 2017 to improve the design of the door.
 {: .notice--info}
 
 ## Introduction
@@ -37,7 +37,7 @@ Traditional DNA gel staining and imaging often includes staining the DNA with et
 
 ## Gel Chamber
 
-{% include feature_row id="box" %}
+{% include gallery id="box" caption="Gel box design." %}
 
 The imaging chamber itself is assembled with 0.5" acrylic panels held together internally by brackets and is designed to mount a low end Canon DSLR above a Clare Chemical DR89 blue LED transilluminator. The Canon DSLR was chosen due to its ability to be externally viewed and triggered by either either a workbench computer or the operator's laptop. The transilluminator does not necessarily need to be from Clare Chemical, but the system was initially chosen due to its large 25 x 22 cm viewing surface and decent quality. The port on the right panel was designed to be compatible with the power cord for this transilluminator. You can modify this as needed.
 
@@ -76,7 +76,7 @@ Benefits for using a DSLR include:
 * The 12+ megapixel camera often has a higher resolution than most commercial gel imaging stations.
 * The zoom lens can be adjusted for close up images of gel bands or left zoomed out to capture large field-of-view images with an exposure of approximately one second.
 
-{% include feature_row id="gels" %}
+{% include gallery id="gels" caption="The gel box allows for small or large field of views" style="text-align: center;" %}
 
 ## Parts List and Files
 

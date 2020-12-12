@@ -7,6 +7,7 @@ tags: [build, electronics]
 comments: true
 
 toc: true
+toc_sticky: true
 
 introduction:
   - image_path: /assets/images/posts/170704_CapturedDNA.PNG
@@ -73,7 +74,9 @@ CAD:
 
 {% include figure image_path="/assets/images/posts/170704_CapturedDNA.png" caption="Small protein spots capture various fluorescent DNA sequences from a solubilized microarray." %} {: .align-center .width-75}
 
-**PURPOSE:** Provide a DIY alternative to expensive commercial microarray solutions. Benefits of this system include high-throughput spotting and microarray customizability. It was initially built and documented by Joe DeRisi and team back in the late 90's. One of these machines was assembled for the Fordyce lab at Stanford in 2016 and is documented here for others.
+**PURPOSE:**  
+<br>
+Provide a DIY alternative to expensive commercial microarray solutions. Benefits of this system include high-throughput spotting and microarray customizability. It was initially built and documented by Joe DeRisi and team back in the late 90's. One of these machines was assembled for the Fordyce lab at Stanford in 2016 and is documented here for others.
 {: .notice--info}
 
 
