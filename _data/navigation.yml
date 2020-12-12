@@ -13,11 +13,11 @@ main:
 
 cv_sidebar:
     - title: "EDUCATION"
-#      url: /curriculum-vitae/#education
+      url: "/curriculum-vitae/#education"
     - title: "RESEARCH EXPERIENCE"
-#      url: /curriculum-vitae/#research-experience
+      url: #research-experience
     - title: "TEACHING EXPERIENCE"
-#      url: /curriculum-vitae/#teaching-experience
+#      url: #teaching-experience
     - title: "PUBLICATIONS"
 #      url: /curriculum-vitae/#publications
     - title: "PREPRINTS"
