@@ -1,5 +1,0 @@
-Jeep:
-  name             : "Jeep Wrangler Sport, 2001"
-  avatar           : "/assets/images/jeep/JeepHeadshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Born to be free, the Jeep can navigate nearly all terrains. Unfortunately, the previous owner abused this poor machine and now it needs notable repairs."
-  location         : "Bay Area, CA"

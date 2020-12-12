@@ -1,0 +1,1164 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Build Your Own: Microarray Printer - Robert Puccinelli</title>
+<meta name="description" content="A DIY alternative to commercial microarray solutions to reduce equipment costs and enhance throughput. Based on the DeRisi style microarrayer.">
+
+
+  <meta name="author" content="Robert R Puccinelli">
+  
+  <meta property="article:author" content="Robert R Puccinelli">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Robert Puccinelli">
+<meta property="og:title" content="Build Your Own: Microarray Printer">
+<meta property="og:url" content="https://robertpuccinelli.com/build/2017/07/04/build-microarrayer.html">
+
+
+  <meta property="og:description" content="A DIY alternative to commercial microarray solutions to reduce equipment costs and enhance throughput. Based on the DeRisi style microarrayer.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2017-07-04T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://robertpuccinelli.com/build/2017/07/04/build-microarrayer.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Robert Puccinelli",
+      "url": "https://robertpuccinelli.com/",
+      "sameAs": ["https://www.linkedin.com/in/robert-puccinelli","https://github.com/robertpuccinelli"]
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="s07hoQkOq7GBG3TKu2b_jOIbY-g9_-ppJSFA0qexPoA" />
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Robert Puccinelli Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Robert Puccinelli
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/curriculum-vitae/">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/thoughts/">Thoughts</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/Puccinelli_Headshot.jpg" alt="Robert R Puccinelli" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Robert R Puccinelli</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>A native Californian who has been lucky to have great mentors in biology, physics, and engineering. He can be found living the life of a UCB-UCSF grad student.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Bay Area, CA</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:robert@robertpuccinelli.com">
+            <meta itemprop="email" content="robert@robertpuccinelli.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/robert-puccinelli" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/robertpuccinelli" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Build Your Own: Microarray Printer">
+    <meta itemprop="description" content="A DIY alternative to commercial microarray solutions to reduce equipment costs and enhance throughput. Based on the DeRisi style microarrayer.">
+    <meta itemprop="datePublished" content="2017-07-04T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Build Your Own: Microarray Printer
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#introduction">Introduction</a>
+    <ul>
+      <li><a href="#short-demo-video">Short Demo Video</a></li>
+    </ul>
+  </li>
+  <li><a href="#microarrayer-assembly">Microarrayer Assembly</a></li>
+  <li><a href="#microarrayer-software">Microarrayer Software</a></li>
+  <li><a href="#parts-list-and-files">Parts List and Files</a>
+    <ul>
+      <li><a href="#guides">Guides</a></li>
+      <li><a href="#software">Software</a></li>
+      <li><a href="#arrayer-cad-files">Arrayer CAD Files</a></li>
+      <li><a href="#arrayer-cad-notes">Arrayer CAD Notes</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <figure class="align-center width-75">
+  <img src="/assets/images/posts/170704_CapturedDNA.png" alt="" /><figcaption>
+      Small protein spots capture various fluorescent DNA sequences from a solubilized microarray.
+
+    </figcaption></figure>
+
+<p class="notice--info"><strong>PURPOSE:</strong><br />
+<br />
+Provide a DIY alternative to expensive commercial microarray solutions. Benefits of this system include high-throughput spotting and microarray customizability. It was initially built and documented by Joe DeRisi and team back in the late 90’s. One of these machines was assembled for the Fordyce lab at Stanford in 2016 and is documented here for others.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>As per Wikipedia:</p>
+
+<blockquote>
+  <p>A microarray is a multiplex lab-on-a-chip. It is a 2D array on a solid substrate (usually a glass slide or silicon thin-film cell) that assays large amounts of biological material using high-throughput screening miniaturized, multiplexed and parallel processing and detection methods.</p>
+</blockquote>
+
+<p>In essence, if you want to do a high-throughput study with proteins, DNA, or other molecules, there’s a possibility that a microarray could fit your needs. In my opinion, the most significant advantage of using microarrays is being able to correlate a spatial signal to a known agent. It should also be noted that microarrays have been slowly phased out over the years due to advances in other technologies, but they still hold niche roles in science and medicine.</p>
+
+<p>The microarray golden era was somewhat before my time, so I don’t know many details of how it rose and fell. From what I understand though, microarrays and microarrayers were solely a commercial product that were sold at somewhat exorbitant prices with limited customizability in the 90’s. Joe DeRisi worked with a few others in Pat Brown’s lab at Stanford to make an open-source system that could be replicated by other labs at a fraction of the price. They created a manual for assembly and developed software to operate the machine, which several groups used for their own systems. Given that many microarrays were nucleic acid based (ie the ViroChip), the use of these systems declined as alternative technologies such as sequencing and digital PCR became more prominent. For some time, I was fortunate enough to be able to operate Joe’s microarrayer at UCSF before it was disassembled and had the opportunity to construct one of the machines for the Fordyce lab at Stanford. Since most of the assembly material has been written previously, I’ll either be posting the original material, filling in some missing information or providing files that I created to supplement the existing material.</p>
+
+<p>The microarrayer presented here has quite a few advantages and disadvantages that need to be considered before assembling. The greatest disadvantage by far is the sheer size of the machine. It sits on a large vibration-dampening table that’s about 6 feet wide and 4 feet long. In addition to that, it will need to be operated in a humidified environment in order to produce respectable arrays. (This latter constraint is eased by using droplet dispensers.) Traditionally, this environment was either a dedicated microarrayer room or a series of tarps hung from the ceiling. To control humidity, 3 or 4 large humidifiers were run throughout the print to maintain ~65% relative humidity. On the other hand, benefits include the ability to handle any full-skirt 384 plates, ability to handle any pins for spotting arrays, ability to print 30,000 spots on 261 slides in 20 hours, and flexibility in programming the arrays. In terms of throughput and customizability, it’s hard to beat. In terms of required spacing between spots, the limiting factor will be how large the pins spot the glass slide. Once the axes have been warmed up, the linear encoders prove to be very accurate.</p>
+
+<h3 id="short-demo-video">Short Demo Video</h3>
+
+<p>The following video shows the print head printing spots onto 2x3 inch glass slides. In this example, the arrayer:</p>
+
+<ol>
+  <li>Cleans the pins and returns to the source plate for the next set of samples.</li>
+  <li>Draws samples from (4) adjacent wells on a 384 well plate.</li>
+  <li>Prints (4) replicates of the samples on two regions of the glass slide.</li>
+  <li>Advances to the next slide until all slides are arrayed.</li>
+  <li>Returns to the cleaning station.</li>
+</ol>
+
+<iframe width="210" height="150" src="https://www.youtube.com/embed/TOcTtWNRr2k" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="microarrayer-assembly">Microarrayer Assembly</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer1.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>View 1.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer1.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer2.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>View 2.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer2.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer3.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Before slide platter and pin arms.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer3.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_ArrayerPins.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Silicon microarray pins formerly employed by the DeRisi lab.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_ArrayerPins.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_ServoControllers.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Axes are powered and controlled by servo controllers.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_ServoControllers.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<p>For assembling the machine, there are no resources better than the <a href="#MGuide">M-Guide</a>, which was produced and revised by DeRisi’s team. Nearly every detail is covered - such as how to wire all of the axes or build the dust cover to protect the slides during a print. In the early 2000s, the whole build (including parts and tools) cost about $43,000, which was a fraction of the price of other options at the time. Since then, the price for the materials or commercial options have fallen. Maybe it was just luck, but I was able to find a nearly complete DeRisi style microarrayer selling for $4,000 at the time of writing this post.</p>
+
+<p>I won’t go into detail about how to assemble it because it has already been written so well. However, I do want to note that some custom parts that I designed for the calibration arm or printing arm and printing block can be found in the <a href="#CAD">Parts List and Files</a> section below. Not listed there is information on how to make the slide platter. It may be best to contact Joe for that information, but it includes some specialized boring techniques that most machine shops don’t have from what I understand.</p>
+
+<h2 id="microarrayer-software">Microarrayer Software</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Win98.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>A bit outdated.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Win98.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_DeRisiArrayMaker.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Software pulled from cached site.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_DeRisiArrayMaker.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_ArrayMaker.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>ArrayMaker screenshot.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_ArrayMaker.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_DMC18x2.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Galil programming reference.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_DMC18x2.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Gemini.jpg" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Gemini servo reference.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Gemini.jpg" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<p>Unless you happen to have a PC happily running Windows 98, it might be best to not dwell here. Although the DeRisi group did produce software to control the microarrayer, it has aged and it might be best to rewrite a program for yourself. The ArrayMaker software and operating manual was pulled from an archived version of Joe’s website and can be found in the <a href="#software">Parts List and Files</a> section below. This software isn’t the latest version (2.78), but it could still prove to be a useful resource regardless. Possibly, the most important thing to note here is that most of the instructions programmed will either be for the Galil DMC-18x2 motion control card or the Gemini servo controllers. Images of their reference guide are posted above.</p>
+
+<h2 id="parts-list-and-files">Parts List and Files</h2>
+
+<h3 id="guides">Guides</h3>
+
+<p><a href="/assets/pdfs/DeRisi_MGuide.pdf">DeRisi M-Guide</a> <a name="MGuide"></a><br />
+<a href="/assets/pdfs/DeRisi_ArrayerPrinting.pdf">DeRisi Printing Guide</a><br />
+<a href="/assets/pdfs/Puccinelli_ArrayerPrinting.pdf">Puccinelli Printing Guide</a>
+<a name="software"></a></p>
+<h3 id="software">Software</h3>
+
+<p>As mentioned previously, the control software produced by the DeRisi group is out-of-date and is listed here for reference only or if you happen to have a functioning Windows 98 computer.</p>
+
+<p><a href="/assets/software/DeRisi_ArrayMaker_v260.zip">ArrayMaker v2.60</a>
+<a name="CAD"></a></p>
+<h3 id="arrayer-cad-files">Arrayer CAD Files</h3>
+
+<p>Provided here are a series of custom parts that I designed to set up the arrayer at Stanford. These are virtually identical to the parts that were used by the DeRisi lab.</p>
+
+<p><a href="/assets/CAD/170704_ArrayerParts.zip">Download AutoCAD and SolidWorks drawings here!</a></p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_BlockBody_Solid.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Pin block body - solid.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_BlockBody_Solid.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_BlockBody_Xray.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Pin block body - X-ray.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_BlockBody_Xray.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_BlockHead.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Head for block body.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_BlockHead.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_PrintingArm.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Printing arm.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_PrintingArm.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_CalibratorArm.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Calibrator arm.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_CalibratorArm.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_CalibratorMount.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Calibrator mount.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_CalibratorMount.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/posts/170704_Arrayer_DelrinBlock.png" alt="" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Delrin block.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/assets/images/posts/170704_Arrayer_DelrinBlock.png" class="btn ">Learn More</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h3 id="arrayer-cad-notes">Arrayer CAD Notes</h3>
+
+<p>Some things to note that might not be obvious from the design files:</p>
+
+<p><strong>Pin Block Body</strong></p>
+<ul>
+  <li>Will need some 1.5mm dowels press fit in the top and lower inner lip to support the colimiter plates that align the silicon pins.</li>
+  <li>Will need (4) 2.5mm diameter x 5mm length magnets press fit into the bottom to mount the magnetic plate that holds the lower colimiter plate.</li>
+  <li>Will need top (4) holes tapped for M2 to mount the head.</li>
+  <li>Will need back (2) holes tapped for M6 to mount to printing arm.</li>
+</ul>
+
+<p><strong>Pin Block Head</strong></p>
+<ul>
+  <li>Will need a soft and compressible foam cushion that fills the void between the pins and the head. This cushion protects the pins from vibrations and acts as a spring to ensure contact with the glass slide while printing.</li>
+</ul>
+
+<p><strong>Colimiter Plates</strong></p>
+<ul>
+  <li>Will be fairly expensive to machine due to the size of the features and the tight tolerances. These were initially designed to work with the <a href="http://www.parallel-synthesis.com/smt-info.htm">Parallel Synthesis Technologies</a> SMT pins, but may be compatible with others.</li>
+</ul>
+
+<p><strong>Printing Arm</strong></p>
+<ul>
+  <li>Attaches the pin block body to the z-axis.</li>
+</ul>
+
+<p><strong>Calibrator Arm</strong></p>
+<ul>
+  <li>Attaches the calibrating pin and mechanical switch to the z-axis.</li>
+  <li>Will need to be tapped for M2 to attach the calibrator mount.</li>
+</ul>
+
+<p><strong>Calibrator Mount</strong></p>
+<ul>
+  <li>Attaches the mechanical switch to the calibrator arm.</li>
+  <li>Will need to be tapped for M2 to attach the mechanical switch.</li>
+</ul>
+
+<p><strong>Delrin Block</strong></p>
+<ul>
+  <li>Couples the slide platter to the x-axis.</li>
+  <li>Will need to be tapped for M6 for the holes that don’t attach to the x-axis.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#build" class="page__taxonomy-item" rel="tag">build</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#electronics" class="page__taxonomy-item" rel="tag">electronics</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#build" class="page__taxonomy-item" rel="tag">build</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-07-04T00:00:00+00:00">July 4, 2017</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/build/2017/07/02/build-gel-chamber.html" class="pagination--pager" title="Build Your Own: Gel Illumination and Imaging Chamber
+">Previous</a>
+    
+    
+      <a href="/public%20health/2017/07/05/antibiotic-resistance-reporting.html" class="pagination--pager" title="A Modern Antibiotic Resistance Reporting System
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/toastmasters/2020/02/08/ice-breaker.html" rel="permalink">Toastmasters: (0) Ice Breaker
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">First formal speech.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/services/2019/09/03/3d-printer-recommendations.html" rel="permalink">SCI-Arc 3D Printer Recommendations and Services
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">A set of 3D printer recommendations and upgrades for quality prints.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tools/2019/05/21/embedded-resources.html" rel="permalink">Resources for Embedded Development
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">A useful list of resources for hardware development.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/build/2019/01/21/updating-jeep-head-unit.html" rel="permalink">Build Your Own: Automotive Head Unit
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">A DIY alternative to modern commercial infotainment systems in a 2001 Jeep Wrangler (TJ).
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/robertpuccinelli" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Robert Puccinelli. Designed with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    
+  <script>
+    (function ($) {
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit Comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

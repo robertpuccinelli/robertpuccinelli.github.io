@@ -1,0 +1,950 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Build Your Own: Automotive Head Unit - Robert Puccinelli</title>
+<meta name="description" content="A DIY alternative to modern commercial infotainment systems in a 2001 Jeep Wrangler (TJ).">
+
+
+  <meta name="author" content="Robert R Puccinelli">
+  
+  <meta property="article:author" content="Robert R Puccinelli">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Robert Puccinelli">
+<meta property="og:title" content="Build Your Own: Automotive Head Unit">
+<meta property="og:url" content="https://robertpuccinelli.com/build/2019/01/21/updating-jeep-head-unit.html">
+
+
+  <meta property="og:description" content="A DIY alternative to modern commercial infotainment systems in a 2001 Jeep Wrangler (TJ).">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-01-21T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://robertpuccinelli.com/build/2019/01/21/updating-jeep-head-unit.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Robert Puccinelli",
+      "url": "https://robertpuccinelli.com/",
+      "sameAs": ["https://www.linkedin.com/in/robert-puccinelli","https://github.com/robertpuccinelli"]
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="s07hoQkOq7GBG3TKu2b_jOIbY-g9_-ppJSFA0qexPoA" />
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Robert Puccinelli Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Robert Puccinelli
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/curriculum-vitae/">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/thoughts/">Thoughts</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/Puccinelli_Headshot.jpg" alt="Robert R Puccinelli" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Robert R Puccinelli</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>A native Californian who has been lucky to have great mentors in biology, physics, and engineering. He can be found living the life of a UCB-UCSF grad student.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Bay Area, CA</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:robert@robertpuccinelli.com">
+            <meta itemprop="email" content="robert@robertpuccinelli.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/robert-puccinelli" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/robertpuccinelli" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Build Your Own: Automotive Head Unit">
+    <meta itemprop="description" content="A DIY alternative to modern commercial infotainment systems in a 2001 Jeep Wrangler (TJ).">
+    <meta itemprop="datePublished" content="2019-01-21T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Build Your Own: Automotive Head Unit
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#parts-list-and-files">Parts List and Files</a>
+    <ul>
+      <li><a href="#hardware-description-and-rationale">Hardware Description and Rationale</a></li>
+      <li><a href="#hardware-components">Hardware Components</a></li>
+      <li><a href="#software-modules">Software modules</a></li>
+    </ul>
+  </li>
+  <li><a href="#build-guide">Build Guide</a>
+    <ul>
+      <li><a href="#installation-of-android-tools">Installation of Android Tools</a></li>
+      <li><a href="#unlocking-the-bootloader">Unlocking the Bootloader</a></li>
+      <li><a href="#kernel-installation">Kernel installation</a></li>
+      <li><a href="#post-installation">Post installation</a></li>
+      <li><a href="#hardware-installation">Hardware installation</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p class="notice--info"><strong>PURPOSE:</strong><br />
+<br />
+Provide a DIY alternative to expensive commercial head units. The following in-depth guide is designed to allow anyone to rebuild their system in the event of a break-in or upgrade their system at their own discretion. I would like to thank my insurance company, AAA, for supporting this rebuild by allowing me to cash settle to repair/replace my system after it was damaged by theft. Overall benefits of this system include:<br />
+<br />
+  <strong>A.</strong> breaking the system down into individual modules that are less expensive to replace in the event of theft,<br />
+  <strong>B.</strong> modernizing technologically outdated systems,<br />
+  <strong>C.</strong> allowing virtually unparalleled customizability of an infotainment system.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The automotive head unit is the interface for the infotainment system of a vehicle and is often a prime target for theft due to retained aftermarket value. In older vehicles, it was primarily the stereo. In newer vehicles, it has transformed into a multi-functional touch screen interface for audio, navigation, vehicle diagnostics, rearview cameras, and even portals for an Android or Apple phone.</p>
+
+<p>Security features have been implemented in some units that make them not worth stealing such as detachable face plates (stereo rendered inoperable and therefore unsellable) or complex integration with a vehicle (rendering the system useless in a different vehicle). These features, in addition to other technologies such as universal phone pairing, have supposedly resulted in a decline of stereo theft. Obviously, as I can comment firsthand, theft still exists.</p>
+
+<p>If you are in the market for a new head unit, there are plenty of nice (or budget) commercial systems available and there are also DIY options available which can give you a high degree of customizability at a competitive price. If a DIY system interests you, I would recommend that you familiarize yourself with what options are available. What I have written here is a single build and, given that technology is always advancing, it could be obsolete by tomorrow. That being said, this will still be decades better than some stock units. The following guide is written with sufficient detail that anyone with a TJ Wrangler will be able to follow the guide and end with identical results. Owners of different vehicles may require a few modifications.</p>
+
+<p>What we’re building here is a system with many of the conveniences of modern vehicles in a technologically challenged vehicle:</p>
+<ul>
+  <li>Touch screen interface (Nexus 7, 2013)</li>
+  <li>Built-in navigation (Nexus 7, 2013)</li>
+  <li>Android Auto + Apple CarPlay integration (hardware dongle)</li>
+  <li>Stereo integration (Digital-to-analog converter)</li>
+  <li>FM radio (Software defined radio tuner app + hardware receiver)</li>
+  <li>Backup camera (Software app + camera hardware)</li>
+  <li>OBDII Interface (Software app + OBDII module)</li>
+  <li>Microphone</li>
+  <li>Protective cover (Shield the unit from the elements when the top is down and possibly hide the system from potential thieves?)</li>
+</ul>
+
+<p>For those who are fortunate enough to still have their stereos, I hear that beautiful mornings can lead to an ugly evening.</p>
+
+<figure class="half">
+  <a href="/assets/images/posts/190121_Sunrise.jpg"><img src="/assets/images/posts/190121_Sunrise.jpg" /></a>
+  <a href="/assets/images/posts/190121_StolenStereo.jpg"><img src="/assets/images/posts/190121_StolenStereo.jpg" /></a>
+  <figcaption><center>Morning and evening of November 26.</center></figcaption>
+</figure>
+
+<h2 id="parts-list-and-files">Parts List and Files</h2>
+
+<p>This section encompasses everything that is required to build the system to give you an overview of what is involved. After listing the components, each section will examine why certain components were chosen in greater detail. Although software files are listed below, they are largely for my own reference of what was used in the event that I have to rebuild the system. <strong>I strongly encourage others to download files from the original provider</strong> and not from this page. There may be more recent versions available and you can’t be certain that these files haven’t been tampered with. The links to the original provider are listed. Hardware is listed first because the software is largely dependent on the employed hardware.</p>
+
+<h3 id="hardware-description-and-rationale">Hardware Description and Rationale</h3>
+
+<figure class="align-center width-75 text-center">
+  <img src="/assets/images/posts/190121_VehicleInfotainment.png" alt="" /><figcaption>
+      Graphical depiction of implemented infotainment system.
+
+    </figcaption></figure>
+
+<p>We’ll work our way from left to right in the figure above. The star of the show is the Nexus 7, 2013 edition. It is not the most advanced tablet in the market, but the screen has virtually a perfect form factor that matches a double DIN head unit and it has some of the most extensive kernel options available. We’ll be running Timur’s Kernel v4.0 to integrate the tablet into the Jeep as permanent hardware.</p>
+
+<p>To assert the tablet as the host of the system, all connections must be routed through the on-the-go (OTG) adapter. From here, a special Y cable connects to the powered USB hub to provide the tablet with a high amp supply and to route data. This USB hub is powered by a 12V line that is only active when the ignition is on. This allows the tablet and peripherals to enter a deep sleep / off state when there is no auxiliary power - saving your vehicle’s battery when off.</p>
+
+<p>From here, the peripherals are completely user dependent and there is quite a bit of flexibility in options. Not everyone will be interested in having Android Auto / Apple CarPlay, OBDII diagnostics, or a microphone in their vehicle. I did this mainly because I could.</p>
+
+<p>The OBDII unit sits in your vehicle’s OBDII port and can transmit data directly to the Nexus 7 via bluetooth. The OBDII port is still powered when the vehicle is off, so a minor modification will be made to the bluetooth unit to only power it when auxiliary power is available.</p>
+
+<p>The radio receiver connects to the USB hub and is controlled by an app on the tablet. It is quite capable of receiving all FM channels and more; however, it is unable to receive AM broadcasts. The transmission frequency for most AM stations is too low for this unit to detect, but other units (such as a HAM upconverter) should make AM accessible if desired. This receiver employed here connects to a F to SMA adapter, which will allow you to plug the antenna into the unit. I was unable to find a Motorola to SMA adapter, so we’ll have to modify the adapter a bit to make things work.</p>
+
+<p>A few video cards are usable with Android 6.0.1, but I went for what I thought was the simplest. A subset of USB video cards (UVC) should not require any drivers on any system (including Windows 2000). A lot of cheap cards say they are UVC but still require drivers, which defeats the purpose. Try to avoid those ones to make your life easier. The video card is connected to the USB hub and also has its power switched by an automotive 12V relay. Whenever the reverse gear is engaged, the reverse wire is brought to 12V. When this happens, the relay will power the UVC, which will then begin transmitting video data directly to the Nexus 7. Furthermore, the backup camera also taps the 12V line that power the reverse lights, so the camera will be powered simultaneously.</p>
+
+<p>The microphone isn’t anything special. In this case, it’s just a USB mic with an integrated driver. A microphone that plugs into the 3.5mm jack on the tablet might work as well. Alternatively, there are bluetooth microphones that might be a better choice.</p>
+
+<p>The phone dongle is a bit of an experiment. This unit should allow for Android Auto or Apple CarPlay to be retrofitted onto older head units, but no one has done it with a Nexus 7 as far as I’m aware of. This dongle should allow the phone to be directly controlled by tablet. I previously installed QuickCharge 3 USB ports in my Jeep for rapid charging of mobile devices. I currently plan to connect the data pins from one of the ports directly to the phone dongle so that the phone can charge quickly while also supporting connectivity.</p>
+
+<p>Last but not least is the digital to analog converter (DAC). This takes digital audio signals from the Nexus 7 and converts them into an analog signal that is sent to the vehicle’s speakers. Some DACs have been problematic in builds with microphones for unclear reasons. I think some DACs have a microphone input port that change the DAC from being an output device to being an input/output device. The 6.0.1 Android OS might only support one input at a time, so the standalone microphone input might be disabled as long as the I/O DAC is connected. To connect the DAC to the speakers, RCA lines will be installed for the left and right audio channels. The Nexus 7 only has left and right outputs - an amplifier or some other system will be required for additional channels like front and back.</p>
+
+<h3 id="hardware-components">Hardware Components</h3>
+<p class="notice--primary">The Amazon Affiliate links below help fund future Build Your Own projects at no cost to you. If you do not wish to support this work, the model number is provided for your reference.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Model</th>
+      <th>Provider</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Early TJ Double Din Bezel</td>
+      <td>Metra 95-6549 70-1817</td>
+      <td><a href="https://www.ebay.com/itm/JEEP-WRANGLER-TJ-1997-2002-DOUBLE-DIN-DASH-BEZEL-RADIO-STEREO-MOUNTING-KIT/192628453170?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2060353.m2749.l2649">eBay</a></td>
+      <td>$79.98</td>
+    </tr>
+    <tr>
+      <td>Tablet</td>
+      <td>Nexus 7, 2013</td>
+      <td><a href="https://amzn.to/2G2NSuI">Amazon</a></td>
+      <td>$75.02</td>
+    </tr>
+    <tr>
+      <td>Powered USB Hub</td>
+      <td>Kootion H6C22</td>
+      <td><a href="https://amzn.to/2Wmdto8">Amazon</a></td>
+      <td>$19.99</td>
+    </tr>
+    <tr>
+      <td>Phone Link Dongle</td>
+      <td>Carlinkit HW01-01</td>
+      <td><a href="https://amzn.to/2TfegW7">Amazon</a></td>
+      <td>$60.99</td>
+    </tr>
+    <tr>
+      <td>USB DAC</td>
+      <td>Signstek Mini USB DAC</td>
+      <td><a href="https://amzn.to/2MB0ryw">Amazon</a></td>
+      <td>$21.99</td>
+    </tr>
+    <tr>
+      <td>Radio Receiver</td>
+      <td>NooElec NESDR Smart</td>
+      <td><a href="https://amzn.to/2Ue3wYa">Amazon</a></td>
+      <td>$23.95</td>
+    </tr>
+    <tr>
+      <td>USB Video Capture Card</td>
+      <td>EasyCAP FBA_UVC Black</td>
+      <td><a href="https://amzn.to/2G2RmgM">Amazon</a></td>
+      <td>$9.94</td>
+    </tr>
+    <tr>
+      <td>Backup Camera</td>
+      <td>DohonesBest 4350450562</td>
+      <td><a href="https://amzn.to/2FRWk0N">Amazon</a></td>
+      <td>$18.99</td>
+    </tr>
+    <tr>
+      <td>USB Microphone</td>
+      <td>MAONA AU-410</td>
+      <td><a href="https://amzn.to/2sNV5XK">Amazon</a></td>
+      <td>$14.99</td>
+    </tr>
+    <tr>
+      <td>OBDII Reader</td>
+      <td>Panlong PL-B02</td>
+      <td><a href="https://amzn.to/2RWmqGs">Amazon</a></td>
+      <td>$10.98</td>
+    </tr>
+    <tr>
+      <td>USB OTG Adapter</td>
+      <td>Cablecc B01KCBSKSA</td>
+      <td><a href="https://amzn.to/2MEhmAA">Amazon</a></td>
+      <td>$6.30</td>
+    </tr>
+    <tr>
+      <td>USB Y Cable</td>
+      <td>SaiTech B00VV24L7E</td>
+      <td><a href="https://amzn.to/2Wnr26I">Amazon</a></td>
+      <td>$4.99</td>
+    </tr>
+    <tr>
+      <td>SMA Coaxial Adapter</td>
+      <td>DHT AD012</td>
+      <td><a href="https://amzn.to/2TingcT">Amazon</a></td>
+      <td>$5.50</td>
+    </tr>
+    <tr>
+      <td>Antiglare Screen Protector</td>
+      <td>BoxWave bw-862-4841-0</td>
+      <td><a href="https://amzn.to/2sLInZD">Amazon</a></td>
+      <td>$9.95</td>
+    </tr>
+    <tr>
+      <td>RCA Plugs, 1.5ft</td>
+      <td>Monoprice 105346</td>
+      <td><a href="https://amzn.to/2Sb7Utx">Amazon</a></td>
+      <td>$6.64</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Total cost of all hardware for a 2001 TJ installation at the time of the build: <strong>$370.20</strong>. (Note: I already had a Nexus 7. The $300 cost and reuse of old tech helped motivate this project.)</p>
+
+<p>If you already have a vehicle with a double din bezel and aren’t interested in having Android Auto or Apple CarPlay features, you could reduce the cost to $229.23. If you don’t have 12V automotive relays or a method of connecting loose ends of wires, those components will incur a small additional cost.</p>
+
+<h3 id="software-modules">Software modules</h3>
+
+<p>Although there is a high degree of flexibility in hardware, it is greatly outmatched by that of the software. I’ll list a few applications that I believe are essential for my use case and will leave all other remaining preferences to the reader. None of the following modules are required to implement an Android head unit and it may be worth your time to explore other options.</p>
+
+<p><em><strong>Automotive Kernel</strong></em><br />
+First and foremost, I chose to build the head unit off of <a href="https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/">Android 6.0.1 with Timur’s v4.0 kernel</a>. This setup allows the Nexus 7 to charge while also acting as the OTG host for the USB peripherals. It also includes some nice features for an automotive setting such as automatic deep sleep when the ignition is off or automatically launching a backup camera when the reverse gear is engaged. Timur provides instructions on how to install everything, but I will go into a bit more detail in the build guide below because some things were not readily apparent to me. Potential problems and workarounds with this method are listed in the <a href="https://www.reddit.com/r/timurskernel/comments/5elxa7/pitfalls_and_solutions/">Pitfalls and Solutions</a> thread.</p>
+
+<p><em><strong>Blackout Screen</strong></em><br />
+It may be a bit silly to list this function as a second priority, but it is somewhat important to me. Before my previous head unit was stolen, there were many times when I did not need it powered or preferred to keep the cab dark. The tablet is currently set to never sleep when the ignition is on, primarily because the power button is not accessible behind the bezel. Since it never sleeps, the interior is always illuminated. I implemented a gesture control to launch the <a href="https://play.google.com/store/apps/details?id=net.jomyut.blackscreen">BlackScreen</a> app when a specific spot on my tablet is double tapped.</p>
+
+<p><em><strong>Clean Interface</strong></em><br />
+It’s important to me that I have a clean home screen with no bloatware. If I’m driving, I don’t accidentally want to tap the (in my opinion) useless Google Search bar. I also want to maximize the real estate of the screen, so no dock. As you might observe from this website, I prefer minimalistic designs. I found that the <a href="https://play.google.com/store/apps/details?id=is.shortcut">Evie Launcher</a> was perfect for my use case and would highly recommend it. I was able to clear the home screen completely and only have a large clock and essential app shortcuts. Most of the settings in the launcher were disabled by choice.</p>
+
+<p><em><strong>Vehicle Dashboard</strong></em><br />
+I’m not completely settled on the dashboard yet, but I’m currently evaluating <a href="https://play.google.com/store/apps/details?id=is.shortcut">AutoMate</a>. It’s nice because it has separate features on different pages, but transitioning between pages often takes me multiple attempts. Alternatives include <a href="https://play.google.com/store/apps/details?id=com.nezdroid.cardashdroid">Car dashdroid</a> or <a href="https://play.google.com/store/apps/details?id=com.autolauncher.motorcar.free">Car Launcher</a>. The benefits of a system like this is that it can cleanly organize navigation, phone call, media operations, and OBDII readouts. I’ll have a stronger opinion when I get to installing the tablet.</p>
+
+<p><em><strong>Other Modules</strong></em><br />
+Radio Tuner: <a href="https://play.google.com/store/apps/details?id=marto.androsdr2">SDR Touch</a><br />
+OBDII Readout: <a href="https://play.google.com/store/apps/details?id=org.prowl.torquefree">Torque Lite</a><br />
+Gesture Control and Remove Navigation Bar: <a href="https://play.google.com/store/apps/details?id=com.xda.nobar">Navigation Gestures</a><br />
+Pop Up Navigation Bar: <a href="https://play.google.com/store/apps/details?id=com.navigation.bar.customize.soft.keys">Custom Navigation Bar</a><br />
+Backup Camera : VCam2 (Shipped with Timur’s Kernel) <a href="https://forum.xda-developers.com/devdb/project/dl/?id=26261">Alternative</a><br />
+Media Controls on Navigation Bar: <a href="https://www.reddit.com/r/timurskernel/comments/4hdc56/mediavolume_buttons_for_navbar_marshmallow/">cliffeed mod</a><br />
+Phone Dongle App: <a href="http://www.carlinkit.com/autokit.apk">Carlinkit Autokit.apk</a></p>
+
+<p>The following files are listed in the event that the <a href="https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/">files from Timur’s Reddit thread</a> are lost. I would advise you to not download these if the official versions are still available:<br />
+<a href="https://app.box.com/s/pnc461hr9023na6qx3ln1kad31b8owdc">TWRP 3.0.2-0 Debian</a><br />
+<a href="https://app.box.com/s/mfwx5jfm83q8pzv1yvft344p6kc76yp0">Timur Kernel N7 2013 v4.0 Final Flo Debian</a><br />
+<a href="https://app.box.com/s/72vhwf94bd7n8jhxp262v6nuom1tlxvy">SuperSU v2.76</a><br />
+Also required is the factory MOB30X Android image.</p>
+
+<h2 id="build-guide">Build Guide</h2>
+
+<p>The build guide is quite extensive - we’ll cover the software aspect first before the hardware. The primary software guide can be found on <a href="https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/">Reddit</a>, the following is largely a reprint of what is there in addition to a few other details. Timur’s original commentary is <em>italicized</em> and additional commentary I included is written in normal font. The TJ natively supports a 1.5 DIN (who does that?) and may require some trimming of the dash to place the Nexus 7. Since the Nexus is so thin, it might not be required but be prepared.</p>
+
+<h3 id="installation-of-android-tools">Installation of Android Tools</h3>
+
+<p>Before your system can push software from your computer to the Nexus, some development tools have to be installed on your computer. ADB allows debugging of Android over USB and fastboot allows you to unlock the bootloader and push custom software onto the unit. Either Google search how to install those tools or run the following on OSX:</p>
+<blockquote>
+  <p>brew cask install android-platform-tools</p>
+</blockquote>
+
+<p>Timur’s instructions:<br />
+<em>Now enable the “USB debugging” feature on your Android device. In order to do so, open Settings and then open “Developer options”.</em></p>
+
+<p><em>If you cannot find “Developer options” in the list, go to “About tablet” and click the “Build number” five times in a row, until you see a toast message, telling you that: You are now a Developer. Now leave “About tablet” and you should be able to see and open “Developer options”.</em></p>
+
+<p><em>Under “Developer options” you should now be able to enable “USB debugging”. While you are in “Developer options”, you may also want to enable “Stay awake”. This feature is useful, if you want to use the FI-mode feature.</em></p>
+
+<p><em>With your tablet connected to the PC, you should now be able to open a command shell on your PC and run the following commands. This is for testing connectivity only:</em></p>
+
+<blockquote>
+  <p>adb shell date</p>
+</blockquote>
+
+<p><em>This should display the current time and date of your Android device on your PC. If this doesn’t work, try the following:</em></p>
+
+<blockquote>
+  <p>adb devices</p>
+</blockquote>
+
+<p><em>This should show the “List of attached Android devices” in the command shell on your PC. If this does not show at least one Android device (with a serial number and a name), you should try unplugging and reconnecting the USB cable. You may need to confirm ADB connectivity in a dialog box on your Android device. If you are not able to establish ADB-over-USB connectivity, google for “adb windows” and/or “adb windows usb drivers”. And possibly install/update the required USB drivers. Continue only, if the adb tool is working properly.</em></p>
+
+<h3 id="unlocking-the-bootloader">Unlocking the Bootloader</h3>
+
+<p>Timur’s instructions:<br />
+<em>If your tablet’s bootloader is not yet unlocked, you need to unlock it now. This can be done in two quick steps by running the following commands in the command shell on your PC:</em></p>
+
+<blockquote>
+  <p>adb reboot bootloader</p>
+</blockquote>
+
+<p><em>And then, when the tablet shows the bootloader screen, run:</em></p>
+
+<blockquote>
+  <p>fastboot oem unlock</p>
+</blockquote>
+
+<p><em>NOTE: Unlocking the bootloader will fully wipe your device. You need to confirm the unlocking procedure on the device screen. As long as you don’t lock your bootloader again, you only need to do this once.</em></p>
+
+<h3 id="kernel-installation">Kernel installation</h3>
+
+<p>Download the following files:</p>
+<ul>
+  <li>Android factory image</li>
+  <li>TWRP images</li>
+  <li>SuperSU ZIP</li>
+  <li>Timur’s kernel ZIP</li>
+</ul>
+
+<p>The factory image, TWRP recovery tool and Timur’s kernel will be dependent on the platform you have. The 2013 Nexus with WiFi will use the Flo variants of the files and the LTE version will use the Debian variants of the files. The following will be written specifically for the flo installation.</p>
+
+<p>Unzip Timur’s kernel. Inside the ZIP are two folders of interest - “timur-kernel-n7-2013-v4.0-final.zip” and “timur-pem-update-v4-b107-2017-01-06.zip”. Unzip the kernel directory to access the USB host and services ZIPs. Both of those and the pem-update will be uploaded to the Nexus 7 in their ZIP format. These files will be installed onto the Nexus first before the SuperSU zip is installed.</p>
+
+<p>Returning to Timur’s instructions:<br />
+<em>Here I describe how you can upgrade your tablet to Android 6.0.1 MOB30X, install Timur’s Kernel v4.0 as well as root, without losing any apps or settings - and do so in under 20 minutes. To do this, your tablet bootloader needs to be unlocked once. If you already have a rooted Android 6.0.1 MOB30X with TWRP installed on your tablet, the kernel installation can be done in just a few minutes. In this case, reboot into TWRP and continue with step 4.</em></p>
+
+<ol>
+  <li>
+    <p><em>Unzip the target Android 6 MOB30X factory image on your PC. In order to prevent the factory image installation from wiping the data partition of your tablet (if you want to keep your installed apps, personal settings and custom data), you need to edit your flash-all script (.sh or .bat, depending on what OS you are using on your PC). To keep your apps and data, remove the “-w” parameter from the last line. However, if want to delete everything on the tablet (wipe) and fully start from scratch, do not modify the flash-all script (keep the “-w” parameter in). Before you continue, this is your last chance to create a full device backup of your tablet. For instance, you can create a full device backup in TWRP recovery.</em></p>
+  </li>
+  <li>
+    <p><em>To install the factory image, connect the tablet to a PC via USB and run the (modified) flash-all script. The installation process will take a couple of minutes. This is IMPORTANT: You need to watch the tablet screen closely, because you need to prevent the tablet from booting into Android automatically at the end of the installation process. As soon as you see the tablet screen turn off, you need to quickly press power + vol-down and keep both buttons pressed for about 15-20 seconds. This will abort the boot process and instead, the tablet will return to the bootloader menu. You need to keep pressing the two buttons until you actually see the bootloader menu. This is when you can release the buttons. The point of all this is, to install TWRP and SuperSU BEFORE the newly installed Android system boots up for the first time.</em></p>
+  </li>
+  <li>
+    <p><em>With the tablet in bootloader (you may need to disconnect/reconnect the PC-USB connection), you can now install TWRP recovery. You always need to do this, because flash-all will overwrite a previous instance of TWRP. To continue, enter in a command line window on your PC: “fastboot flash recovery twrp-3.0.2-0-flo.img” (if you have the LTE model, use the img-file of the deb variant). When done (only a second later), you should be able to launch the newly installed TWRP from bootloader menu. Use the volume keys to select “recovery” and then hit the power button to launch TWRP.</em></p>
+  </li>
+  <li>
+    <p><em>With TWRP recovery running, the tablet should now appear as a USB drive on your PC. This lets you copy the three zip archives required for the next step over: timur-services, timur-usbhost and SuperSU. Make sure these three files are available on the tablet’s internal sdcard. Then install the three zip files (timur-services + timur-usbhost before SuperSU!), using the TWRP on-screen UI. Note that whenever you update the kernel (usbhost), you will also need to re-install SuperSU afterwards. - OK, done. You can now restart system and boot into Android OS.</em></p>
+  </li>
+</ol>
+
+<p>RRP:<br />
+The installation of the ZIPs was a bit unfamiliar to me when I started, so I’ll explain it in a bit more detail. In your terminal, change directories until you’re where your ZIP files are located. These ZIP files are outlined in the first two paragraphs of this section.</p>
+
+<p>To transfer the files, run the following command for each ZIP:</p>
+<blockquote>
+  <p>adb push {insert-filename-here}.zip /sdcard/</p>
+</blockquote>
+
+<p>Now, all of the files should be located on the tablet in the /sdcard/ directory. On the tablet, select the Install Package button and navigate to the directory. Starting with the two ZIPs from Timur’s kernel, select the file and install one at a time. These ZIPs failed the checksum of the installation when I tried, so unchecking that option before installing seems to work. After Timur’s ZIPs, repeat with SuperSU.</p>
+
+<p>Afterwards, in order to allow the Nexus to boot automatically when powered (say the battery dies after sitting in an idle vehicle for a few months), run the following command:</p>
+<blockquote>
+  <p>fastboot oem off-mode-charge 0</p>
+</blockquote>
+
+<p>This can be done at anytime as long as the Nexus is in the fastboot menu.</p>
+
+<h3 id="post-installation">Post installation</h3>
+
+<p>Now that the core OS is in place, a few small features can be implemented for seamless use of the device.</p>
+
+<p>Timur’s instructions:<br /></p>
+<ul>
+  <li>
+    <p><em>On first boot after installation: Do not immediately open PowerEventMgr. Instead, let the system rest in Launcher for a minute. You should see a SuperSU permission dialog show up for PowerEventMgr (PEM). Grant root access to PowerEventMgr. You can now open PowerEventMgr and, for instance, enable FI-mode and fast charging.</em></p>
+  </li>
+  <li>
+    <p><em>VCam2 app will be installed (or updated) when you launch PowerEventMgr and click the “Launch VCam [Exec]” button. If you intend to use VCam2, you should click this button once, every time you have installed or upgraded the kernel (usbhost installer) via recovery system. Launching VCam2 for the first time will bring up a SuperSU permission dialog. It is necessary to grant VCam2 root permissions.</em></p>
+  </li>
+  <li>
+    <p><em>It is also possible to install VCam2 manually, by opening VCam2.apk from the /sdcard/ folder (say, using a file manager app). Once VCam2 has been installed (or updated), the file /sdcard/VCam2.apk can be deleted.</em></p>
+  </li>
+  <li>
+    <p><em>It is suggested you disable SuperSU toast messages for PowerEventMgr and VCam2. To do so, open SuperSU app, select PowerEventMgr and change the Notifications setting from “Global defaults” to “Disabled”. Hit the check mark to store the modified settings. Now do the same for vcam2. And hit the check mark again to store the modified settings.</em></p>
+  </li>
+  <li>
+    <p><em>You need to disable Android OTA updates. If you allow an Android OTA to update your system, the kernel, the custom recovery and SuperSU will be removed. Do this: Long press the notification (i-icon) and block, then disable it in app settings. More:</em>
+<a href="https://www.reddit.com/r/timurskernel/comments/4appwx/anyone_know_how_to_remove_the_android_update_is">https://www.reddit.com/r/timurskernel/comments/4appwx/anyone_know_how_to_remove_the_android_update_is</a></p>
+  </li>
+  <li>
+    <p><em>In order to use PowerEventMgr (PEM) Wakeup-screen, the Android lock-screen must be disabled (see: Security).</em></p>
+  </li>
+  <li>
+    <p><em>You probably want to enable: Settings / Developer options / Stay awake (Screen will never sleep while charging).</em></p>
+  </li>
+  <li>
+    <p><em>You can view the kernel identification string under: Settings / About. It should now say “USBhost…“.</em></p>
+  </li>
+  <li>
+    <p><em>You can view the version info and build number at the bottom of the PEM activity.</em></p>
+  </li>
+  <li>
+    <p><em>If your system works well, re-boot into TWRP recovery mode and create a new full backup to a USB flash drive (connected via OTG cable).</em></p>
+  </li>
+  <li>
+    <p><em>Keep all of your installer files, including the correct variants of TWRP and SuperSU, in a save place.</em></p>
+  </li>
+</ul>
+
+<p>RRP:
+Now that everything is set, go ahead and install your desired Android apps and customize your system as desired. My preferred applications are outlined in the “Software Modules” section before the build guide begins.</p>
+
+<h3 id="hardware-installation">Hardware installation</h3>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#build" class="page__taxonomy-item" rel="tag">build</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#electronics" class="page__taxonomy-item" rel="tag">electronics</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#jeep" class="page__taxonomy-item" rel="tag">jeep</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#build" class="page__taxonomy-item" rel="tag">build</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-01-21T00:00:00+00:00">January 21, 2019</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/public%20health/2017/07/05/antibiotic-resistance-reporting.html" class="pagination--pager" title="A Modern Antibiotic Resistance Reporting System
+">Previous</a>
+    
+    
+      <a href="/tools/2019/05/21/embedded-resources.html" class="pagination--pager" title="Resources for Embedded Development
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/toastmasters/2020/02/08/ice-breaker.html" rel="permalink">Toastmasters: (0) Ice Breaker
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">First formal speech.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/services/2019/09/03/3d-printer-recommendations.html" rel="permalink">SCI-Arc 3D Printer Recommendations and Services
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">A set of 3D printer recommendations and upgrades for quality prints.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tools/2019/05/21/embedded-resources.html" rel="permalink">Resources for Embedded Development
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">A useful list of resources for hardware development.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/public%20health/2017/07/05/antibiotic-resistance-reporting.html" rel="permalink">A Modern Antibiotic Resistance Reporting System
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">An overview of the specifications for a yet-to-be-created antibiotic resistance reporting system.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/robertpuccinelli" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Robert Puccinelli. Designed with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    
+  <script>
+    (function ($) {
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit Comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
