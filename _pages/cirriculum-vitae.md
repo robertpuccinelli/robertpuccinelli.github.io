@@ -5,11 +5,10 @@ permalink: /curriculum-vitae/
 
 classes:
   - wide
-  - text-justify
 
-#sidebar:
-#  title: "Robert R. Puccinelli"
-#  nav: cv_sidebar
+sidebar:
+  title: "Robert R. Puccinelli"
+  nav: cv_sidebar
 
 author_profile: false
 
