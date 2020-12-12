@@ -5,6 +5,7 @@ permalink: /curriculum-vitae/
 
 classes:
   - wide
+  - text-justify
 
 sidebar:
   title: "Robert R. Puccinelli"
