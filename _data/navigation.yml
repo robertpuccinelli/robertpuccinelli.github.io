@@ -15,16 +15,16 @@ cv_sidebar:
     - title: "EDUCATION"
       url: "/curriculum-vitae/#education"
     - title: "RESEARCH EXPERIENCE"
-      url: #research-experience
+      url: "/curriculum-vitae/#research-experience"
     - title: "TEACHING EXPERIENCE"
-#      url: #teaching-experience
+      url: "/curriculum-vitae/#teaching-experience"
     - title: "PUBLICATIONS"
-#      url: /curriculum-vitae/#publications
+      url: "/curriculum-vitae/#publications"
     - title: "PREPRINTS"
-#      url: /curriculum-vitae/#preprints
+      url: "/curriculum-vitae/#preprints"
     - title: "POSTER PRESENTATIONS"
-#      url: /curriculum-vitae/#poster-presentations
+      url: "/curriculum-vitae/#poster-presentations"
     - title: "AWARDS/HONORS"
-#      url: /curriculum-vitae/#awardshonors
+      url: "/curriculum-vitae/#awardshonors"
     - title: "INTERESTS"
-#      url: /curriculum-vitae/#interests
+      url: "/curriculum-vitae/#interests"
