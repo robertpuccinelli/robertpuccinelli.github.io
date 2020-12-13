@@ -8,18 +8,18 @@ header:
 excerpt: ""
 intro:
   - excerpt:
-feature_row:
+images:
   - image_path: assets/images/instruments/microarrayer_unfinished2.jpg
-    title: "Instrumentation"
-    excerpt: "Building scientific instrumentation is something that I've come to enjoy working on. Learn more about it here."
+    title: "DIY Instrumentation"
+    excerpt: "Some guides for building instrumentation can be found here."
     url: "/instrumentation/"
   - image_path: /assets/images/outdoors/ca_pointlobos2.jpg
     title: "Outdoors"
-    excerpt: "Spending time outside is something I've always done. Here's an opportunity to share some of it with you."
-    url: "/outdoors/"
+    excerpt: "No posts exist yet, sorry! Enjoy this picture of Point Lobos in Monterey."
+    url: 
   - image_path: /assets/images/jeep/JeepMaintenance2.jpg
-    title: "Post Categories"
-    excerpt: "Stray thoughts and postings organized by category rather than recency."
+    title: "Post Topics"
+    excerpt: "There aren't a lot of posts yet, but you can view the categories here."
     url: "/categories/"
 ---
 
@@ -27,4 +27,4 @@ feature_row:
 
 {% include feature_row id="intro" %}
 
-{% include feature_row %}
+{% include feature_row id="images" %}
