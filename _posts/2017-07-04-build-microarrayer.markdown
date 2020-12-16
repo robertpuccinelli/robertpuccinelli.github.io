@@ -9,6 +9,9 @@ comments: true
 toc: true
 toc_sticky: true
 
+classes:
+  - text-justify
+
 introduction:
   - image_path: /assets/images/posts/170704_CapturedDNA.PNG
     url: "/assets/images/posts/170704_CapturedDNA.PNG"
@@ -17,58 +20,58 @@ introduction:
 arrayer:
   - image_path: /assets/images/posts/170704_Arrayer1.jpg
     url: "/assets/images/posts/170704_Arrayer1.jpg"
-    excerpt: "View 1."
+    title: "View 1."
   - image_path: /assets/images/posts/170704_Arrayer2.jpg
     url: "/assets/images/posts/170704_Arrayer2.jpg"
-    excerpt: "View 2."
+    title: "View 2."
   - image_path: /assets/images/posts/170704_Arrayer3.jpg
     url: "/assets/images/posts/170704_Arrayer3.jpg"
-    excerpt: "Before slide platter and pin arms."
+    title: "Before slide platter and pin arms."
   - image_path: /assets/images/posts/170704_ArrayerPins.jpg
     url: "/assets/images/posts/170704_ArrayerPins.jpg"
-    excerpt: "Silicon microarray pins formerly employed by the DeRisi lab."
+    title: "Silicon microarray pins formerly employed by the DeRisi lab."
   - image_path: /assets/images/posts/170704_ServoControllers.jpg
     url: "/assets/images/posts/170704_ServoControllers.jpg"
-    excerpt: "Axes are powered and controlled by servo controllers."
+    title: "Axes are powered and controlled by servo controllers."
 
 software:
   - image_path: /assets/images/posts/170704_Win98.jpg
-    excerpt: "A bit outdated."
+    title: "A bit outdated."
     url: "/assets/images/posts/170704_Win98.jpg"
   - image_path: /assets/images/posts/170704_DeRisiArrayMaker.png
-    excerpt: "Software pulled from cached site."
+    title: "Software pulled from cached site."
     url: "/assets/images/posts/170704_DeRisiArrayMaker.png"
   - image_path: /assets/images/posts/170704_ArrayMaker.png
-    excerpt: "ArrayMaker screenshot."
+    title: "ArrayMaker screenshot."
     url: "/assets/images/posts/170704_ArrayMaker.png"
   - image_path: /assets/images/posts/170704_DMC18x2.jpg
-    excerpt: "Galil programming reference."
+    title: "Galil programming reference."
     url: "/assets/images/posts/170704_DMC18x2.jpg"
   - image_path: /assets/images/posts/170704_Gemini.jpg
-    excerpt: "Gemini servo reference."
+    title: "Gemini servo reference."
     url: "/assets/images/posts/170704_Gemini.jpg"
 
 CAD:
   - image_path: /assets/images/posts/170704_Arrayer_BlockBody_Solid.png
-    excerpt: Pin block body - solid.
+    title: Pin block body - solid.
     url: "/assets/images/posts/170704_Arrayer_BlockBody_Solid.png"
   - image_path: /assets/images/posts/170704_Arrayer_BlockBody_Xray.png
-    excerpt: Pin block body - X-ray.
+    title: Pin block body - X-ray.
     url: "/assets/images/posts/170704_Arrayer_BlockBody_Xray.png"
   - image_path: /assets/images/posts/170704_Arrayer_BlockHead.png
-    excerpt: Head for block body.
+    title: Head for block body.
     url: "/assets/images/posts/170704_Arrayer_BlockHead.png"
   - image_path: /assets/images/posts/170704_Arrayer_PrintingArm.png
-    excerpt: Printing arm.
+    title: Printing arm.
     url: "/assets/images/posts/170704_Arrayer_PrintingArm.png"
   - image_path: /assets/images/posts/170704_Arrayer_CalibratorArm.png
-    excerpt: Calibrator arm.
+    title: Calibrator arm.
     url: "/assets/images/posts/170704_Arrayer_CalibratorArm.png"
   - image_path: /assets/images/posts/170704_Arrayer_CalibratorMount.png
-    excerpt: Calibrator mount.
+    title: Calibrator mount.
     url: "/assets/images/posts/170704_Arrayer_CalibratorMount.png"
   - image_path: /assets/images/posts/170704_Arrayer_DelrinBlock.png
-    excerpt: Delrin block.
+    title: Delrin block.
     url: "/assets/images/posts/170704_Arrayer_DelrinBlock.png"
 ---
 
@@ -106,7 +109,7 @@ The following video shows the print head printing spots onto 2x3 inch glass slid
 
 ## Microarrayer Assembly
 
-{% include feature_row id="arrayer" %}
+{% include gallery id="arrayer" %}
 
 For assembling the machine, there are no resources better than the [M-Guide](#MGuide), which was produced and revised by DeRisi's team. Nearly every detail is covered - such as how to wire all of the axes or build the dust cover to protect the slides during a print. In the early 2000s, the whole build (including parts and tools) cost about $43,000, which was a fraction of the price of other options at the time. Since then, the price for the materials or commercial options have fallen. Maybe it was just luck, but I was able to find a nearly complete DeRisi style microarrayer selling for $4,000 at the time of writing this post.
 
@@ -114,7 +117,7 @@ I won't go into detail about how to assemble it because it has already been writ
 
 ## Microarrayer Software
 
-{% include feature_row id="software" %}
+{% include gallery id="software" %}
 
 Unless you happen to have a PC happily running Windows 98, it might be best to not dwell here. Although the DeRisi group did produce software to control the microarrayer, it has aged and it might be best to rewrite a program for yourself. The ArrayMaker software and operating manual was pulled from an archived version of Joe's website and can be found in the [Parts List and Files](#software) section below. This software isn't the latest version (2.78), but it could still prove to be a useful resource regardless. Possibly, the most important thing to note here is that most of the instructions programmed will either be for the Galil DMC-18x2 motion control card or the Gemini servo controllers. Images of their reference guide are posted above.
 
@@ -140,7 +143,7 @@ Provided here are a series of custom parts that I designed to set up the arrayer
 
 [Download AutoCAD and SolidWorks drawings here!](/assets/CAD/170704_ArrayerParts.zip)
 
-{% include feature_row id="CAD" %}
+{% include gallery id="CAD" %}
 
 ### Arrayer CAD Notes
 

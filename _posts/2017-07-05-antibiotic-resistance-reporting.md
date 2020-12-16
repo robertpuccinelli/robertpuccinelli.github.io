@@ -2,10 +2,18 @@
 layout: single
 title:  "A Modern Antibiotic Resistance Reporting System"
 excerpt: "An overview of the specifications for a yet-to-be-created antibiotic resistance reporting system."
-category: public health
+category: projects
 tags: [antibiotic resistance project, commentary]
 comments: true
+
+classes:
+  - text-justify
+
 ---
+
+**Commentary - 12/2020**  
+The following post was a fairly naive perspective that I held in 2016/20117 on how to address antibiotic resistance. The tone of the article is moderately embarrassing and there are plenty of logical pitfalls that cannot be engineered away. I decided to keep it primarily for historical purposes. Although it is not functional as is, I gave the idea considerable thought during my memorable month long vacation in China at the time and it has since bloomed to new levels of stupidity. This was the seed that eventually drove **[Puccinelli Laboratories](https://puccilabs.com/about/)** and its quest to develop global surveillance technologies of infectious diseases, an effort that I am still very much invested in. During my series of reflections in late 2020, I thought it would be worth clarifying this point to save face.
+{: .notice--danger}
 
 ## Foreword:
 

@@ -9,6 +9,9 @@ comments: true
 toc: true
 toc_sticky: true
 
+classes:
+  - text-justify
+
 box:
   - image_path: /assets/images/posts/170702_GelBox_Xray.png
     title: "Gel box X-ray view."

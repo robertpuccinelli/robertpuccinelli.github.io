@@ -2,9 +2,12 @@
 layout: single
 title:  "Toastmasters: (0) Ice Breaker"
 excerpt: "First formal speech."
-category: toastmasters
+category: ramblings
 tags: [speech]
 comments: true
+
+classes:
+  - text-justify
 
 ---
 ## Overview
@@ -101,10 +104,3 @@ and I appreciate the opportunity to improve myself.
 * Minor slip up on recalling correct words when giving speech
 * Writing a word or two on a notepad to indicate topic of next paragraph helped immensely as I was panicking when speaking
 * Don't run away after speaking - follow proper hand off protocol
-
-## Recordings
-Speech:
-
-[![Ice Breaker](https://img.youtube.com/vi/video_id/3.jpg)](){:target="_blank"}
-
-Evaluation:

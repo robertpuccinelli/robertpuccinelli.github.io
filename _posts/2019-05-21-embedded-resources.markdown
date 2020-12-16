@@ -2,7 +2,7 @@
 layout: single
 title:  "Resources for Embedded Development"
 excerpt: "A useful list of resources for hardware development."
-category: tools
+category: resources
 tags: [hardware, electronics]
 comments: true
 

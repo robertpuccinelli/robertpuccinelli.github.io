@@ -2,9 +2,12 @@
 layout: single
 title:  "SCI-Arc 3D Printer Recommendations and Services"
 excerpt: "A set of 3D printer recommendations and upgrades for quality prints."
-category: services
+category: projects
 tags: [build, printing]
 comments: true
+
+classes:
+  - text-justify
 
 printphotoshoot:
   - image_path: /assets/images/posts/190903_PrintPhotoshoot1.jpg
@@ -13,25 +16,25 @@ printphotoshoot:
   - image_path: /assets/images/posts/190903_PrintPhotoshoot2.jpg
     excerpt: "3D Printed Model, View 2"
     url: "/assets/images/posts/190903_PrintPhotoshoot2.jpg"
-  - image_path: /assets/images/posts/190903_PrintPhotoshoot3_withSupports.jpg
-    excerpt: "Fan Duct with Supports"
-    url: "/assets/images/posts/190903_PrintPhotoshoot3_withSupports.jpg"
+#  - image_path: /assets/images/posts/190903_PrintPhotoshoot3_withSupports.jpg
+#    excerpt: "Fan Duct with Supports"
+#    url: "/assets/images/posts/190903_PrintPhotoshoot3_withSupports.jpg"
 
 printerupgrades:
   - image_path: /assets/images/posts/190903_AutobedLevel.jpg
-    excerpt: "BLTouch Auto Bed Leveling"
+    title: "BLTouch Auto Bed Leveling"
     url: "/assets/images/posts/190903_AutobedLevel.jpg"
   - image_path: /assets/images/posts/190903_PrintServer.jpg
-    excerpt: "OctoPrint Server"
+    title: "OctoPrint Server for enhanced printing functionality"
     url: "/assets/images/posts/190903_PrintServer.jpg"
   - image_path: /assets/images/posts/190903_TouchscreenDisplay.jpg
-    excerpt: "Touchscreen Display"
+    title: "Touchscreen Display for a better UI"
     url: "/assets/images/posts/190903_TouchscreenDisplay.jpg"
   - image_path: /assets/images/posts/190903_Camera.jpg
-    excerpt: "8MP Camera"
+    title: "8MP Camera for time lapses and remote control"
     url: "/assets/images/posts/190903_Camera.jpg"
   - image_path: /assets/images/posts/190903_UpgradedPrinter.jpg
-    excerpt: "Upgraded Printer"
+    title: "Upgraded Printer"
     url: "/assets/images/posts/190903_UpgradedPrinter.jpg"
 ---
 
@@ -42,7 +45,7 @@ printerupgrades:
 
 ## Example Prints
 
-{% include feature_row id="printphotoshoot" %}
+{% include gallery id="printphotoshoot" %}
 
 ## Introduction
 
@@ -117,7 +120,7 @@ The **BLTouch** has been amazing because it means that we no longer need to spen
 
 **Touchscreen** exposes some of the OctoPrint functionality without really needing to be on the computer and it gives a cleaner looking physical interface to the printer. I'm planning to upgrade the software on this unit to make it far better than the stock display. Currently using a custom designed case. [Amazon screen](https://amzn.to/2NO6iTP)
 
-{% include feature_row id="printerupgrades" %}
+{% include gallery id="printerupgrades" %}
 
 ## Services
 

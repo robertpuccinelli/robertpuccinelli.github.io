@@ -9,6 +9,9 @@ comments: true
 toc: true
 toc_sticky: true
 
+classes:
+  - text-justify
+
 introduction:
   - image_path: /assets/images/posts/170704_CapturedDNA.PNG
     url: "/assets/images/posts/170704_CapturedDNA.PNG"
