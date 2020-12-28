@@ -3,7 +3,7 @@ layout: single
 title:  "A Modern Antibiotic Resistance Reporting System"
 excerpt: "An overview of the specifications for a yet-to-be-created antibiotic resistance reporting system."
 category: projects
-tags: [antibiotic resistance project, commentary]
+tags: [commentary]
 comments: true
 
 classes:

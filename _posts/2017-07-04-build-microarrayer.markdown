@@ -3,7 +3,7 @@ layout: single
 title:  "Build Your Own: Microarray Printer"
 excerpt: "A DIY alternative to commercial microarray solutions to reduce equipment costs and enhance throughput. Based on the DeRisi style microarrayer."
 category: build
-tags: [build, electronics]
+tags: [build, electronics, hardware]
 comments: true
 
 toc: true

@@ -3,7 +3,7 @@ layout: single
 title:  "Reflections: CLIAHUB"
 excerpt: "A retrospective on my final months at Chan Zuckerberg Biohub."
 category: ramblings
-tags: [commentary]
+tags: [commentary, hardware]
 comments: true
 
 classes:
