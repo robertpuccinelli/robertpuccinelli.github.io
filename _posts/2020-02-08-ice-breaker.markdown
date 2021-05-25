@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Toastmasters: (0) Ice Breaker"
+title:  "Toastmasters: Ice Breaker"
 excerpt: "First formal speech."
 category: ramblings
 tags: [speech]
