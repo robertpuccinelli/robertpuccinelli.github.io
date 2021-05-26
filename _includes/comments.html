@@ -56,12 +56,6 @@
             <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
             <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
           </fieldset>
-<script>/*
-          <fieldset>
-            <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Add text to have comment blocked by spam filter." }}</label>
-            <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
-          </fieldset>
-*/</script>
           <fieldset class="hidden" style="display: none;">
             <input type="hidden" name="options[slug]" value="{{ page.slug }}">
             <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
