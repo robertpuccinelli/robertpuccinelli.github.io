@@ -2,8 +2,8 @@
 layout: single
 title:  "ODrive Anticogging: Firmware v0.5.1"
 excerpt: "A guide for implementing anticogging on an ODrive."
-category: build
-tags: [commentary, hardware]
+category: resources
+tags: [build, hardware]
 comments: true
 
 classes:
@@ -11,6 +11,7 @@ classes:
   - wide
 
 toc: true
+toc_sticky: true
 
 gal-precal:
   - image_path: /assets/images/posts/odrive/PreCal_Vp01.png
