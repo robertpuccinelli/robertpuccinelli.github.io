@@ -105,26 +105,31 @@ odrivetool dfu
 ```
 
 4. Configure the board for your motor. I'm using a ODrive 5065 motor with a 0.47 Ohm brake resistor and an [AMT 103 encoder](https://www.cuidevices.com/product/resource/amt10.pdf) with the highest resolution setting. Erase the configuration just to be certain that you're starting fresh.
-```python
-odrivetool # wait for connection
-odrv0.erase_configuration() # just in case
-odrv0.axis0.motor.config.current_lim = 10
-odrv0.axis0.motor.config.calibration_current = 10
-odrv0.config.brake_resistance = 0.47
-odrv0.axis0.motor.config.pole_pairs = 7
-odrv0.axis0.motor.config.torque_constant = 8.27 / 270
-odrv0.axis0.encoder.config.cpr = 8192
-odrv0.axis0.controller.config.vel_limit = 5
-odrv0.save_configuration()
-```
+    ```python
+    odrivetool 
+    # wait for connection
+
+    odrv0.erase_configuration() 
+    # just in case
+
+    odrv0.axis0.motor.config.current_lim = 10
+    odrv0.axis0.motor.config.calibration_current = 10
+    odrv0.config.brake_resistance = 0.47
+    odrv0.axis0.motor.config.pole_pairs = 7
+    odrv0.axis0.motor.config.torque_constant = 8.27 / 270
+    odrv0.axis0.encoder.config.cpr = 8192
+    odrv0.axis0.controller.config.vel_limit = 5
+
+    odrv0.save_configuration()
+    ```
 
 5. Confirm that your motor moves
-```python
-odrv0.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
-odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
-odrv0.axis0.controller.input_pos = 1
-odrv0.axis0.controller.input_pos = 0
-```
+    ```python
+    odrv0.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
+    odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+    odrv0.axis0.controller.input_pos = 1
+    odrv0.axis0.controller.input_pos = 0
+    ```
 
 If it moved one full revolution forward and backward with the `input_pos` commands, you should be good to go to the next step. If it moved once and didn't return, it likely errored out. You can begin troubleshooting by calling `dump_errors(odrv0)` and then searching your errors.
 
@@ -132,53 +137,56 @@ If it moved one full revolution forward and backward with the `input_pos` comman
 
 Following the [tuning guide](https://docs.odriverobotics.com/control.html) with a bit of deviation. This is necessary for anticogging since it is VERY finicky in this firmware version.
 1. These are close to the default values in case you need them. If your motor gets a bit wonky, I would call `odrv0.reboot()` to restore the default settings.
-```python
-odrv0.axis0.controller.config.pos_gain = 20.0
-odrv0.axis0.controller.config.vel_gain = 0.16
-odrv0.axis0.controller.config.vel_integrator_gain = 0.32
-```
+    ```python
+    odrv0.axis0.controller.config.pos_gain = 20.0
+    odrv0.axis0.controller.config.vel_gain = 0.16
+    odrv0.axis0.controller.config.vel_integrator_gain = 0.32
+    ```
 
 2. Start up the live plotter to check your motor's movement, reset the controller to the last saved configuration, and enter position control mode.
-```python
-start_liveplotter(lambda:[odrv0.axis0.encoder.pos_estimate, odrv0.axis0.controller.pos_setpoint])
-odrv0.reboot()
-odrv0.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
-odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
-```
+    ```python
+    start_liveplotter(lambda:[odrv0.axis0.encoder.pos_estimate, odrv0.axis0.controller.pos_setpoint])
+    
+    odrv0.reboot()
+
+    odrv0.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
+    odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+    ```
 
 3. Zero the velocity integrator gain and change the velocity gain until the motor vibrates.
-```python
-odrv0.axis0.controller.config.vel_integrator_gain = 0
-odrv0.axis0.controller.config.vel_gain = odrv0.axis0.controller.config.vel_gain * 1.3
-# Hear the motor humming and feel it vibrating
-odrv0.axis0.controller.config.vel_gain = odrv0.axis0.controller.config.vel_gain * 0.5
-```
-{% include gallery id="gal-veljitter" caption="Jitter at different stages. Click images for individual captions." %}
+    ```python
+    odrv0.axis0.controller.config.vel_integrator_gain = 0
+    odrv0.axis0.controller.config.vel_gain = odrv0.axis0.controller.config.vel_gain * 1.3
+    # Continue to increase gain until jitter is visible on the live plotter
+    odrv0.axis0.controller.config.vel_gain = odrv0.axis0.controller.config.vel_gain * 0.5
+    ```
+    
+    {% include gallery id="gal-veljitter" caption="Jitter at different stages. Click images for individual captions." %}
 
-
+{:start="4"}
 4. Change the position gain to maximize the gain while minimizing the jitter. Increase the pos_gain by 5 until the jitter increases and then reduce it to find a stable value. This is different than the overshoot advice given on the page.
-```python
-odrv0.axis0.controller.config.pos_gain = odrv0.axis0.controller.config.pos_gain + 5
-# Repeat until the motor appears more jittery on the liveplotter
-odrv0.axis0.controller.config.pos_gain = odrv0.axis0.controller.config.pos_gain - 1
-# Reduce the gain until the jitters are minimized
-```
+    ```python
+    odrv0.axis0.controller.config.pos_gain = odrv0.axis0.controller.config.pos_gain + 5
+    # Repeat until the motor appears more jittery on the live plotter
+    odrv0.axis0.controller.config.pos_gain = odrv0.axis0.controller.config.pos_gain - 1
+    # Reduce the gain until the jitters are minimized
+    ```
 
-<figure style="width: 60%">
-  <img src="/assets/images/posts/odrive/Tuned_PosGain.png" alt="">
-  <figcaption>Final jitter after tuning position gain.</figcaption>
-</figure> {: .align-center}
+    <figure style="width: 60%">
+      <img src="/assets/images/posts/odrive/Tuned_PosGain.png" alt="">
+      <figcaption>Final jitter after tuning position gain.</figcaption>
+    </figure> {: .align-center}
 
 5. Set the velocity integrator gain and save the configuration. I set the "bandwidth" to be 10ms or 100Hz.
-```python
-# integrator gain = 0.5 * bandwidth * vel_gain
-odrv0.axis0.controller.config.vel_integrator_gain = 0.5 * 100 * odrv0.axis0.controller.config.vel_gain
-odrv0.save_configuration()
-```
-<figure style="width: 60%">
-  <img src="/assets/images/posts/odrive/Final_TuneJitter.png" alt="">
-  <figcaption>Final jitter when reintroducing velocity integrator.</figcaption>
-</figure> {: .align-center}
+    ```python
+    # integrator gain = 0.5 * bandwidth * vel_gain
+    odrv0.axis0.controller.config.vel_integrator_gain = 0.5 * 100 * odrv0.axis0.controller.config.vel_gain
+    odrv0.save_configuration()
+    ```
+    <figure style="width: 60%">
+      <img src="/assets/images/posts/odrive/Final_TuneJitter.png" alt="">
+      <figcaption>Final jitter when reintroducing velocity integrator.</figcaption>
+    </figure> {: .align-center}
 
 
 My final gain values were the following:
