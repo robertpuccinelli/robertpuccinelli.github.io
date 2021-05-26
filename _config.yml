@@ -33,6 +33,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
   staticman:
     branch: "master"
+    endpoint: "bot-staticman-rp.herokuapp.com/v2/entry/"
 
 atom_feed:
   path                   : # blank (default) uses feed.xml
