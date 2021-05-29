@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "ODrive Anticogging: Firmware v0.5.1"
-excerpt: "A guide for implementing anticogging on an ODrive."
+title:  "ODrive Anticogging - Firmware v0.5.1"
+excerpt: "A guide for implementing anticogging on an ODrive motor controllers."
 category: resources
 tags: [build, hardware]
 comments: true
@@ -63,14 +63,14 @@ If cogging poses a problem, there are some ways to reduce its effect. Gimbal mot
 
 In this post, I'll be covering how to run the anticogging algorithm built into the ODrive with a v3.5 motor controller using firmware v0.5.1. Although the ODrive technically has anticogging functions, I strongly recommend that potential end users look at other motor drivers first if it is a feature that they need. Although the community has had interest in robust anticogging for a long time, it has largely been neglected and is marginally functional. There have been multiple efforts to improve the implementation over the years, but none of the major revisions have made it to the development branch. There is talk about implementing it better in v4, but don't count on it any time soon. If you need anticogging and other boards already have the necessary features, I would check with those communities to see if it actually works.
 
-Andy Vickers made an anticogging guide earlier this year along with a Youtube video to show how it's done and can be found here [https://www.andyvickers.net/2021/02/19/implementing-anti-cogging-on-the-odrive-robotics-controller/](https://www.andyvickers.net/2021/02/19/implementing-anti-cogging-on-the-odrive-robotics-controller/). There were some complaints that it didn't work, so I went ahead and tried it and I ran into some issues as well. The gains were too high for me, which caused my motor to vibrate around and it couldn't calibrate. It clearly worked for Andy, but it seems like it isn't a universal solution. After playing around with the configuration and the same ODrive 5065 motor that Andy was using, I found a process that worked for me and I posted it below to save myself time when I calibrate more boards/motors in the future.
+Andy Vickers made an anticogging guide earlier this year along with a Youtube video to show how it's done and can be found here [https://www.andyvickers.net/2021/02/19/implementing-anti-cogging-on-the-odrive-robotics-controller/](https://www.andyvickers.net/2021/02/19/implementing-anti-cogging-on-the-odrive-robotics-controller/). There were some complaints that it didn't work, so I went ahead and tried it and I ran into some issues as well. The gains were too high for me, which caused my motor to vibrate around and it couldn't calibrate. It clearly worked for Andy, but it seems like it isn't a universal solution. After playing around with the configuration and an ODrive 5065 motor, I found a process that worked for me and I posted it below to save myself time when I calibrate more boards/motors in the future.
 
 ## Guide
 
 
 ### Before and After Calibration
 
-Once my board was configured with the tuning guide below, I evaluated the anticogging correction by looking at the jitter of the motor as it moves forward and backward at 0.01 turns per second using the following code:
+Once my board was configured with the tuning guide below, I evaluated the anticogging correction by looking at the smoothness of the motor as it moves forward and backward at 0.01 turns per second using the following code:
 
 ```python
 start_liveplotter(lambda:[odrv0.axis0.encoder.pos_estimate, odrv0.axis0.controller.pos_setpoint])
