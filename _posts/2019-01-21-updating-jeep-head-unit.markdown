@@ -65,11 +65,8 @@ CAD:
 
 **PURPOSE:**  
 <br>
-Provide a DIY alternative to expensive commercial head units. The following in-depth guide is designed to allow anyone to rebuild their system in the event of a break-in or upgrade their system at their own discretion. I would like to thank my insurance company, AAA, for supporting this rebuild by allowing me to cash settle to repair/replace my system after it was damaged by theft. Overall benefits of this system include:  
-<br>
-  **A.** breaking the system down into individual modules that are less expensive to replace in the event of theft,  
-  **B.** modernizing technologically outdated systems,  
-  **C.** allowing virtually unparalleled customizability of an infotainment system.  
+When my Jeep's radio was stolen, replacement options were fairly expensive and I saw this as an opportunity to further modify the vehicle.  I ultimately decided to install a Nexus 7 tablet as the head unit due to the fact that I had one on hand and Timur's kernel provided a variety of useful features that made implementation possible. The mod took me a while to work out at the time, but it is pretty simple to implement and I updated this guide in Jan 2022 to make the content more accessible. 
+<br> 
 {: .notice--info}
 
 
@@ -85,14 +82,13 @@ What we're building here is a system with many of the conveniences of modern veh
 - Touch screen interface (Nexus 7, 2013)
 - Built-in navigation (Nexus 7, 2013)
 - Android Auto + Apple CarPlay integration (hardware dongle)
-- Stereo integration (Digital-to-analog converter)
+- Stereo integration (Stereo preamplifier)
 - FM radio (Software defined radio tuner app + hardware receiver)
 - Backup camera (Software app + camera hardware)
 - OBDII Interface (Software app + OBDII module)
 - Microphone
-- Protective cover (Shield the unit from the elements when the top is down and possibly hide the system from potential thieves?)
 
-For those who are fortunate enough to still have their stereos, I hear that beautiful mornings can lead to an ugly evening.
+For those who are fortunate enough to still have their stereos, beware. They can go at any time!
 
 <figure class="half">
   <a href="/assets/images/posts/190121_Sunrise.jpg"><img src="/assets/images/posts/190121_Sunrise.jpg"></a>
@@ -112,7 +108,7 @@ We'll work our way from left to right in the figure above. The star of the show 
 
 To assert the tablet as the host of the system, all connections must be routed through the on-the-go (OTG) adapter. From here, a special Y cable connects to the powered USB hub to provide the tablet with a high amp supply and to route data. This USB hub is powered by a 12V line that is only active when the ignition is on. This allows the tablet and peripherals to enter a deep sleep / off state when there is no auxiliary power - saving your vehicle's battery when off.
 
-From here, the peripherals are completely user dependent and there is quite a bit of flexibility in options. Not everyone will be interested in having Android Auto / Apple CarPlay, OBDII diagnostics, or a microphone in their vehicle. I did this mainly because I could.
+From here, the peripherals are completely user dependent and there is quite a bit of flexibility in options. Not everyone will be interested in having Android Auto / Apple CarPlay, OBDII diagnostics, or a microphone in their vehicle. I did this because the features seemed useful to me.
 
 The OBDII unit sits in your vehicle's OBDII port and can transmit data directly to the Nexus 7 via bluetooth. The OBDII port is still powered when the vehicle is off, so a minor modification will be made to the bluetooth unit to only power it when auxiliary power is available.
 
@@ -122,9 +118,9 @@ A few video cards are usable with Android 6.0.1, but I went for what I thought w
 
 The microphone isn't anything special. In this case, it's just a USB mic with an integrated driver. A microphone that plugs into the 3.5mm jack on the tablet might work as well. Alternatively, there are bluetooth microphones that might be a better choice.
 
-The phone dongle is a bit of an experiment. This unit should allow for Android Auto or Apple CarPlay to be retrofitted onto older head units, but no one has done it with a Nexus 7 as far as I'm aware of. This dongle should allow the phone to be directly controlled by tablet. I previously installed QuickCharge 3 USB ports in my Jeep for rapid charging of mobile devices. I currently plan to connect the data pins from one of the ports directly to the phone dongle so that the phone can charge quickly while also supporting connectivity.
+The phone dongle is a bit of an experiment. This unit should allow for Android Auto or Apple CarPlay to be retrofitted onto older head units, but no one has done it with a Nexus 7 as far as I'm aware of. This dongle should allow the phone to replace the tablet interface and allow for phone calls among other features (search Android Auto or Apple Car Play). 
 
-Last but not least is the digital to analog converter (DAC). This takes digital audio signals from the Nexus 7 and converts them into an analog signal that is sent to the vehicle's speakers. Some DACs have been problematic in builds with microphones for unclear reasons. I think some DACs have a microphone input port that change the DAC from being an output device to being an input/output device. The 6.0.1 Android OS might only support one input at a time, so the standalone microphone input might be disabled as long as the I/O DAC is connected. To connect the DAC to the speakers, RCA lines will be installed for the left and right audio channels. The Nexus 7 only has left and right outputs - an amplifier or some other system will be required for additional channels like front and back.
+Last but not least is the stereo preamplifier. This takes audio signals from the Nexus 7 and processes them to interface with the vehicle's speakers. To interface with the preamplifier, you can either use the 3.5mm audio jack on the tablet or use a dedicated USB digital-to-analog converter (DAC). There are some issues mentioned on the forum regarding not being able to use a mic when audio is connected, but I haven't run into that problem yet. The preamplifier I am using drives the vehicle's stock speakers at approximately the same wattage as the stock radio. If the speakers in your vehicle need more power, you can place an amplifier between your preamp and speakers to drive them.
 
 ### Hardware Components
 The Amazon Affiliate links below help fund future Build Your Own projects at no cost to you. If you do not wish to support this work, the model number is provided for your reference.
@@ -132,25 +128,29 @@ The Amazon Affiliate links below help fund future Build Your Own projects at no 
 
 | Item | Model | Provider | Cost |
 |------|-------|----------|------|
-| Early TJ Double Din Bezel | Metra 95-6549 70-1817 | [eBay](https://www.ebay.com/itm/JEEP-WRANGLER-TJ-1997-2002-DOUBLE-DIN-DASH-BEZEL-RADIO-STEREO-MOUNTING-KIT/192628453170?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649) | $79.98 |
-| Tablet | Nexus 7, 2013 | [Amazon](https://amzn.to/2G2NSuI) | $75.02 |
-| Powered USB Hub | Kootion H6C22 | [Amazon](https://amzn.to/2Wmdto8) | $19.99 |
-| Phone Link Dongle | Carlinkit HW01-01 | [Amazon](https://amzn.to/2TfegW7) | $60.99 |
-| USB DAC | Signstek Mini USB DAC | [Amazon](https://amzn.to/2MB0ryw) | $21.99 |
-| Radio Receiver | NooElec NESDR Smart | [Amazon](https://amzn.to/2Ue3wYa) | $23.95 |
-| USB Video Capture Card | EasyCAP FBA_UVC Black | [Amazon](https://amzn.to/2G2RmgM) | $9.94 |
-| Backup Camera | DohonesBest 4350450562 | [Amazon](https://amzn.to/2FRWk0N) | $18.99 |
-| USB Microphone | MAONA AU-410 | [Amazon](https://amzn.to/2sNV5XK) | $14.99 |
-| OBDII Reader | Panlong PL-B02 | [Amazon](https://amzn.to/2RWmqGs) | $10.98 |
+| Early TJ Double Din Bezel | Metra 95-6549 | [Amazon](https://amzn.to/3Io5s9r) | $88.13 |
+| Tablet | Nexus 7, 2013 | [Amazon](https://amzn.to/33ShdGg) | $79.95 |
+| Powered USB Hub | Kootion H6C21 | [Amazon](https://amzn.to/3nLHn4v) | $25.99 |
+| Phone Link Dongle | Carlinkit HW01-01 | [Amazon](https://amzn.to/3FNKTS7) | $49.99 |
+| Preamplifier | Skar Audio SKA7EQ | [Amazon](https://amzn.to/3It1jRP) | $46.74 |
+| 3.5mm to RCA cable | Mbzzke 26121600 | [Amazon](https://amzn.to/3AhGRQO) | 7.99 |
+| RCA to wire adapters | Daykit SC-001 | [Amazon](https://amzn.to/33DSFB9) | $7.99 |
+| Radio Receiver | NooElec NESDR Smart | [Amazon](https://amzn.to/3qMAUrZ) | $23.95 |
+| USB Video Capture Card | EasyCAP FBA_UVC Black | [Amazon](https://amzn.to/33Qs7we) | $9.99 |
+| Backup Camera | DohonesBest 4350450562 | [Amazon](https://amzn.to/3qLcZsR) | $13.99 |
+| USB Microphone | Fulaim Lapel Microphone | [Amazon](https://amzn.to/3FLq6i7) | $19.95 |
+| OBDII Reader | Panlong PL-B02 | [Amazon](https://amzn.to/3GVyNbe) | $12.59 |
 | USB OTG Adapter | Cablecc B01KCBSKSA | [Amazon](https://amzn.to/2MEhmAA) | $6.30 |
-| USB Y Cable | SaiTech B00VV24L7E | [Amazon](https://amzn.to/2Wnr26I) | $4.99 |
-| SMA Coaxial Adapter | DHT AD012 | [Amazon](https://amzn.to/2TingcT) | $5.50 |
-| Antiglare Screen Protector | BoxWave bw-862-4841-0 | [Amazon](https://amzn.to/2sLInZD) | $9.95 |
-| RCA Plugs, 1.5ft | Monoprice 105346 | [Amazon](https://amzn.to/2Sb7Utx) | $6.64 |
+| USB Y Cable | SaiTech B00VV24L7E | [Amazon](https://amzn.to/3fQh0G9) | $4.99 |
+| USB A Extender, Right Angle | Proaccmart | [Amazon](https://amzn.to/3GQEmaz) | $5.80 |
+| Panel Mount USB Port | Batige Square Single Port | [Amazon](https://amzn.to/3IlpAJm) | $8.90 |
+| SMA Coaxial Adapter | DHT AD012 | [Amazon](https://amzn.to/3AlgM3B) | $5.50 |
+| Antiglare Screen Protector | BoxWave bw-862-4841-0 | [Amazon](https://amzn.to/3nJyWa1) | $10.95 |
+| Fuse Taps | Camway 150x | [Amazon](https://amzn.to/33xjbfB) | $7.99 |
 
-Total cost of all hardware for a 2001 TJ installation at the time of the build: **$370.20**. (Note: I already had a Nexus 7. The $300 cost and reuse of old tech helped motivate this project.)
+Total cost of all hardware for a 2001 TJ installation is **$437.68** if all peripherals are installed. I think that you could probably buy a decent touchscreen head unit in 2022 for that price.
 
-If you already have a vehicle with a double din bezel and aren't interested in having Android Auto or Apple CarPlay features, you could reduce the cost to $229.23. If you don't have 12V automotive relays or a method of connecting loose ends of wires, those components will incur a small additional cost.
+If you already have a vehicle with a double din bezel, have a Nexus 7 and aren't interested in having Android Auto or Apple CarPlay features, you could reduce the cost to **$219.16**. You could probably get rid of the microphone. The SDR dongle wouldn't be necessary if you plan to listen to Spotify and don't care about tuning in to local radio stations.
 
 ### Software modules
 
@@ -159,22 +159,17 @@ Although there is a high degree of flexibility in hardware, it is greatly outmat
 _**Automotive Kernel**_<br>
 First and foremost, I chose to build the head unit off of [Android 6.0.1 with Timur's v4.0 kernel](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/). This setup allows the Nexus 7 to charge while also acting as the OTG host for the USB peripherals. It also includes some nice features for an automotive setting such as automatic deep sleep when the ignition is off or automatically launching a backup camera when the reverse gear is engaged. Timur provides instructions on how to install everything, but I will go into a bit more detail in the build guide below because some things were not readily apparent to me. Potential problems and workarounds with this method are listed in the [Pitfalls and Solutions](https://www.reddit.com/r/timurskernel/comments/5elxa7/pitfalls_and_solutions/) thread.
 
-_**Blackout Screen**_<br>
-It may be a bit silly to list this function as a second priority, but it is somewhat important to me. Before my previous head unit was stolen, there were many times when I did not need it powered or preferred to keep the cab dark. The tablet is currently set to never sleep when the ignition is on, primarily because the power button is not accessible behind the bezel. Since it never sleeps, the interior is always illuminated. I implemented a gesture control to launch the [BlackScreen](https://play.google.com/store/apps/details?id=net.jomyut.blackscreen) app when a specific spot on my tablet is double tapped.
-
 _**Clean Interface**_<br>
 It's important to me that I have a clean home screen with no bloatware. If I'm driving, I don't accidentally want to tap the (in my opinion) useless Google Search bar. I also want to maximize the real estate of the screen, so no dock. As you might observe from this website, I prefer minimalistic designs. I found that the [Evie Launcher](https://play.google.com/store/apps/details?id=is.shortcut) was perfect for my use case and would highly recommend it. I was able to clear the home screen completely and only have a large clock and essential app shortcuts. Most of the settings in the launcher were disabled by choice.
 
 _**Vehicle Dashboard**_<br>
-I'm not completely settled on the dashboard yet, but I'm currently evaluating [AutoMate](https://play.google.com/store/apps/details?id=is.shortcut). It's nice because it has separate features on different pages, but transitioning between pages often takes me multiple attempts. Alternatives include [Car dashdroid](https://play.google.com/store/apps/details?id=com.nezdroid.cardashdroid) or [Car Launcher](https://play.google.com/store/apps/details?id=com.autolauncher.motorcar.free). The benefits of a system like this is that it can cleanly organize navigation, phone call, media operations, and OBDII readouts. I'll have a stronger opinion when I get to installing the tablet.
+The interface that I'm currently using is [Car Launcher](https://play.google.com/store/apps/details?id=com.autolauncher.motorcar.free), but I'm open to trying out others if there appears to be something better. The benefits of a system like this is that it can cleanly organize navigation, phone call, media operations, and OBDII readouts. 
 
 _**Other Modules**_<br>
 Radio Tuner: [SDR Touch](https://play.google.com/store/apps/details?id=marto.androsdr2)<br>
 OBDII Readout: [Torque Lite](https://play.google.com/store/apps/details?id=org.prowl.torquefree)<br>
-Gesture Control and Remove Navigation Bar: [Navigation Gestures](https://play.google.com/store/apps/details?id=com.xda.nobar)<br>
-Pop Up Navigation Bar: [Custom Navigation Bar](https://play.google.com/store/apps/details?id=com.navigation.bar.customize.soft.keys)<br>
-Backup Camera : VCam2 (Shipped with Timur's Kernel) [Alternative](https://forum.xda-developers.com/devdb/project/dl/?id=26261)<br>
-Media Controls on Navigation Bar: [cliffeed mod](https://www.reddit.com/r/timurskernel/comments/4hdc56/mediavolume_buttons_for_navbar_marshmallow/)<br>
+Volume Control and Nav Bar Removal: [Custom Quick Settings](https://play.google.com/store/apps/details?id=com.quinny898.app.customquicksettings)<br>
+Backup Camera : VCam2 (Shipped with Timur's Kernel)
 Phone Dongle App: [Carlinkit Autokit.apk](http://www.carlinkit.com/autokit.apk)
 
 The following files are listed in the event that the [files from Timur's Reddit thread](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/) are lost. I would advise you to not download these if the official versions are still available:<br>
@@ -185,7 +180,22 @@ Also required is the factory MOB30X Android image.
 
 ## Build Guide
 
-The build guide is quite extensive - we'll cover the software aspect first before the hardware. The primary software guide can be found on [Reddit](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/), the following is largely a reprint of what is there in addition to a few other details. Timur's original commentary is _italicized_ and additional commentary I included is written in normal font. The TJ natively supports a 1.5 DIN (who does that?) and may require some trimming of the dash to place the Nexus 7. Since the Nexus is so thin, it might not be required but be prepared.
+(_Edit: 2022_)<br>
+I recently reinstalled the kernel and apps and created a few videos of the process and posted them on Youtube. I'm posting them here in case you want to follow along, but feel free to read through the text that I wrote a few years ago if it helps! The videos are for Windows 10 and the text is for OSX.
+
+
+**Kernel Installation**
+{% include video id="02iq5r5xlI0" provider="youtube" %}
+
+
+**App Configuration**
+{% include video id="Jo0u887ogaI" provider="youtube" %}
+
+
+(_Original_)<br>
+The build guide is quite extensive - we'll cover the software aspect first before the hardware. The primary software guide can be found on [Reddit](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/), the following is largely a reprint of what is there in addition to a few other details. Timur's original commentary is _italicized_ and additional commentary I included is written in normal font.
+
+
 
 ### Installation of Android Tools
 
