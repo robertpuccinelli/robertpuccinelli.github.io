@@ -5,6 +5,7 @@ excerpt: "A DIY alternative to modern commercial infotainment systems in a 2001 
 category: build
 tags: [build, jeep, electronics]
 comments: true
+last_modified_at: 2022-01-27T20:20:02-05:00
 
 toc: true
 toc_sticky: true
@@ -96,6 +97,133 @@ For those who are fortunate enough to still have their stereos, beware. They can
   <figcaption><center>Morning and evening of November 26.</center></figcaption>
 </figure>
 
+## Build Guide
+
+I have decided to reorganize this page to match the natural workflow of setting up the head unit. The first section will focus on setting up the software and the second section will focus on the hardware. At the start of each section, I'll outline what to expect, followed by the parts/modules used, and then the actual guide. Feel free to consult the associated Youtube videos if you want more visual approach.
+
+### Software
+
+Before you can use the Nexus 7 as a head unit, you have to make sure that it's configured correctly because it is difficult to access once installed. The first thing we'll do is flash Timur's kernel on the system, which gives the Android OS some convenient features that the native OS does not have. After the OS is installed, we'll install relevant apps and change some system settings. 
+
+**Warning:** I am providing software files that I used in my build, but you shouldn't trust random files that someone uploads on the internet. I don't think they contain malware, but they could. Download files from the source when possible. 
+{: .notice--warning}
+
+#### *Required Modules*
+If you visit [**Timur's Kernel on Reddit**]((https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/)), these are the modules that he requires you to install.
+1. MOB30X base image (I use [Nexus Root Toolkit](https://nexusroottoolkit.com/))
+2. TWRP 3.0.2
+3. Timur's Kernel
+4. SuperSU v2.76
+
+> **Files**
+> 1. [Nexus Root Toolkit Installer v2.1.9](https://app.box.com/s/x8d9ytxd3amaz0wwi517jcge0nvm3sfx)
+> 2. [TWRP 3.0.2-0-flo](https://app.box.com/s/6w4m2rcu6fjtsanx2lbribgi93pe8u0p)
+> 3. [TWRP 3.0.2-0-deb](https://app.box.com/s/pnc461hr9023na6qx3ln1kad31b8owdc)
+> 4. [Timur's Kernel v4.0](https://app.box.com/s/mfwx5jfm83q8pzv1yvft344p6kc76yp0)
+> 5. [SuperSU v2.76](https://app.box.com/s/72vhwf94bd7n8jhxp262v6nuom1tlxvy)
+{: .notice--danger}
+
+#### *Optional Modules*
+These are apps that I use. Items marked with an asterisk (*) are particularly useful.
+
+1. Car Launcher Free* 
+2. Files by Google*
+3. SDR Touch*
+4. SDR Driver*
+5. Volume Notification*
+6. Spotify*
+8. Reboot to Recovery*
+9. Shutdown*
+10. VCam2
+11. Google Translate
+12. Google Play Services
+13. Torque Lite
+14. Carlinkit Autokit
+15. Automate
+16. Automate Superuser Permissions
+<br>
+<br>
+
+**Car Launcher**: This is the main interface for the dashboard. It's convenient in that it makes a few apps easily accessible, makes it easy to control your music player of choice, has a clean screensaver, and allows for background color adjustment to match your preferences.
+
+**Files by Google**: This is the file manager that I like the most because it is has a clean UI and allows for the user to install APKs that are either downloaded or on a USB device. Some file managers do not allow for APK installation.
+
+**SDR Touch and Driver**: This app allows me to process signals from the vehicle's antenna and listen to local radio stations. The main inconvenience of the app is that it auto-launches at start up due to how the driver is configured.
+
+**Volume Notification**: The volume buttons in my installation are not accessible. This app places a volume icon in the notification bar that you tap to adjust the volume output by the tablet. This is a better implementation of volume control when compared to my previous approach which required two down-swipes to access volume.
+
+**Reboot to Recover // Shutdown**: The power button in my installation is not accessible. These apps allow me to power cycle the device or reboot into TWRP, if needed.
+
+**VCam2**: This is the camera app that ships with Timur's kernel. I included it because it often fails to install when launched from PowerEventManager after first boot. 
+
+**Google Play Services**: Some apps like Car Launcher or Google Translate need an updated version of the Play Services in order to access all their features. I found that v21.45.16 for Marshmallow with 300 dpi allowed for the map to be displayed in Car Launcher's alternate screen. I think that updating Play Services can cause some other apps to stop working correctly, so test apps before installing the tablet.
+
+**Automate**: This app allows you to create custom processes that run in the background. I am currently using this to shutdown SDR Touch at startup to compensate for the driver's autolaunch, but it can automate virtually anything on your tablet.
+
+**Torque Lite**: OBDII interface that has some nice features like calculating MPG while providing the basic diagnostics utility.
+
+**Carlinkit Autokit**: Specialty app for the Android Auto/Apple Carplay dongle that I have installed.
+
+I chose to not link my Google account to the tablet because it probably will be stolen at some point and I don't really want to have personal accounts accessible to others. This also means that I don't have access to the Play store for apps. As a result, I sideload everything on the tablet. You don't need to do this though if you create a throwaway Google account for your device or use your own personal account. APKs that I installed on my system are provided below out of convenience, but I don't guarantee that they will work or don't contain malware.
+
+> **Files**
+> 1. [Car Launcher Free v3.0.4.10](https://app.box.com/s/5p44pcbcx35vr4x9l0v9hnre5162dsgm)
+> 2. [Files by Google v1.0.372842724](https://app.box.com/s/putz74hs2xbpgu2exccq7pyoj7g6mhlg)
+> 3. [SDR Touch v2.72](https://app.box.com/s/ifdm9dcuabtmuhbj1sbwjkin6fabnchz)
+> 4. [SDR Driver v3.10](https://app.box.com/s/o2v4y5nqvhk4tm9ns3rru0yi8ub71k90)
+> 5. [Volume Notification v0.9.5](https://app.box.com/s/anp1dlef551t5uapopvuvq7o2qpi48ot)
+> 6. [Spotify v8.6.96.422](https://app.box.com/s/4t1xb1p4vferre8vc614kbb35gjt5wxi)
+> 8. [Reboot to Recovery v3.5](https://app.box.com/s/lrdaypi0j8npmemhzolhptkxer0lj39p)
+> 9. [Shutdown v0.6](https://app.box.com/s/chmguh75kdtp9wcw52xydm5pqk97ik4b)
+> 10. [Google Translate v6.16.03.352678460](https://app.box.com/s/597xg2zupixg3dqgw1fqn7vxtak0ndl5)
+> 11. [Google Play Services v21.48.16 Marshmallow 300dpi](https://app.box.com/s/0347olw9rcxfb573jgwozmzuvuqd9t14)
+> 12. [Torque Lite v1.2.22](https://app.box.com/s/scyqa5cpf1w3o784czpqujj53rfe1law)
+> 13. [Carlinkit Autokit, Downloaded 2022/01/16](https://app.box.com/s/n5nhzipbdh4nrela382ih2wajpadrz8g)
+> 14. [Automate v1.31.2](https://app.box.com/s/69ublrfzev70ebb3yh77pwhoynva8csj)
+> 15. [Automate Superuser Permissions v1.2.3](https://app.box.com/s/kw9a9u289oy6fh555riq9ahhppiotezr)
+{: .notice--danger}
+
+#### *Kernel Installation Guide*
+
+The primary guide for installing Timur's kernel can be found on [**Reddit**](https://www.reddit.com/r/timurskernel/comments/51lhgf/v40_for_android_601/). The instructions he provides is pretty clear as long as you read the whole thing before you begin. Details for setting up your tools and rooting the device are listed near the bottom of his guide. I'm not going to repeat what is described there as much as provide additional instructions. I recorded a video of how to set up the kernel in case it is of any help.
+
+{% include video id="02iq5r5xlI0" provider="youtube" %}
+
+1. Download all [required modules](#required-modules).
+
+2. Download adb and fastboot platform tools. fastboot allows you to flash kernel and adb allows you to install apps and configure your device:  
+  * [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)  
+  * [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)  
+  * [OSX](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)
+
+3. Add the platform tools to the path of your terminal. In Windows, the syntax is as follows:
+``` bash
+$env:Path+=";C:/path/to/platform-tools"
+```
+
+4. Confirm that the binaries are on your path and executable by calling `adb devices`. If the command errors out, check to see if adb is in your terminal's path and executable.
+
+5. Connect your device to your PC, power off your device and hold the power button and volume down button for several seconds to enter the bootloader.
+
+6. Root your device with `fastboot oem unlock` and follow the instructions.
+
+7. Flash the stock MOB30X firmware using Nexus Root Toolkit (NRT) or the instructions provided by Timur. When using the instructions listed by Timur, my device would get stuck in a boot loop and I was not able to boot my device. I was able to get around this issue with NRT. Set your device type in NRT and follow the instructions for 'Flash Stock + Unroot'. Use the MOB30X image.
+
+8. After a few minutes, the screen will turn off. When it does, enter the bootloader again by holding the power and volume down buttons.
+
+9. Install the Recovery Tool TWRP by calling 'fastboot flash recovery twrp_file.img'. Use the volume buttons on the tablet to navigate to `Recovery` and press the power button to enter.
+
+10. To access Timur's kernel, unzip the v4.0-final-flo-deb file. There should be a flo ZIP and a deb ZIP as well as a PEM update ZIP. If you have the WiFi Nexus 7, extract flo. If you have the Nexus with a SIM card, extract deb. Once flo or deb is extracted, you'll recover the usbhost and the services ZIPs. Drag and drop the `PEM update`, `usbhost`, `services`, and `SuperSU` ZIP files into the `twrp` folder of the Nexus 7 connected to your PC.
+
+11. On the tablet, follow the instructions to open TWRP and click the install button. Install the `services` and `usbhost` ZIPs first before the `SuperSU` and `PEM update` zips.
+
+12. Reboot the device and allow it to complete its first boot. It can take up to 10 minutes to complete.
+
+13. Complete the standard welcome screen setup.
+
+### System Configuration Guide
+**App Configuration**
+{% include video id="Jo0u887ogaI" provider="youtube" %}
 ## Parts List and Files
 
 This section encompasses everything that is required to build the system to give you an overview of what is involved. After listing the components, each section will examine why certain components were chosen in greater detail. Although software files are listed below, they are largely for my own reference of what was used in the event that I have to rebuild the system. **I strongly encourage others to download files from the original provider** and not from this page. There may be more recent versions available and you can't be certain that these files haven't been tampered with. The links to the original provider are listed. Hardware is listed first because the software is largely dependent on the employed hardware.
@@ -184,12 +312,7 @@ Also required is the factory MOB30X Android image.
 I recently reinstalled the kernel and apps and created a few videos of the process and posted them on Youtube. I'm posting them here in case you want to follow along, but feel free to read through the text that I wrote a few years ago if it helps! The videos are for Windows 10 and the text is for OSX.
 
 
-**Kernel Installation**
-{% include video id="02iq5r5xlI0" provider="youtube" %}
 
-
-**App Configuration**
-{% include video id="Jo0u887ogaI" provider="youtube" %}
 
 
 (_Original_)<br>
