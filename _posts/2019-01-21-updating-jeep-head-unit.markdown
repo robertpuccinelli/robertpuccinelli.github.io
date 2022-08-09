@@ -5,7 +5,7 @@ excerpt: "A DIY alternative to modern commercial infotainment systems in a 2001 
 category: build
 tags: [build, jeep, electronics]
 comments: true
-last_modified_at: 2022-01-27T20:20:02-05:00
+last_modified_at: 2022-07-17T20:20:02-05:00
 
 toc: true
 toc_sticky: true
@@ -209,7 +209,7 @@ $env:Path+=";C:/path/to/platform-tools"
 
 7. Flash the stock MOB30X firmware using Nexus Root Toolkit (NRT) or the instructions provided by Timur. When using the instructions listed by Timur, my device would get stuck in a boot loop and I was not able to boot my device. I was able to get around this issue with NRT. Set your device type in NRT and follow the instructions for 'Flash Stock + Unroot'. Use the MOB30X image.
 
-8. After a few minutes, the screen will turn off. When it does, enter the bootloader again by holding the power and volume down buttons.
+8. After a few minutes, the screen will turn off. When it does, enter the bootloader again by holding the power and volume down buttons. DO NOT ALLOW THE OS TO LOAD!
 
 9. Install the Recovery Tool TWRP by calling 'fastboot flash recovery twrp_file.img'. Use the volume buttons on the tablet to navigate to `Recovery` and press the power button to enter.
 
@@ -219,11 +219,46 @@ $env:Path+=";C:/path/to/platform-tools"
 
 12. Reboot the device and allow it to complete its first boot. It can take up to 10 minutes to complete.
 
-13. Complete the standard welcome screen setup.
+13. Complete the standard welcome screen setup and grand Power Event Manager SU permissions when asked.
 
-### System Configuration Guide
+#### System Configuration Guide
+
+This section focuses on basic app installation and points out small tweaks that are worth considering. Timur's [Pitfalls and Solutions](https://www.reddit.com/r/timurskernel/comments/5elxa7/pitfalls_and_solutions/) guide is worth reading.
+
 **App Configuration**
 {% include video id="Jo0u887ogaI" provider="youtube" %}
+
+1. Download and install all apps of interest. If sideloading apps from your PC, use the syntax as follows:
+``` bash
+adb install filename.apk
+```
+2. Device settings > select Home > Set Car Launcher as the default
+
+3. Device settings > select Security > Screen lock > None
+
+3. Device settings > select About tablet > tap 'Build number' 7 times to access Developer options
+
+4. Device settings > select Developer options > Select USB Configuration > MTP
+
+5. Device settings > select Developer options > Stay awake
+
+6. Swipe down on the notifications bar until you see the gear icon in the top right. Hold down the gear icon for ~5 seconds to access System UI Tuner
+
+7. Device settings > select System UI > Quick Settings > delete quick settings from the drop down that don't interest you
+
+8. Open Power Event Manager and select options of interest to you. The sleep and USB options can be useful.
+
+9. Open Power Event Manager and launch VCam2 by tapping the Exec button. If it fails to launch, sideload it with adb as described above.
+
+10. Open SuperSU and disable messages for Power Event Manager and VCam2.
+
+10. Configure the Car Launcher home screen to match your preferences.
+
+11. Power off the tablet and enter bootloader mode by holding down the power and volume down buttons. Set the device to autostart when power is present with the following command:
+``` bash
+fastboot oem off-mode-charge 0
+```
+
 ## Parts List and Files
 
 This section encompasses everything that is required to build the system to give you an overview of what is involved. After listing the components, each section will examine why certain components were chosen in greater detail. Although software files are listed below, they are largely for my own reference of what was used in the event that I have to rebuild the system. **I strongly encourage others to download files from the original provider** and not from this page. There may be more recent versions available and you can't be certain that these files haven't been tampered with. The links to the original provider are listed. Hardware is listed first because the software is largely dependent on the employed hardware.
