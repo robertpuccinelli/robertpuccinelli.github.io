@@ -61,13 +61,13 @@ Some components are very sensitive to electrostatic discharge and these blue mat
 
 ## ESD-Safe Tweezers
 
-{% include figure image_path="/assets/images/posts/home_lab/220808_Tweezers.jpg" caption="Home electronics lab with a few extras." %}
+{% include figure image_path="/assets/images/posts/home_lab/220808_Tweezers.jpg" caption="Consider it grooming for your PCB." %}
 
 While handling through hole components is fairly easy, you'll need to use tweezers or some other tool to help position your SMD components over their pads. You don't need to really get anything fancy, just make sure that you get a few different shapes so that it is easier to nudge parts around while not disrupting their neighbors. ESD-safe is preferred, but I don't think it will have a big impact either way. [The set that I purchased](https://www.amazon.com/gp/product/B00DVIEJ14) is no longer available, but it cost $10 at the time.
 
 ## Wire Cutters and Wire Strippers
 
-{% include figure image_path="assets/images/posts/home_lab/220808_CutterStripper.jpg" caption="Home electronics lab with a few extras." %}
+{% include figure image_path="assets/images/posts/home_lab/220808_CutterStripper.jpg" caption="Sometimes you just gotta cut stuff." %}
 
 You'll need to snip and strip things occasionally whether it is wires, PCB edges, plastic housings, etc. These are important, but I don't have any specific recommendations. If you want the cheapest, go for it. I like having middle tier gear for these since they aren't crazy expensive and are comfortable to use, but that doesn't really matter. For the wire strippers, make sure you can cover 14G or 16G wire to 28G wire. I only show one stripper in the image above, but I actually use two pairs for my jobs.
 
