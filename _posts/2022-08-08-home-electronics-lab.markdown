@@ -97,7 +97,7 @@ Alright, I'll admit it. This is a weird one. Even though it is really important 
 
 {% include figure image_path="/assets/images/posts/home_lab/220808_FTDI.jpg" caption="UART is a common communication protocol used by many devices." %}
 
-A lot of systems use UART to transmit data to other things and these USB-to-UART devices are great for troubleshooting code or hardware that isn't behaving the way that you expect. The [FTDI cable that I'm showing here](https://www.amazon.com/gp/product/B00DK85QY4) is the easiest to get started with since you just plug the wires into your circuit, but [my favorite one](https://www.amazon.com/gp/product/B07WX2DSVB) cost $10 at the time and allows you to select the output voltage and handshaking lines, which can be important for interfacing with different boards. There are a lot of software that is freely available for managing a UART port on your PC like [CoolTerm](https://freeware.the-meiers.org/).
+A lot of systems use UART to transmit data to other things and these USB-to-UART devices are great for troubleshooting code or hardware that isn't behaving the way that you expect. The [FTDI cable that I'm showing here](https://www.amazon.com/gp/product/B00DK85QY4) is the easiest to get started with since you just plug the wires into your circuit, but [my favorite one](https://www.amazon.com/gp/product/B07WX2DSVB) cost $10 at the time and allows you to select the output voltage and handshaking lines, which can be important for interfacing with different boards. There is a lot of freely available software for managing a UART port on your PC like [CoolTerm](https://freeware.the-meiers.org/).
 
 ## I2C Driver and SPI Driver
 
