@@ -23,7 +23,7 @@ gal-reflow:
 {% include figure image_path="/assets/images/posts/home_lab/220808_Lab.jpg" caption="Home electronics lab with a few extras." %}
 # Introduction
 
-So, you got a taste of electronics and have been thinking about building your own at-home lab? I started building my lab around 2017 and have some good news for you. It's actually not that bad and you don't need a ton of space. For a couple of years, it lived in my 150 sq ft room, before it was moved to a garage, followed by my 550 sq ft studio. Everything useful can comfortably fit on a 2'x5' bench if you give it a shelf. The budget also isn't outrageous if you forgo status in favor of utility and buy what you need over time. Below are my hardware recommendations along with some commentary about it's usefulness. Not all of my equipment is listed here, but these things should take care of 95% of the PCB assembly and circuit testing jobs you'll want to take on.
+So, you got a taste of electronics and have been thinking about building your own at-home lab? I started building my lab around 2017 and have some good news for you. It's actually not that bad and you don't need a ton of space. For a couple of years, my lab lived in my 150 sq ft room, before it was moved to a garage, followed by my 550 sq ft studio. Everything useful can comfortably fit on a 2.5'x5' bench if you give it a shelf. The budget also isn't outrageous if you forgo status in favor of utility and buy what you need over time. Below are my hardware recommendations along with some commentary about its usefulness. Not all of my equipment is listed here, but these things should take care of 95% of the PCB assembly and circuit testing jobs you'll want to take on.
 
 # Essentials
 
@@ -51,7 +51,7 @@ The DMM is the go-to tool for debugging circuits and is absolutely fundamental. 
 
 {% include figure image_path="/assets/images/posts/home_lab/220808_Bench.jpg" caption="My bench in 2018 before purchasing the dimmable light bar." %}
 
-I have found that my workbench is the perfect size for my needs. It is 24"x60" with a steel frame, includes a lower shelf below the work area, and has a static dissipative surface that is connected to ground. I picked it up for $100 on Craigslist. Since then, I have outfitted it with a handmade wooden bench that I found on Craigslist for $50 and a [$50 dimmable LED light bar](https://www.amazon.com/gp/product/B01MZGWI1B) that I got from Amazon. I've found that the wooden bench and lights have been quite critical in making sure that I always have the space and lighting that I need to do the job. The lower shelf is useful for storing projects or parts, but not absolutely required. You can always put them on the floor. There are a lot of different bench configurations out there, but just go with something that you like and includes has vertical space.
+I have found that my workbench is the perfect size for my needs. It is 30"x60" with a steel frame, includes a lower shelf below the work area, and has a static dissipative surface that is connected to ground. I picked it up for $100 on Craigslist. Since then, I have outfitted it with a handmade wooden bench that I found on Craigslist for $50 and a [$50 dimmable LED light bar](https://www.amazon.com/gp/product/B01MZGWI1B) that I got from Amazon. I've found that the wooden bench and lights have been quite critical in making sure that I always have the space and lighting that I need to do the job. The lower shelf is useful for storing projects or parts, but not absolutely required. You can always put them on the floor. There are a lot of different bench configurations out there, but just go with something that you like and includes has vertical space.
 
 ## ESD Mat
 
@@ -63,7 +63,7 @@ Some components are very sensitive to electrostatic discharge and these blue mat
 
 {% include figure image_path="/assets/images/posts/home_lab/220808_Tweezers.jpg" caption="Consider it grooming for your PCB." %}
 
-While handling through hole components is fairly easy, you'll need to use tweezers or some other tool to help position your SMD components over their pads. You don't need to really get anything fancy, just make sure that you get a few different shapes so that it is easier to nudge parts around while not disrupting their neighbors. ESD-safe is preferred, but I don't think it will have a big impact either way. [The set that I purchased](https://www.amazon.com/gp/product/B00DVIEJ14) is no longer available, but it cost $10 at the time.
+While handling through-hole components is fairly easy, you'll need to use tweezers or some other tool to help position your SMD components over their pads. You don't need to really get anything fancy, just make sure that you get a few different shapes so that it is easier to nudge parts around while not disrupting their neighbors. ESD-safe is preferred, but I don't think it will have a big impact either way. [The set that I purchased](https://www.amazon.com/gp/product/B00DVIEJ14) is no longer available, but it cost $10 at the time.
 
 ## Wire Cutters and Wire Strippers
 
