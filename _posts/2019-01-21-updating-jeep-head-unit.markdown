@@ -5,7 +5,7 @@ excerpt: "A DIY alternative to modern commercial infotainment systems in a 2001 
 category: build
 tags: [build, jeep, electronics]
 comments: true
-last_modified_at: 2022-07-17T20:20:02-05:00
+last_modified_at: 2022-08-10T20:20:02-05:00
 
 toc: true
 toc_sticky: true
@@ -70,6 +70,11 @@ When my Jeep's radio was stolen, replacement options were fairly expensive and I
 <br> 
 {: .notice--info}
 
+**Commentary - 08/2022**  
+For those who are seriously considering using a tablet as a headunit, I'd like to provide you with a disclaimer to let you know that I have since replaced my DIY solution with a modern off-the-shelf headunit. The Nexus 7 approach had some annoying issues like blasting the radio at power on or not being able to effectively charge its ancient battery and dieing when I was enjoying it the most. Sure, these problems can be solved, but why bother? I ended up purchasing an [Atoto S8](https://www.amazon.com/dp/B08HPZP1NV) from Amazon for less than the price of my setup as a replacement. It has a smaller form factor, there is less to maintain, and it has more features. Welcome to 2022. The modern tech is really a better solution and I don't advise that you build your own headunit from a tablet. But you DIYers go on and do your thing if that's what you enjoy - I had fun until I didn't.
+{: .notice--danger}
+
+{% include figure image_path="/assets/images/posts/190121_Nexus7.jpg" caption="Using a Nexus 7 as a full-feature headunit in my Jeep." %} {: .align-center .width-75 .text-center}
 
 ## Introduction
 
