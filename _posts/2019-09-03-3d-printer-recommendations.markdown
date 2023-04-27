@@ -5,6 +5,8 @@ excerpt: "A set of 3D printer recommendations and upgrades for quality prints."
 category: projects
 tags: [build, printing]
 comments: true
+last_modified_at: 2023-04-26T16:15:02-05:00
+
 
 classes:
   - text-justify
@@ -38,7 +40,11 @@ printerupgrades:
     url: "/assets/images/posts/190903_UpgradedPrinter.jpg"
 ---
 
-**PURPOSE:** It can be a bit daunting to get started with 3D printing when there are so many options out there. On the other hand, if you have already spent some time printing, it could be fun to see what upgrades are out there to improve your printing experience. The following page is Huan Liang's (2nd year M.Arch 1 student) and my recommendation for getting started with with 3D printing at SCI-Arc. We also discuss some upgrades that we have been testing.
+**Commentary - 4/2023**  
+Out of date - no longer affiliated with SCI-Arc, but the Ender 3 printer here is still upgraded and regularly used! It was a good investment. Feel free to reach out if you do want printer help. No guarantees that I'll be responsive, but it doesn't hurt!
+{: .notice--danger}
+
+**PURPOSE:** It can be a bit daunting to get started with 3D printing when there are so many options out there. On the other hand, if you have already spent some time printing, it could be fun to see what upgrades are out there to improve your printing experience. The following page is redacted's (2nd year M.Arch 1 student) and my recommendation for getting started with with 3D printing at SCI-Arc. We also discuss some upgrades that we have been testing.
 {: .notice--info}
 
 {% include toc icon="reorder" title="Table of Contents" %}
@@ -49,13 +55,13 @@ printerupgrades:
 
 ## Introduction
 
-Everyone at SCI-Arc has a Prusa. They are easy to use and they usually don't have bad prints. That being said, I bet Huan that we could get prints that are just as good as a Prusa with a printer that costs significantly less. After living with the printer for a year we are both incredibly happy with our decision and want to share our experience to help you understand that **there are other quality printers out there**. I am personally making this recommendation even after working with more expensive 3D printers on a daily basis (including Ultimakers, FormLabs, and Stratasys systems). Huan and I are both satisfied with the **Ender 3 Pro** as an entry level printer and wouldn't hesitate to get it again if we had a choice.
+Everyone at SCI-Arc has a Prusa. They are easy to use and they usually don't have bad prints. That being said, I bet redacted that we could get prints that are just as good as a Prusa with a printer that costs significantly less. After living with the printer for a year we are both incredibly happy with our decision and want to share our experience to help you understand that **there are other quality printers out there**. I am personally making this recommendation even after working with more expensive 3D printers on a daily basis (including Ultimakers, FormLabs, and Stratasys systems). Redacted and I are both satisfied with the **Ender 3 Pro** as an entry level printer and wouldn't hesitate to get it again if we had a choice.
 
 {% include figure image_path="/assets/images/posts/190903_StockEnder3Pro.jpg" caption="The Ender 3 Pro" %} {: .align-center .text-center .width-75 }
 <small>
 *Disclaimer: The following Amazon Affiliate links are for items that we actually purchased or used. That being said, we want you to know that Amazon might pay us if you click on our Amazon links.*
 </small>
-## Huan's Printer Kit
+## Redacted's Printer Kit
 
 ### Kit Items
 Here's a list of what we bought for the printer - we'll explain each item down below.
@@ -83,7 +89,7 @@ The Ender 3 Pro came with a pair of snips to trim support, but it can be difficu
 
 It is generally a good practice to keep the nozzle clean so that plastic doesn't stick to it and drag around your print, we purchased a set of brass brushes. Also, we wanted to try some special filaments like wood. These filaments can be tricky because they can clog a nozzle. Rather than risk tossing out a good but clogged nozzle, we purchased a **nozzle cleaning kit**. 0.4mm piano wire is usually good enough to do the job. We haven't had a clog yet, so this was probably not necessary.
 
-Once the printer was set up and we learned what settings and plastics work well with our printer, Huan and I ended up with some really clean and smooth prints! The key to good prints are to have a good frame, use good plastics and use appropriate slicer settings.
+Once the printer was set up and we learned what settings and plastics work well with our printer, redacted and I ended up with some really clean and smooth prints! The key to good prints are to have a good frame, use good plastics and use appropriate slicer settings.
 
 ### Helping you get started
 
