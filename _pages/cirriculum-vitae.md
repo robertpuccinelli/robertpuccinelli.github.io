@@ -83,24 +83,37 @@ Teaching Staff: Kara Brower, Diego Oyarzun, Adam White, <u>Robert Puccinelli</u>
 
 ### PUBLICATIONS
 ---
-**[Universal PCR and antibody testing demonstrate little to no transmission of SARS-CoV-2 in a rural community](/assets/pdfs/publications/Puccinelli_Publication_UniversalPCRAndAntibodyTestingDemonstrateLittleToNoTransmissionOfSARS-CoV-2InARuralCommunity.pdf)**  
+
+**[Comparison of SARS-CoV-2 Reverse Transcriptase Polymerase ChainReaction and BinaxNOW Rapid Antigen Tests at a Community SiteDuring an Omicron Surge](assets/pdfs/publications/Puccinelli_Publication_ComparisonOfSARSCoV2RTPCRAndBinaxNOWRapidAntigenTestsAtACommunitySiteDuringOmicron.pdf)**  
+Schrom J, ..., <u>Puccinelli R</u>, et al.  
+Annals Int Med. 2022 May. DOI: 10.7326/M22-0202
+
+**[SARS-CoV-2 PCR and antibody testing for an entire rural community: methods and feasibility of high-throughput testing procedures](assets/pdfs/publications/Puccinelli_Publication_SARSCoV2PCRandAntibodyTestingForAnEntireRuralCommunity.pdf)**  
 Appa A, <u>CLIAHUB Consortium</u>, et al.  
+Arv Pub Health. 2021 July 07. DOI: 10.1186/s13690-021-00647-8
+
+**[Performance characteristics of a rapid SARS-CoV-2 antigen detection assay at a public plaza testing site in San Francisco](assets/pdfs/publications/Puccinelli_Publication_PerformanceCharacteristicsOfARapidSARSCoV2AntigenDetectionAssayAtAPublicPlazaTestingSiteInSanFrancisco.pdf)**  
+Pilarowski G, ..., <u>The CLIAHUB Consortium</u>, et al.  
+J Infect Dis. 2021 Jan 04. DOI: 10.1093/infdis/jiaa802
+
+**[Universal PCR and antibody testing demonstrate little to no transmission of SARS-CoV-2 in a rural community](/assets/pdfs/publications/Puccinelli_Publication_UniversalPCRAndAntibodyTestingDemonstrateLittleToNoTransmissionOfSARS-CoV-2InARuralCommunity.pdf)**  
+Appa A, ..., <u>CLIAHUB Consortium</u>, et al.  
 Open Forum Infect. Dis. 30 Oct 2020; DOI: 10.1093/ofid/ofaa531
 
 **[Rapid deployment of SARS-CoV-2 testing: The CLIAHUB](/assets/pdfs/publications/Puccinelli_Publication_RapidDeploymentOfSARS-CoV-2Testing-TheCLIAHUB.pdf)**  
-Crawford ED, <u>Puccinelli RR</u>, et al.  
+Crawford ED, ..., <u>Puccinelli RR</u>, et al.  
 PLOS Pathogens. 2020 Oct 28; 16(10):e1008966. DOI: 10.1371/journal.ppat.1008966
 
 **[Identification of a polymorphism in the N gene of SARS-CoV-2 that adversely impacts detection by RT-PCR.](/assets/pdfs/publications/Puccinelli_Publication_IdentificationOfAPolymorphismInTheNGeneOfSARS-CoV-2ThatAdverselyImpactsDetectionByRT-PCR.pdf)**  
-Vanaerschot M, <u>CLIAHUB Consortium</u>, et al.  
+Vanaerschot M, ..., <u>CLIAHUB Consortium</u>, et al.  
 J Clin Microbio. 2020 Oct 12. DOI: 10.1128/JCM.02369-20
 
 **[Clinical features, diagnostics, and outcomes of patients presenting with acute respiratory illness: A retrospective cohort study of patients with and without COVID-19](/assets/pdfs/publications/Puccinelli_Publication_ClinicalFeaturesDiagnosticsAndOutcomesOfPatientsPresentingWithAcuteRespiratoryIllness-ARetrospectiveCohortStudyOfPatientsWithAndWithoutCOVID-19.pdf)**  
-Shah SJ, <u>The CZB CLIAhub Consortium</u>, et al.  
+Shah SJ, ..., <u>The CZB CLIAhub Consortium</u>, et al.  
 EClinicalMedicine. 2020 Aug 25. DOI: 10.1016/j.eclinm.2020.100518
 
 **[Community Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 Disproportionately Affects the Latinx Population During Shelter-in-Place in San Francisco](/assets/pdfs/publications/Puccinelli_Publication_CommunityTransmissionOfSevereAcuteRespiratorySyndromCoronavirus2DisproportionatelyAffectsLatinxPopulationDuringShelter-In-PlaceInSanFrancisco.pdf)**  
-Chamie G, <u>CLIAHub Consortium</u>, et al.  
+Chamie G, ..., <u>CLIAHub Consortium</u>, et al.  
 Clin Infect Dis. 2020 Aug 18. DOI: 10.1093/cid/ciaa1234
 
 **[Diversification of DNA binding specificities enabled SREBP transcription regulators to expand the repertoire of cellular functions that they govern in fungi](/assets/pdfs/publications/Puccinelli_Publication_DiversificationofDNABindingSpecificitiesEnableRegulatorsToExpandCellularFunctions.pdf)**  
@@ -123,17 +136,14 @@ Cell Systems. 2017 Sep 27; 5(3):230-236.e5. DOI: 10.1016/j.cels.2017.07.006
 
 ### PREPRINTS
 ---
-**[Performance characteristics of a rapid SARS-CoV-2 antigen detection assay at a public plaza testing site in San Francisco](/assets/pdfs/publications/Puccinelli_Preprint_PerformanceCharacteristicsOfARapidSARS-CoV-2AntigenDetectionAssayAtAPublicPlazaTestingSiteInSanFrancisco.pdf)**  
-Pilarowski G, <u>The CLIAHUB Consortium</u>, et al.  
-medRxiv. 2020 Nov 12. DOI: 10.1101/2020.11.02.20223891
+
+**[Portable low-cost optical density meter](assets/pdfs/publications/Puccinelli_Preprint_PortableLow-costOpticalDensityMeter.pdf)**  
+<u>Puccinelli R</u>, Cabrera J, Huynh E, Lebel P, Gomez-Sjoberg R
+bioRxiv. 2021 May 17. DOI: 10.1101/2021.05.14.444207 
 
 **[Supervised self-collected SARS-CoV-2 testing in indoor summer camps to inform school reopening](/assets/pdfs/publications/Puccinelli_Preprint_SupervisedSelf-CollectedSARS-CoV-2TestingInIndoorSummerCampsToInformSchoolReopening.pdf)**  
-Cooch P, CLIAHub Consortium, et al.
+Cooch P, <u>CLIAHub Consortium</u>, et al.
 medRxiv. 2020 Oct 23. DOI: 10.1101/2020.10.21.20214338
-
-**[SARS-CoV-2 PCR and antibody testing for an entire rural community: methods and feasibility of high-throughput testing procedures](/assets/pdfs/publications/Puccinelli_Preprint_SARS-CoV-2PCRAndAntibodyTestingForAnEntireRuralCommunity-MethodsAndFeasibilityOfHigh-ThroughputTestingProcedures.pdf)**  
-Appa A, <u>CLIAHUB Consortium</u>, et al.  
-medRxiv. 2020 May 30. DOI: 10.1101/2020.05.29.20116426
 
 <br>
 
@@ -165,6 +175,8 @@ Sixth Annual Summer Research Symposium, UC Merced 2012
 
 ### AWARDS/HONORS
 ---
+<div style="float: right;">2021</div>
+NSF-GRFP Fellow, <i>University of California, San Francisco</i>
 <div style="float: right;">2014</div>
 Graduation with Honors, <i>University of California, Merced</i>  
 <div style="float: right;">2014</div>
