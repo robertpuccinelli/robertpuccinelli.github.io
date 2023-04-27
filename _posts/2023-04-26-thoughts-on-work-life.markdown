@@ -37,7 +37,7 @@ I was a bit depressed from the experience and emitted a repugnantly bitter aura 
 
 Over time, prioritizing growing as a person began to pay off in my career. It got to the point where I was teaching myself and practicing methods at home before exploring how to use them to solve problems in my work. Practicing solving problems at work then make it easier to dive deeper in my work at home. The positive feedback cycle was pretty effective at enriching my interests and experience. Even though I was very much in the learning phase, I was able to share best practices with my team and help set standards that improved the performance of the group as a whole. Developing and refining my own interests also made it possible to propose and execute realistic solutions when faced with urgency.
 
-This is largely the reason why I advocate that people pursue interests at home even if it has some overlap with their work. A lot of people become a bit unsettled when they interpret my suggestion as brining work home, but that isn't my message. If you're pursuing things because you want to grow, then you should pursue those things. If you're bringing work home out of fear or insecurity, it will prey on your weaknesses.
+This is largely the reason why I advocate that people pursue interests at home even if it has some overlap with their work. A lot of people become a bit unsettled when they interpret my suggestion as brining work home, but that isn't my message. If you're pursuing things because you want to grow, then you should pursue those things. If you're bringing work home out of fear or insecurity, it will prey on your vulnerability.
 
 So, how much of your life are you going to give to your work vs give to yourself?
 
