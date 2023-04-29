@@ -84,7 +84,7 @@ Teaching Staff: Kara Brower, Diego Oyarzun, Adam White, <u>Robert Puccinelli</u>
 ### PUBLICATIONS
 ---
 
-**[Comparison of SARS-CoV-2 Reverse Transcriptase Polymerase ChainReaction and BinaxNOW Rapid Antigen Tests at a Community SiteDuring an Omicron Surge](assets/pdfs/publications/Puccinelli_Publication_ComparisonOfSARSCoV2RTPCRAndBinaxNOWRapidAntigenTestsAtACommunitySiteDuringOmicron.pdf)**  
+**[Comparison of SARS-CoV-2 Reverse Transcriptase Polymerase Chain Reaction and BinaxNOW Rapid Antigen Tests at a Community Site During an Omicron Surge](assets/pdfs/publications/Puccinelli_Publication_ComparisonOfSARSCoV2RTPCRAndBinaxNOWRapidAntigenTestsAtACommunitySiteDuringOmicron.pdf)**  
 Schrom J, ..., <u>Puccinelli R</u>, et al.  
 Annals Int Med. 2022 May. DOI: 10.7326/M22-0202
 
