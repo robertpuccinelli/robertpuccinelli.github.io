@@ -7,7 +7,6 @@ tags: [commentary, life]
 comments: true
 
 classes:
-  - text-justify
   - wide
 
 gal-badges:

@@ -10,9 +10,6 @@ last_modified_at: 2022-08-10T20:20:02-05:00
 toc: true
 toc_sticky: true
 
-classes:
-  - text-justify
-
 introduction:
   - image_path: /assets/images/posts/170704_CapturedDNA.PNG
     url: "/assets/images/posts/170704_CapturedDNA.PNG"
@@ -143,9 +140,8 @@ These are apps that I use. Items marked with an asterisk (*) are particularly us
 11. Google Translate
 12. Google Play Services
 13. Torque Lite
-14. Carlinkit Autokit
-15. Automate
-16. Automate Superuser Permissions
+14. Automate
+15. Automate Superuser Permissions
 <br>
 <br>
 
@@ -167,8 +163,6 @@ These are apps that I use. Items marked with an asterisk (*) are particularly us
 
 **Torque Lite**: OBDII interface that has some nice features like calculating MPG while providing the basic diagnostics utility.
 
-**Carlinkit Autokit**: Specialty app for the Android Auto/Apple Carplay dongle that I have installed.
-
 I chose to not link my Google account to the tablet because it probably will be stolen at some point and I don't really want to have personal accounts accessible to others. This also means that I don't have access to the Play store for apps. As a result, I sideload everything on the tablet. You don't need to do this though if you create a throwaway Google account for your device or use your own personal account. APKs that I installed on my system are provided below out of convenience, but I don't guarantee that they will work or don't contain malware.
 
 > **Files**
@@ -183,9 +177,8 @@ I chose to not link my Google account to the tablet because it probably will be 
 > 10. [Google Translate v6.16.03.352678460](https://app.box.com/s/597xg2zupixg3dqgw1fqn7vxtak0ndl5)
 > 11. [Google Play Services v21.48.16 Marshmallow 300dpi](https://app.box.com/s/0347olw9rcxfb573jgwozmzuvuqd9t14)
 > 12. [Torque Lite v1.2.22](https://app.box.com/s/scyqa5cpf1w3o784czpqujj53rfe1law)
-> 13. [Carlinkit Autokit, Downloaded 2022/01/16](https://app.box.com/s/n5nhzipbdh4nrela382ih2wajpadrz8g)
-> 14. [Automate v1.31.2](https://app.box.com/s/69ublrfzev70ebb3yh77pwhoynva8csj)
-> 15. [Automate Superuser Permissions v1.2.3](https://app.box.com/s/kw9a9u289oy6fh555riq9ahhppiotezr)
+> 13. [Automate v1.31.2](https://app.box.com/s/69ublrfzev70ebb3yh77pwhoynva8csj)
+> 14. [Automate Superuser Permissions v1.2.3](https://app.box.com/s/kw9a9u289oy6fh555riq9ahhppiotezr)
 {: .notice--danger}
 
 #### *Kernel Installation Guide*

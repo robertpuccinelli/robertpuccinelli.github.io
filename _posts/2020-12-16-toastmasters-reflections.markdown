@@ -7,8 +7,8 @@ tags: [speech, commentary]
 comments: true
 
 classes:
-  - text-justify
-
+  - wide
+  
 ---
 ## Overview
 The following is part of a series of reflections that I felt compelled to write near the end of 2020. This specific post is centered on my experience and perspective on the Toastmasters speech development group.

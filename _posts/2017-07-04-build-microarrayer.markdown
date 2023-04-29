@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 classes:
-  - text-justify
+  #- text-justify
 
 introduction:
   - image_path: /assets/images/posts/170704_CapturedDNA.PNG

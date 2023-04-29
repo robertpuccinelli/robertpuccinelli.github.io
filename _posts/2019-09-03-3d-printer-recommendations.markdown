@@ -7,10 +7,6 @@ tags: [build, printing]
 comments: true
 last_modified_at: 2023-04-26T16:15:02-05:00
 
-
-classes:
-  - text-justify
-
 printphotoshoot:
   - image_path: /assets/images/posts/190903_PrintPhotoshoot1.jpg
     excerpt: "3D Printed Model, ~150mmx150mm"

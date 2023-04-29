@@ -6,6 +6,9 @@ category: resources
 tags: [hardware, electronics]
 comments: true
 
+classes:
+    - wide
+
 ---
 
 ## Introduction

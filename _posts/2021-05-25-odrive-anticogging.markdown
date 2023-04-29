@@ -7,7 +7,6 @@ tags: [build, hardware]
 comments: true
 
 classes:
-  - text-justify
   - wide
 
 toc: true

@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 classes:
-  - text-justify
+ # - text-justify
 
 box:
   - image_path: /assets/images/posts/170702_GelBox_Xray.png
@@ -94,7 +94,7 @@ Besides the machined acrylic panels and the [Clare Chemical DR89 Transilluminato
 | Name | Part Number | Quantity | Description | Link |
 |------|-------------|----------|-------------|------|
 | Camera Brace | 15275A66 | 1 | Bracket Galvanized Steel, 1-7/8" & 3-1/2" Length of Sides | [View on McMaster](https://www.mcmaster.com/#15275a66/=18ezdou) |
-| Corner Bracket | 1088A31 | 4 | nside Corner-Reinforcing Bracket, 2" Length of Sides | [View on McMaster](https://www.mcmaster.com/#1088a31/=18eze30) |
+| Corner Bracket | 1088A31 | 4 | Inside Corner-Reinforcing Bracket, 2" Length of Sides | [View on McMaster](https://www.mcmaster.com/#1088a31/=18eze30) |
 | Edge Braces | 1556A41 | 8 | Bracket Galvanized Steel, 1" Length of Sides | [View on McMaster](https://www.mcmaster.com/#1556a41/=18ezee2) |
 | Adjustable Friction Hinge | 1791A44 | 2 | Adjustable-Friction Hinge, 200 lb. Capacity, 1-11/16" High Leaf, 1-7/16" Width, Black | [View on McMaster](https://www.mcmaster.com/#1791a44/=18ezemo) |
 | Cabinet Door Knob | 11645A11 | 1 | ABS Plastic Pull Knob Black Finish, 1-5/16" Knob Diameter, 1" Projection | [View on McMaster](https://www.mcmaster.com/#11645a11/=18ezex7) |

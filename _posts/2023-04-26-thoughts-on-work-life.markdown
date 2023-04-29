@@ -8,7 +8,6 @@ comments: true
 last_modified_at: 2023-04-26T16:20:02-05:00
 
 classes:
-  - text-justify
   - wide
 
 ---

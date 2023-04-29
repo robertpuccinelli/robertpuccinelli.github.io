@@ -7,7 +7,7 @@ tags: [commentary]
 comments: true
 
 classes:
-  - text-justify
+  - wide
 
 ---
 

@@ -10,9 +10,6 @@ last_modified_at: 2022-08-08T20:20:02-05:00
 toc: true
 toc_sticky: true
 
-classes:
-  - text-justify
-
 gal-reflow:
   - image_path: /assets/images/posts/home_lab/220808_Reflow1.jpg
     url: "/assets/images/posts/home_lab/220808_Reflow1.jpg"

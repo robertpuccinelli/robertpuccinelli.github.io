@@ -7,7 +7,7 @@ tags: [speech]
 comments: true
 
 classes:
-  - text-justify
+  - wide
 
 ---
 ## Overview
