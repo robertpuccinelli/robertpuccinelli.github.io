@@ -28,3 +28,16 @@ cv_sidebar:
       url: "/curriculum-vitae/#awardshonors"
     - title: "INTERESTS"
       url: "/curriculum-vitae/#interests"
+
+sidebar-guides:
+  - title: "PCB Fabrication"
+    #url: /guides/diy-stencils/
+    children:
+      - title: "Stencil Cutting"
+        url: /guides/2020/06/18/SilhouetteServer/
+      - title: "Reflowing PCBs"
+        url: /guides/2020/11/04/PCBReflow/
+  - title: "Vespucci Setup"
+    children:
+      - title: "Flashing a FT231X"
+        url: /guides/2020/11/06/ProgramP1/

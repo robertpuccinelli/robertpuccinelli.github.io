@@ -15,7 +15,7 @@ images:
     url: "/instrumentation/"
   - image_path: /assets/images/outdoors/ca_pointlobos2.jpg
     title: "Outdoors"
-    excerpt: "No posts exist yet, sorry! Enjoy this picture of Point Lobos in Monterey."
+    excerpt: "No posts exist yet (and probably never will!). Enjoy this picture of Point Lobos in Monterey."
     url: 
   - image_path: /assets/images/jeep/JeepMaintenance2.jpg
     title: "Post Topics"

@@ -6,9 +6,6 @@ category: build
 tags: [build, electronics, hardware]
 comments: true
 
-classes:
-  #- wide
-
 box:
   - image_path: /assets/images/posts/170702_GelBox_Xray.png
     title: "Gel box X-ray view."
