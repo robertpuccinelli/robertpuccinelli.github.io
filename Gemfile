@@ -13,9 +13,10 @@ source "https://rubygems.org"
 # https://pages.github.com/versions/
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
+
 gem "jekyll", "3.10.0"
 gem "github-pages-health-check","1.18.2"
-gem "github-pages","232"
+gem "github-pages","232", group: :jekyll_plugins
 gem "html-pipeline","2.14.3"
 gem "jekyll-avatar","0.8.0"
 gem "jekyll-coffeescript","1.2.2"
@@ -46,4 +47,4 @@ gem "minima", "2.5.1"
 gem "nokogiri", "1.16.7"
 gem "rouge", "3.30.0"
 gem "safe_yaml", "1.0.5"
-gem "minimal-mistakes-jekyll", "4.26.2"
+gem "minimal-mistakes-jekyll", "4.26.2", path: ".."
