@@ -16,14 +16,12 @@ header:
   overlay_image: /assets/images/banners/CVBanner_DeathValley.jpg
   caption: "Zabriskie Point Sunrise, Death Valley 2017"  
   excerpt: ""
-  cta_label: "Download CV"
-  cta_url: "/assets/pdfs/Puccinelli_CV_20201211.pdf"
 
 ---
 
 ## Robert R. Puccinelli 
 {: style="text-align: center;"}
-<sup>Refer to downloadable version above for contact information and experience details</sup>
+<sup>[**Download full CV here**](/assets/pdfs/Puccinelli_CV_20201211.pdf)</sup>
 {: style="text-align: center;"}
 
 ### EDUCATION
