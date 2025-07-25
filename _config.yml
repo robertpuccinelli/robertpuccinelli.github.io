@@ -76,7 +76,11 @@ author:
   bio              : "A native Californian who has been lucky to have great mentors in biology, physics, and engineering. He can be found living the life of a UCB-UCSF grad student."
   location         : "Bay Area, CA"
   email            : robert@robertpuccinelli.com
-  uri              :
+  links:
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=rXEDAQ4AAAAJ"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -92,6 +96,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  scholar          : "https://scholar.google.com/citations?user=rXEDAQ4AAAAJ"
   steam            :
   tumblr           :
   twitter          :
@@ -106,12 +111,12 @@ footer:
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
       # url:
-#    - label: "Facebook"
-#      icon: "fab fa-fw fa-facebook-square"
-      # url:
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-      # url: ""
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/robert-puccinelli/"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=rXEDAQ4AAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/robertpuccinelli"

@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Curriculum Vitae
 layout: single
 permalink: /curriculum-vitae/
 
@@ -21,14 +21,14 @@ header:
 
 ## Robert R. Puccinelli 
 {: style="text-align: center;"}
-<sup>[**Download full CV here**](/assets/pdfs/Puccinelli_CV_20201211.pdf)</sup>
+<sup>[**Download full CV here**](/assets/pdfs/Puccinelli_CV_20250723.pdf){:target="_blank"}</sup>
 {: style="text-align: center;"}
 
 ### EDUCATION
 ---
 <div style="float: right;">2020 - <i>present</i></div>
 Ph.D. Bioengineering  
-***UC Berkeley - UCSF Joint Program in Bioengineering***
+***UC Berkeley - UCSF Joint Graduate Program in Bioengineering***
 
 <div style="float: right;">2010 - 2014</div>
 B.S. Physics  
@@ -39,6 +39,11 @@ B.S. Biological Sciences
 
 ### RESEARCH EXPERIENCE
 ---
+
+<div style="float: left;"><b>Ph.D. Student</b></div> 
+<div style="float: right;">Aug. 2020 - <i>present</i></div><br>
+Biosensor Design and Characterization  
+Joseph DeRisi, PhD; <i>UC Berkeley - UCSF</i>
 
 <div style="float: left;"><b>Research Associate II</b></div> 
 <div style="float: right;">Jun. 2017 - Aug. 2020</div><br>
@@ -81,52 +86,65 @@ Teaching Staff: Kara Brower, Diego Oyarzun, Adam White, <u>Robert Puccinelli</u>
 
 ### PUBLICATIONS
 ---
+<sup>[**Google Scholar**](https://scholar.google.com/citations?user=rXEDAQ4AAAAJ){:target="_blank"} is the most up-to-date resource. Downloadable copies are provided below.</sup>
 
-**[Comparison of SARS-CoV-2 Reverse Transcriptase Polymerase Chain Reaction and BinaxNOW Rapid Antigen Tests at a Community Site During an Omicron Surge](assets/pdfs/publications/Puccinelli_Publication_ComparisonOfSARSCoV2RTPCRAndBinaxNOWRapidAntigenTestsAtACommunitySiteDuringOmicron.pdf)**  
+**[Remoscope: a label-free imaging cytometer for malaria diagnostics](/assets/pdfs/publications/Puccinelli_Publication_RemoscopeALabelFreeImagingCytometerForMalariaDiagnostics.pdf){:target="_blank"}**  
+Lebel P, ..., <u>Puccinelli R</u>, et al.  
+Trans. R. Soc. Trop. Med. Hyg. 2025 Jul. DOI: 10.1093/trstmh/traf070
+
+**[Open-source milligram-scale, four channel, automated protein purification system](/assets/pdfs/publications/Puccinelli_Publication_OpenSourceMiligramScaleFourChannelAutomatedProteinPurificationSystem.pdf){:target="_blank"}**  
+<u>Puccinelli RR</u>, et al.  
+PLOS One. 2024 Feb. DOI: 10.1371/journal.pone.0297879
+
+**[A handheld luminometer with sub-attomole limit of detection for distributed applications in global health](/assets/pdfs/publications/Puccinelli_Publication_AHandheldLuminometerWithSubAttomoleLimitOfDetectionForDistributedApplicationsInGlobalHealth.pdf){:target="_blank"}**  
+Lebel P, ..., <u>Puccinelli R</u>, et al.  
+PLOS Global Public Health . 2024 Feb. DOI: 10.1371/journal.pgph.0002766
+
+**[Comparison of SARS-CoV-2 Reverse Transcriptase Polymerase Chain Reaction and BinaxNOW Rapid Antigen Tests at a Community Site During an Omicron Surge](/assets/pdfs/publications/Puccinelli_Publication_ComparisonOfSARSCoV2RTPCRAndBinaxNOWRapidAntigenTestsAtACommunitySiteDuringOmicron.pdf){:target="_blank"}**  
 Schrom J, ..., <u>Puccinelli R</u>, et al.  
 Annals Int Med. 2022 May. DOI: 10.7326/M22-0202
 
-**[SARS-CoV-2 PCR and antibody testing for an entire rural community: methods and feasibility of high-throughput testing procedures](assets/pdfs/publications/Puccinelli_Publication_SARSCoV2PCRandAntibodyTestingForAnEntireRuralCommunity.pdf)**  
+**[SARS-CoV-2 PCR and antibody testing for an entire rural community: methods and feasibility of high-throughput testing procedures](/assets/pdfs/publications/Puccinelli_Publication_SARSCoV2PCRandAntibodyTestingForAnEntireRuralCommunity.pdf){:target="_blank"}**  
 Appa A, <u>CLIAHUB Consortium</u>, et al.  
 Arv Pub Health. 2021 July 07. DOI: 10.1186/s13690-021-00647-8
 
-**[Performance characteristics of a rapid SARS-CoV-2 antigen detection assay at a public plaza testing site in San Francisco](assets/pdfs/publications/Puccinelli_Publication_PerformanceCharacteristicsOfARapidSARSCoV2AntigenDetectionAssayAtAPublicPlazaTestingSiteInSanFrancisco.pdf)**  
+**[Performance characteristics of a rapid SARS-CoV-2 antigen detection assay at a public plaza testing site in San Francisco](/assets/pdfs/publications/Puccinelli_Publication_PerformanceCharacteristicsOfARapidSARSCoV2AntigenDetectionAssayAtAPublicPlazaTestingSiteInSanFrancisco.pdf){:target="_blank"}**  
 Pilarowski G, ..., <u>The CLIAHUB Consortium</u>, et al.  
 J Infect Dis. 2021 Jan 04. DOI: 10.1093/infdis/jiaa802
 
-**[Universal PCR and antibody testing demonstrate little to no transmission of SARS-CoV-2 in a rural community](/assets/pdfs/publications/Puccinelli_Publication_UniversalPCRAndAntibodyTestingDemonstrateLittleToNoTransmissionOfSARS-CoV-2InARuralCommunity.pdf)**  
+**[Universal PCR and antibody testing demonstrate little to no transmission of SARS-CoV-2 in a rural community](/assets/pdfs/publications/Puccinelli_Publication_UniversalPCRAndAntibodyTesting.pdf){:target="_blank"}**  
 Appa A, ..., <u>CLIAHUB Consortium</u>, et al.  
 Open Forum Infect. Dis. 30 Oct 2020; DOI: 10.1093/ofid/ofaa531
 
-**[Rapid deployment of SARS-CoV-2 testing: The CLIAHUB](/assets/pdfs/publications/Puccinelli_Publication_RapidDeploymentOfSARS-CoV-2Testing-TheCLIAHUB.pdf)**  
+**[Rapid deployment of SARS-CoV-2 testing: The CLIAHUB](/assets/pdfs/publications/Puccinelli_Publication_RapidDeploymentOfSARS-CoV-2Testing-TheCLIAHUB.pdf){:target="_blank"}**  
 Crawford ED, ..., <u>Puccinelli RR</u>, et al.  
 PLOS Pathogens. 2020 Oct 28; 16(10):e1008966. DOI: 10.1371/journal.ppat.1008966
 
-**[Identification of a polymorphism in the N gene of SARS-CoV-2 that adversely impacts detection by RT-PCR.](/assets/pdfs/publications/Puccinelli_Publication_IdentificationOfAPolymorphismInTheNGeneOfSARS-CoV-2ThatAdverselyImpactsDetectionByRT-PCR.pdf)**  
+**[Identification of a polymorphism in the N gene of SARS-CoV-2 that adversely impacts detection by RT-PCR.](/assets/pdfs/publications/Puccinelli_Publication_IdentificationOfAPolymorphismInTheNGeneOfSARSCoV2.pdf){:target="_blank"}**  
 Vanaerschot M, ..., <u>CLIAHUB Consortium</u>, et al.  
 J Clin Microbio. 2020 Oct 12. DOI: 10.1128/JCM.02369-20
 
-**[Clinical features, diagnostics, and outcomes of patients presenting with acute respiratory illness: A retrospective cohort study of patients with and without COVID-19](/assets/pdfs/publications/Puccinelli_Publication_ClinicalFeaturesDiagnosticsAndOutcomesOfPatientsPresentingWithAcuteRespiratoryIllness-ARetrospectiveCohortStudyOfPatientsWithAndWithoutCOVID-19.pdf)**  
+**[Clinical features, diagnostics, and outcomes of patients presenting with acute respiratory illness: A retrospective cohort study of patients with and without COVID-19](/assets/pdfs/publications/Puccinelli_Publication_ClinicalFeaturesDiagnosticsAndOutcomesOfPatientsPresentingWithAcuteRespiratoryIllness-ARetrospectiveCohortStudyOfPatientsWithAndWithoutCOVID-19.pdf){:target="_blank"}**  
 Shah SJ, ..., <u>The CZB CLIAhub Consortium</u>, et al.  
 EClinicalMedicine. 2020 Aug 25. DOI: 10.1016/j.eclinm.2020.100518
 
-**[Community Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 Disproportionately Affects the Latinx Population During Shelter-in-Place in San Francisco](/assets/pdfs/publications/Puccinelli_Publication_CommunityTransmissionOfSevereAcuteRespiratorySyndromCoronavirus2DisproportionatelyAffectsLatinxPopulationDuringShelter-In-PlaceInSanFrancisco.pdf)**  
-Chamie G, ..., <u>CLIAHub Consortium</u>, et al.  
-Clin Infect Dis. 2020 Aug 18. DOI: 10.1093/cid/ciaa1234
+**[Community transmission of severe acute respiratory syndrome coronavirus 2 disproportionately affects the Latinx population during shelter-in-place in San Francisco](/assets/pdfs/publications/Puccinelli_Publication_CommunityTransmissionOfSevereAcuteRespiratorySyndromCoronavirus2DisproportionatelyAffectsLatinxPopulation.pdf){:target="_blank"}**  
+Chamie G, <u>CLIAHUB Consortium</u>, et al. 
+Clinical Infectious Diseases. 2020 Aug. doi: 10.1093/cid/ciaa1234
 
-**[Diversification of DNA binding specificities enabled SREBP transcription regulators to expand the repertoire of cellular functions that they govern in fungi](/assets/pdfs/publications/Puccinelli_Publication_DiversificationofDNABindingSpecificitiesEnableRegulatorsToExpandCellularFunctions.pdf)**  
+**[Diversification of DNA binding specificities enabled SREBP transcription regulators to expand the repertoire of cellular functions that they govern in fungi](/assets/pdfs/publications/Puccinelli_Publication_DiversificationofDNABindingSpecificitiesEnableRegulatorsToExpandCellularFunctions.pdf){:target="_blank"}**  
 Del Olmo Toledo V, <u>Puccinelli R</u>, Fordyce PM, Pérez JC  
 PLOS Genet. 2018 Dec 31; 14(12):e1007884. DOI: 10.1371/journal.pgen.1007884
 
-**[Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris](/assets/pdfs/publications/Puccinelli_Publication_Single-cellTranscriptomicsof20MouseOrgans.pdf)**  
+**[Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris](/assets/pdfs/publications/Puccinelli_Publication_Single-cellTranscriptomicsof20MouseOrgans.pdf){:target="_blank"}**  
 Tabula Muris Consortium; Overall coordination; <u>Logistical coordination</u>; Organ collection and processing; Library preparation and sequencing; Computational data analysis; Cell type annotation; Writing group; Supplemental text writing group; Principal investigators.  
 Nature. 2018 Oct; 562(7727):367-372. DOI: 10.1038/s41586-018-0590-4
 
-**[An Open-Source, Programmable Pneumatic Setup for Operation and Automated Control of Single- and Multi-Layer Microfluidic Devices](/assets/pdfs/publications/Puccinelli_Publication_OpenSourceProgrammablePneumaticSetupforAutomatedMicrofluidicDevices.pdf)**  
+**[An Open-Source, Programmable Pneumatic Setup for Operation and Automated Control of Single- and Multi-Layer Microfluidic Devices](/assets/pdfs/publications/Puccinelli_Publication_OpenSourceProgrammablePneumaticSetupforAutomatedMicrofluidicDevices.pdf){:target="_blank"}**  
 Brower K, <u>Puccinelli R</u>, Markin CJ, Shimko TC, Longwell SA, Cruz B, Gomez-Sjoberg R, Fordyce PM.  
 HardwareX. 2018 Apr; 3:117-134. DOI: 10.1016/j.ohx.2017.10.001
 
-**[Optimized Sequence Library Design for Efficient In Vitro Interaction Mapping](/assets/pdfs/publications/Puccinelli_Publication_OptimizedSequenceLibraryDesignforEfficientInVitroInteractionMapping.pdf)**  
+**[Optimized Sequence Library Design for Efficient In Vitro Interaction Mapping](/assets/pdfs/publications/Puccinelli_Publication_OptimizedSequenceLibraryDesignforEfficientInVitroInteractionMapping.pdf){:target="_blank"}**  
 Orenstein Y, <u>Puccinelli R</u>, Kim R, Fordyce P, Berger B.
 Cell Systems. 2017 Sep 27; 5(3):230-236.e5. DOI: 10.1016/j.cels.2017.07.006
 
