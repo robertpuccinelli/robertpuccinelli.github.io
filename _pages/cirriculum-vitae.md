@@ -26,7 +26,7 @@ header:
 
 ### EDUCATION
 ---
-<div style="float: right;">2020 - <i>present</i></div>
+<div style="float: right;">2020 - 2026</div>
 Ph.D. Bioengineering  
 ***UC Berkeley - UCSF Joint Graduate Program in Bioengineering***
 
@@ -41,8 +41,8 @@ B.S. Biological Sciences
 ---
 
 <div style="float: left;"><b>Ph.D. Student</b></div> 
-<div style="float: right;">Aug. 2020 - <i>present</i></div><br>
-Biosensor Design and Characterization  
+<div style="float: right;">Aug. 2020 - Aug. 2026</div><br>
+Microfluidic Platform Design and Characterization  
 Joseph DeRisi, PhD; <i>UC Berkeley - UCSF</i>
 
 <div style="float: left;"><b>Research Associate II</b></div> 
@@ -69,6 +69,11 @@ Kara McCloskey, PhD; <i>University of California, Merced</i>
 
 ### TEACHING EXPERIENCE
 ---
+<div style="float: left;"><b>BioMEMS and BioNanotechnology Laboratory, UC Berkeley</b></div> 
+<div style="float: right;">Fall 2025</div><br>
+BIOENG 121L/221L  
+Instructor: Dorian Liepmann 
+Teaching Staff: <u>Robert Puccinelli</u>  
 
 <div style="float: left;"><b>Fab in Lab, UCSF</b></div> 
 <div style="float: right;">Spring 2019</div><br>
@@ -165,6 +170,9 @@ medRxiv. 2020 Oct 23. DOI: 10.1101/2020.10.21.20214338
 
 ### POSTER PRESENTATIONS
 ---
+**A Standalone, Browser Controlled Microfluidic Automation Platform**
+<u>Robert R. Puccinelli</u> and Joseph DeRisi  
+Biohub Confab, Spring 2026
 
 **Influence of Flanking Sequences in Transcription Factor - DNA Binding**  
 <u>Robert R. Puccinelli</u> and Polly M. Fordyce  
