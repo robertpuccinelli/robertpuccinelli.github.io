@@ -73,7 +73,7 @@ analytics:
 author:
   name             : "Robert R Puccinelli"
   avatar           : "/assets/images/Puccinelli_Headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A native Californian who has been lucky to have great mentors in biology, physics, and engineering. He can be found living the life of a UCB-UCSF grad student."
+  bio              : "A native Californian who has been lucky to have great mentors in biology, physics, and engineering. He can be found building hardware for scientific instrumentation at home or elsewhere."
   location         : "Bay Area, CA"
   email            : robert@robertpuccinelli.com
   links:

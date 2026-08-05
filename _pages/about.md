@@ -7,8 +7,6 @@ header:
   overlay_image: /assets/images/banners/AboutBanner_YosemiteValley.jpg
   caption: "Half Dome Looming Above Yosemite Valley, 2012"
 excerpt: ""
-intro:
-  - excerpt: ">_Every individual walks a journey of a thousand miles. Arduous, uncertain, at times seemingly insurmountable, the journey continues against the odds. However, when we examine our own particular path, we find something quite peculiar as it seems to be a combination of treading the paths of those before us, crossing paths with those amongst us, and forging ahead on our own into the unknown. Let us not forget that our journey would not be possible if it were not for our past, present and future comrades._"
 
 gallery:
 - url: "/assets/images/YoungRobert.jpg"
