@@ -21,7 +21,7 @@ header:
 
 ## Robert R. Puccinelli 
 {: style="text-align: center;"}
-<sup>[**Download full CV here**](/assets/pdfs/Puccinelli_CV_20250723.pdf){:target="_blank"}</sup>
+<sup>[**Download full CV here**](/assets/pdfs/Puccinelli_CV_20261009.pdf){:target="_blank"}</sup>
 {: style="text-align: center;"}
 
 ### EDUCATION
@@ -41,8 +41,8 @@ B.S. Biological Sciences
 ---
 
 <div style="float: left;"><b>Ph.D. Student</b></div> 
-<div style="float: right;">Aug. 2020 - Aug. 2026</div><br>
-Microfluidic Platform Design and Characterization  
+<div style="float: right;">Aug. 2020 - Sep. 2026</div><br>
+Automated Fluidic Platforms for Protein Purification and Molecular Diagnostics  
 Joseph DeRisi, PhD; <i>UC Berkeley - UCSF</i>
 
 <div style="float: left;"><b>Research Associate II</b></div> 
@@ -92,6 +92,11 @@ Teaching Staff: Kara Brower, Diego Oyarzun, Adam White, <u>Robert Puccinelli</u>
 ### PUBLICATIONS
 ---
 <sup>[**Google Scholar**](https://scholar.google.com/citations?user=rXEDAQ4AAAAJ){:target="_blank"} is the most up-to-date resource. Downloadable copies are provided below.</sup>
+
+**[Automated Fluidic Platforms for Protein Purification and Molecular Diagnostics](/assets/pdfs/Puccinelli_Thesis_AutomatedFluidicPlatformsforProteinPurificationandMolecularDiagnostics.pdf)**
+Puccinelli RR
+ProQuest Dissertations & Theses Global. 2026 Sep. ISBN: 9798189298295
+
 
 **[Remoscope: a label-free imaging cytometer for malaria diagnostics](/assets/pdfs/publications/Puccinelli_Publication_RemoscopeALabelFreeImagingCytometerForMalariaDiagnostics.pdf){:target="_blank"}**  
 Lebel P, ..., <u>Puccinelli R</u>, et al.  
